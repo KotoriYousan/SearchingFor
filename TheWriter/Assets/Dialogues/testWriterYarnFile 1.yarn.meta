@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 95aaa57f3d3924b488db71139333810a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: zh-CN
+  stringIDs:
+  - testWriterYarnFile-3-1-start-0
+  - testWriterYarnFile-3-1-start-1
+  - testWriterYarnFile-3-1-community-door-2
+  - testWriterYarnFile-3-1-booth-3
+  - testWriterYarnFile-3-1-booth-4
+  - testWriterYarnFile-3-1-booth-5
+  - testWriterYarnFile-3-1-booth-6
+  - testWriterYarnFile-3-1-booth-7
+  - testWriterYarnFile-3-1-booth-8
+  - testWriterYarnFile-3-1-building24-9
+  - testWriterYarnFile-3-1-building24-10
+  - testWriterYarnFile-3-1-building24-11
+  - testWriterYarnFile-3-1-building24-12
+  - testWriterYarnFile-3-1-building24-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 12b958c84c115b04cbffc71daa8a16eb,
+    type: 3}
+  localizations: []

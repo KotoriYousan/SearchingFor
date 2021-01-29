@@ -1,0 +1,69 @@
+fileFormatVersion: 2
+guid: ef1c6989915634748b149dfe0a447eea
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - ordinary-placeholder-ordinary-placeholder-0
+  - ordinary-placeholder-ordinary-placeholder-1
+  - ordinary-placeholder-ordinary-placeholder-2
+  - ordinary-placeholder-ordinary-placeholder-3
+  - ordinary-placeholder-ordinary-placeholder-4
+  - ordinary-placeholder-ordinary-placeholder-5
+  - ordinary-placeholder-ordinary-placeholder-6
+  - ordinary-placeholder-ordinary-placeholder-7
+  - ordinary-placeholder-ordinary-placeholder-8
+  - ordinary-placeholder-ordinary-placeholder-9
+  - ordinary-placeholder-ordinary-placeholder-10
+  - ordinary-placeholder-ordinary-placeholder-11
+  - ordinary-placeholder-ordinary-placeholder-12
+  - ordinary-placeholder-ordinary-placeholder-13
+  - ordinary-placeholder-ordinary-placeholder-14
+  - ordinary-placeholder-ordinary-placeholder-15
+  - ordinary-placeholder-ordinary-placeholder-16
+  - ordinary-placeholder-ordinary-placeholder-17
+  - ordinary-placeholder-ordinary-placeholder-18
+  - ordinary-placeholder-ordinary-placeholder-19
+  - ordinary-placeholder-ordinary-placeholder-20
+  - ordinary-placeholder-ordinary-placeholder-21
+  - ordinary-placeholder-ordinary-placeholder-22
+  - ordinary-placeholder-ordinary-placeholder-23
+  - ordinary-placeholder-ordinary-placeholder-24
+  - ordinary-placeholder-ordinary-placeholder-25
+  - ordinary-placeholder-ordinary-placeholder-26
+  - ordinary-placeholder-ordinary-placeholder-27
+  - ordinary-placeholder-ordinary-placeholder-28
+  - ordinary-placeholder-ordinary-placeholder-29
+  - ordinary-placeholder-ordinary-placeholder-30
+  - ordinary-placeholder-ordinary-placeholder-31
+  - ordinary-placeholder-ordinary-placeholder-32
+  - ordinary-placeholder-ordinary-placeholder-33
+  - ordinary-placeholder-ordinary-placeholder-34
+  - ordinary-placeholder-ordinary-placeholder-35
+  - ordinary-placeholder-ordinary-placeholder-36
+  - ordinary-placeholder-ordinary-placeholder-37
+  - ordinary-placeholder-ordinary-placeholder-38
+  - ordinary-placeholder-ordinary-placeholder-39
+  - ordinary-placeholder-ordinary-placeholder-40
+  - ordinary-placeholder-ordinary-placeholder-41
+  - ordinary-placeholder-ordinary-placeholder-42
+  - ordinary-placeholder-ordinary-placeholder-43
+  - ordinary-placeholder-ordinary-placeholder-44
+  - ordinary-placeholder-ordinary-placeholder-45
+  - ordinary-placeholder-ordinary-placeholder-46
+  - ordinary-placeholder-ordinary-placeholder-47
+  - ordinary-placeholder-ordinary-placeholder-48
+  - ordinary-placeholder-ordinary-placeholder-49
+  - ordinary-placeholder-ordinary-placeholder-50
+  - ordinary-placeholder-ordinary-placeholder-51
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

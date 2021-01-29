@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: ace0b0954f4b3274ab9d53c1d334f504
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: zh-CN
+  stringIDs:
+  - ordinary-wall-ordinary-wall-0
+  - ordinary-wall-ordinary-wall-1
+  - ordinary-wall-ordinary-wall-2
+  - ordinary-wall-ordinary-wall-3
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 'Error on line 1 at position 1:
+
+    mismatched input
+    ''<EOF>'' expecting {ID, HASHTAG}
+
+
+
+'
+  baseLanguage: {fileID: 7128917941130120860, guid: ace0b0954f4b3274ab9d53c1d334f504,
+    type: 3}
+  localizations: []

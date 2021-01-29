@@ -1,0 +1,62 @@
+title: office1
+tags: 
+colorID: 0
+position: 583,204
+---
+Mian: An hour and four minutes.
+Gin: I’m sorry for keeping you waiting so long, Mianmian!
+Mian: I knew it. Don’t worry, I brought my report to kill time.
+Gin: How do we start then?
+Mian: Sit here. 
+Mian: Before we start, I have to explain to you that, 
+Mian: The Oneiros will read your brain activity, amplify the signal stimulus, 
+Mian: and send it back to your sensory system. 
+Mian: It’s like dreaming, but with you awake.
+Gin: Wait, wait! 
+Gin: The literary award only accepts English submission, but I write in Chinese…
+Mian: Don’t worry! Oneiros will translate it for you. 
+Mian: It supports three modes of translation. 
+Mian: Which mode do you want to use?
+[[Ordinary And Mediocre|ordinary]] 
+[[Every Tree An Enemy Soldier|soldier]]
+[[Five-Sensory Explosion(not yet done)|sensory]]
+===
+
+
+title: ordinary
+tags: 
+colorID: 0
+position: 483,204
+---
+<<set $trans_type to "ordinary">>
+Mian: Ordinary... And... Mediocre...
+Mian: Done!
+Mian: Have a nice dream.
+<<switch_ordinary SceneDirector>>
+===
+
+
+title: soldier
+tags: 
+colorID: 0
+position: 383,204
+---
+<<set $trans_type to "soldier">>
+Mian: Every... Tree... An Enemy... Soldier...
+Mian: Done!
+Mian: Have a nice dream.
+===
+
+
+title: sensory
+tags: 
+colorID: 0
+position: 283,204
+---
+<<set $trans_type to "sensory">>
+Mian: Five-Sensory... Explosion...
+Mian: Done!
+Mian: Notice, this branch is not yet done.
+Mian: You won't be able to get to it's end.
+Mian: Anyway, have a nice dream.
+===
