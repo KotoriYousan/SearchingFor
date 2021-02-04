@@ -8,13 +8,22 @@ public class CameraFollow : MonoBehaviour
     public Transform target;
 
     /// Minimum position of camera
-    public float minPosition = -5.3f;
+    public float minPositionX = -5.3f;
 
     /// Maximum position of camera
-    public float maxPosition = 5.3f;
+    public float maxPositionX = 5.3f;
+
+    /// Minimum position of camera
+    public float minPositionZ = -5.3f;
+
+    /// Maximum position of camera
+    public float maxPositionZ = 5.3f;
 
     /// Movement speed of camera
     public float moveSpeed = 1.0f;
+
+    //Camera distance to target
+    public float distance = 4.0f;
 
     // Update is called once per frame
     void Update()
@@ -23,11 +32,11 @@ public class CameraFollow : MonoBehaviour
         {
             return;
         }
-        var newPosition = Vector3.Lerp(transform.position, target.position, moveSpeed * Time.deltaTime);
+        var newPosition = Vector3.Lerp(transform.position, target.position + new Vector3(0, 0, distance), moveSpeed * Time.deltaTime);
 
-        newPosition.x = Mathf.Clamp(newPosition.x, minPosition, maxPosition);
+        newPosition.x = Mathf.Clamp(newPosition.x, minPositionX, maxPositionX);
         newPosition.y = transform.position.y;
-        newPosition.z = transform.position.z;
+        newPosition.z = Mathf.Clamp(newPosition.z, minPositionZ, maxPositionZ);
 
         transform.position = newPosition;
     }
