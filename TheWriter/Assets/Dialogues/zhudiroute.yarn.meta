@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: ac0673ab2a2def54ca3914c8f6ecea3f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: zh-CN
+  stringIDs:
+  - zhudiroute-phone-0
+  - zhudiroute-shoebox-1
+  - zhudiroute-passbook-2
+  - zhudiroute-hospitalregistration-3
+  - zhudiroute-photo1-4
+  - zhudiroute-photo2-5
+  - zhudiroute-personalcare-6
+  - zhudiroute-diningtable-7
+  - zhudiroute-succulent-8
+  - zhudiroute-diary-9
+  - zhudiroute-ticket-10
+  - zhudiroute-receipt-11
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: ac0673ab2a2def54ca3914c8f6ecea3f,
+    type: 3}
+  localizations: []
