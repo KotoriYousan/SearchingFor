@@ -6,21 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/alpha scenes/Office.unity
-    guid: 5df83eecea8e5c1478d63c7b9744eb78
+    path: Assets/Scenes/3d-sample-scene.unity
+    guid: feec427ef6608dc4b92e8e6f1005933f
   - enabled: 1
-    path: Assets/Scenes/alpha scenes/O_Apartment.unity
-    guid: 485d29ba6c75343488b365132ef368b3
-  - enabled: 1
-    path: Assets/Scenes/alpha scenes/G_Apartment.unity
-    guid: 5a76d5260789aa344bb6e3565aa9a5af
-  - enabled: 1
-    path: Assets/Scenes/alpha scenes/S_Apartment.unity
-    guid: b49b274c637ffcb4182b0ef5c531eae3
-  - enabled: 1
-    path: Assets/Scenes/alpha scenes/O_Office.unity
-    guid: 0e5c353cd21332940839ee13828755a4
-  - enabled: 1
-    path: Assets/Scenes/alpha scenes/Home.unity
-    guid: 62cb1933b8b2c2a47914692d7badee52
+    path: Assets/Scenes/2d-room-scene.unity
+    guid: fbb6a711b323c1a4d9d5b1cd0209557f
   m_configObjects: {}

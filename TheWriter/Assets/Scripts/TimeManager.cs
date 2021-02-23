@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimeManager : MonoBehaviour
 {
@@ -8,6 +10,8 @@ public class TimeManager : MonoBehaviour
     public int gameHours;
     public int gameMinutes;
     public int startHours = 9;
+
+    public Text timerText;
 
     // Start is called before the first frame update
     void Start()
@@ -25,6 +29,8 @@ public class TimeManager : MonoBehaviour
         gameHours = startHours + (int)(timer / 60);
         //print(gameHours+":"+gameMinutes);
         print(GetGameTime());
+        timerText.text = GetGameTime();
+        CheckIfEndtime();
     }
 
     public int GetGameHours()
@@ -51,5 +57,18 @@ public class TimeManager : MonoBehaviour
         }
 
         return gametime;
+    }
+
+    void CheckIfEndtime()
+    {
+        if(gameHours > 17)
+        {
+            SceneManager.LoadScene("2d-room-scene");
+        }
+    }
+
+    public void ManualEndInvestigate()
+    {
+        SceneManager.LoadScene("2d-room-scene");
     }
 }
