@@ -6,10 +6,18 @@ using UnityEngine.UI;
 public class DesktopLoader : MonoBehaviour
 {
 
+    public GameObject SubmitNovelPage;
     public InputField inputField;
+    public InputField novelTitleInputField;
+
+    public GameObject NovelSite;
+    public Text NovelText;
+    public Text NovelTitleText;
+
 
     void Awake()
     {
+        novelTitleInputField.text = "chapter title";
         inputField.text = GameManager.instance.GetCurrentText();
     }
 
@@ -18,4 +26,26 @@ public class DesktopLoader : MonoBehaviour
     {
         
     }
+
+    public void OnSubmitNovelButtonClicked()
+    {
+        GameManager.instance.SetCurrentText(inputField.text);
+        NovelText.text = GameManager.instance.GetCurrentText();
+
+        //temp code
+        NovelTitleText.text = novelTitleInputField.text;
+
+        SubmitNovelPage.SetActive(false);
+    }
+
+    public void OpenNovelSitePage()
+    {
+        NovelSite.SetActive(true);
+    }
+
+    public void CloseNovelSitePage()
+    {
+        NovelSite.SetActive(false);
+    }
+
 }
