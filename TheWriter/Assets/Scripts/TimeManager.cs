@@ -28,7 +28,7 @@ public class TimeManager : MonoBehaviour
         gameMinutes = (int)(timer % 60);
         gameHours = startHours + (int)(timer / 60);
         //print(gameHours+":"+gameMinutes);
-        print(GetGameTime());
+        //print(GetGameTime());
         timerText.text = GetGameTime();
         CheckIfEndtime();
     }
