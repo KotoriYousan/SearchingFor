@@ -10,30 +10,34 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: zh-CN
   stringIDs:
-  - neighborroute-neighbordoor-0
-  - neighborroute-neighbordoor-1
-  - neighborroute-neighbordoor-2
-  - neighborroute-neighborroom-3
-  - neighborroute-neighborroom-4
-  - neighborroute-laundrypowder-5
-  - neighborroute-parts-6
-  - neighborroute-hanger-7
-  - neighborroute-freezer-8
-  - neighborroute-freezer-9
-  - neighborroute-freezer-10
-  - neighborroute-freezer-11
-  - neighborroute-kitchencabinet-12
-  - neighborroute-neighborbedroom-13
-  - neighborroute-neighborpc-14
-  - neighborroute-keyboards-15
-  - neighborroute-keyboards-16
-  - neighborroute-pillow-17
-  - neighborroute-pillow-18
-  - neighborroute-pillow-19
-  - neighborroute-pingpongpaddle-20
-  compilationStatus: 1
+  - line:07b339a
+  - line:0eeb18f
+  - line:097d079
+  - line:0240dea
+  - line:0e2976c
+  - line:041309c
+  - line:0e62867
+  - line:00c57c0
+  - line:09d6bf6
+  - line:0970d82
+  - line:0a92310
+  - line:0abf5af
+  - line:077f6a3
+  - line:07f4219
+  - line:09875ed
+  - line:011a2ef
+  - line:0637b58
+  - line:0457e65
+  - line:018b875
+  - line:0315791
+  - line:008de02
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: b24cc4b126ff9bd4791e438415a2ad51,
     type: 3}
-  localizations: []
+  localizations:
+  - languageName: zh-Hans
+    text: {fileID: 4900000, guid: d78c0ac2132d3e54ab1cab63417a48f1, type: 3}
+  - languageName: en
+    text: {fileID: 4900000, guid: 1d2abbe3ebcfbeb4393a4d46f79ac741, type: 3}

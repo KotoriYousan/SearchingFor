@@ -7449,6 +7449,7 @@ GameObject:
   - component: {fileID: 1018462482}
   - component: {fileID: 1018462483}
   - component: {fileID: 1018462481}
+  - component: {fileID: 1018462484}
   m_Layer: 0
   m_Name: DialogueRunner
   m_TagString: Untagged
@@ -7497,7 +7498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnScripts: []
-  textLanguage: 
+  textLanguage: en
   variableStorage: {fileID: 1018462481}
   dialogueUI: {fileID: 1018462483}
   startNode: 
@@ -7572,6 +7573,20 @@ MonoBehaviour:
   onOptionsEnd:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1018462484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018462479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: 
+  localizationFile: {fileID: 0}
 --- !u!1 &1018669780
 GameObject:
   m_ObjectHideFlags: 0
@@ -13544,6 +13559,7 @@ MonoBehaviour:
   gameMinutes: 0
   startHours: 9
   timerText: {fileID: 1517115348}
+  SceneLoader: {fileID: 88336133}
 --- !u!4 &1623214219
 Transform:
   m_ObjectHideFlags: 0
@@ -14052,7 +14068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1682125403
 Transform:
   m_ObjectHideFlags: 0
@@ -14061,7 +14077,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682125402}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.712769, y: 1.6017601, z: 5.6355276}
+  m_LocalPosition: {x: 24.712769, y: -1.24, z: 20.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 479774000}

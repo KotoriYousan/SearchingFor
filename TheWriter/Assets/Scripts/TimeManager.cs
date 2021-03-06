@@ -13,6 +13,8 @@ public class TimeManager : MonoBehaviour
 
     public Text timerText;
 
+    public GameObject SceneLoader;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +65,8 @@ public class TimeManager : MonoBehaviour
     {
         if(gameHours > 17)
         {
-            SceneManager.LoadScene("2d-room-scene");
+            SceneLoader.GetComponent<SceneLoader>().LoadRoomScene();
+            //SceneManager.LoadScene("2d-room-scene");
         }
     }
 
