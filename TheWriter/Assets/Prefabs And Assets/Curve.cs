@@ -41,14 +41,14 @@ public class Curve : MonoBehaviour
         //transform.position = player.position;     
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (Input.GetMouseButton(1))
         {
             currentX += Input.GetAxis("Mouse X");
             currentY += Input.GetAxis("Mouse Y");
             currentY = Mathf.Clamp(currentY, minAngle, maxAngle);
-            currentX = Mathf.Clamp(currentX, minAngle, maxAngle);
+            //currentX = Mathf.Clamp(currentX, minAngle, maxAngle);
         }
 
         Nodes[0] = A.position;
@@ -58,16 +58,15 @@ public class Curve : MonoBehaviour
         Nodes[2] = handleB.position;
         Nodes[4] = handleC.position;
         Nodes[5] = handleD.position;
-    }
 
-    private void LateUpdate()
-    {
-        Vector3 dir = new Vector3(0, 0, -distance);
+
+        Vector3 dir = Vector3.forward * (-distance);
         Quaternion rotation = Quaternion.Euler(0, currentX, 0);
         //transform.position = player.position + rotation * dir;
         transform.position = Vector3.SmoothDamp(transform.position, player.position + rotation * dir, ref currentPositionVelocity, smoothTime);
         transform.LookAt(player.position);
     }
+
 
     public Vector3 CurveLerp(Vector3 a, Vector3 b, Vector3 c, Vector3 d, float t)
     {

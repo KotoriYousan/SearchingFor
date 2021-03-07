@@ -18,7 +18,7 @@ public class TPCamera : MonoBehaviour
     private float curvePlayerDistance;
 
 
-    private void Update()
+    private void FixedUpdate()
     {
         originPos = curve.GetPositionAt();
         camDir = (originPos - player.position).normalized;
@@ -30,7 +30,7 @@ public class TPCamera : MonoBehaviour
              float distance = Vector3.Distance(transform.position, hit.point);
              Vector3 targetPosition = originPos - (curvePlayerDistance - hit.distance) * camDir;
              transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref currentPositionVelocity, curve.smoothTime);
-             transform.position = targetPosition;
+             //transform.position = targetPosition;
             if (hit.distance < hiddenDistance)
             {
                 playerMesh.enabled = false;
@@ -38,7 +38,9 @@ public class TPCamera : MonoBehaviour
         }
         else
         {
-            transform.position = originPos;
+
+            transform.position = Vector3.SmoothDamp(transform.position, originPos, ref currentPositionVelocity, curve.smoothTime);
+            //transform.position = originPos;
             playerMesh.enabled = true;
         }
         transform.LookAt(player.position);

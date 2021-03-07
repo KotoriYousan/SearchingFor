@@ -169,7 +169,6 @@ GameObject:
   - component: {fileID: 3319073172671894558}
   - component: {fileID: 3319073172671894555}
   - component: {fileID: 3319073172671894556}
-  - component: {fileID: 3319073172671894557}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -240,19 +239,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3319073172671894557
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319073172671894559}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3319073172721852749
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +322,6 @@ GameObject:
   - component: {fileID: 3319073173062134454}
   - component: {fileID: 3319073173062134451}
   - component: {fileID: 3319073173062134452}
-  - component: {fileID: 3319073173062134453}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -406,19 +391,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3319073173062134453
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319073173062134455}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3319073173067803118
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +517,7 @@ MonoBehaviour:
   player: {fileID: 0}
   blockLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 0
   playerMesh: {fileID: 0}
   hiddenDistance: 0.5
 --- !u!1 &3319073173735284242
@@ -638,7 +610,6 @@ GameObject:
   - component: {fileID: 3319073173865786406}
   - component: {fileID: 3319073173865786403}
   - component: {fileID: 3319073173865786404}
-  - component: {fileID: 3319073173865786405}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -708,19 +679,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &3319073173865786405
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3319073173865786407}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3319073174164494843
 GameObject:
   m_ObjectHideFlags: 0
