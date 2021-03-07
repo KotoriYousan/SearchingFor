@@ -71,6 +71,12 @@ public class ShowIconTrigger : MonoBehaviour
     {
         Debug.Log("mouse over obj");
         gameObject.GetComponent<Outline>().enabled = true;
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            InvestigateItem();
+        }
+
     }
 
     private void OnMouseExit()
