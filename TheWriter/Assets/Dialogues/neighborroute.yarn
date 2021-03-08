@@ -6,6 +6,7 @@ position: 895,200
 Novel: 顾谷谷敲了敲邻居的门，这扇门和祝娣家的一样，白绿色的漆皮一块块翘起，露出深红色的铁锈。 #line:07b339a
 Novel: 没有人应门。 #line:0eeb18f
 Novel: 顾谷谷看了一眼走廊，没有监控也没有人。顾谷谷拿出工具包，侧身贴在门上，不为人注意地开了锁。轻轻一撞，门开了，几片漆皮被蹭下来，顾谷谷小心翼翼地把它们收集起来。 #line:097d079
+<<open_door NeighborDoor>>
 ===
 title: neighborroom
 tags: 

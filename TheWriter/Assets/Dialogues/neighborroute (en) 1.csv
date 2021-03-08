@@ -1,0 +1,22 @@
+id,text,file,node,lineNumber
+line:07b339a,"Novel: Gu knocks on the neighbor's door. Like Zhudi's, this door is discolored. Under the olive painting,  is the rusting of the iron.",neighborroute,neighbordoor,6
+line:0eeb18f,Novel: No one answered the door.,neighborroute,neighbordoor,7
+line:097d079,"Novel: Gu sweeps her eyes over the empty hallway to check the security camera. Good to go. She inserts her toolkits into the lock. The door is stuck, Gu has to put her weight on and slightly push it. ",neighborroute,neighbordoor,8
+line:0240dea,Novel: This apartment's layout looks exactly like Zhudi's. The security window grilles guard the whole balcony.,neighborroute,neighborroom,16
+line:0e2976c,"Novel: Empty and quiet, the locked windows don't allow any fresh air to sneak into the room.",neighborroute,neighborroom,17
+line:041309c,Novel: There's a bucket of cheap powder laundry detergent on the washing machine. The lid is missing. The powder clumps together without protection.,neighborroute,laundrypowder,24
+line:0e62867,"Novel: A lot of computer parts lay on the floor of the balcony. GPU, CPU, motherboard, fan, etc. There are few unfinished cases, alongside screwdrivers and screws. Did the one who lives here just left?",neighborroute,parts,31
+line:00c57c0,Novel: Hanging on the clothesline is men's underwear and sock. Some pairs of socks have holes in them.,neighborroute,hanger,38
+line:09d6bf6,"Novel: The living room is empty. There are cracks on the wall. It seems water is leaking inside it. But the weird thing is the buckling and ripping part is near the corner between wall and floor, not the ceiling.",neighborroute,freezer,45
+line:0970d82,Novel: Gu feeling strange but can't tell why. The living room is so empty that even a desk or chair exists. It makes the refrigerator stand out.,neighborroute,freezer,46
+line:0a92310,Novel: The fridge is buzzing. It's a city that is well known for its endless summer. Everyone needs a fridge in case food gets spoiled.,neighborroute,freezer,47
+line:0abf5af,Novel: It will increase an amazing electric bill.,neighborroute,freezer,48
+line:077f6a3,"Novel: The kitchen is empty as well. Gu opens the cupboard, smells wet. Three bowls and one pair of chopsticks are everything in it. Not even keep one more chopstick as a backup? The one who lives here must be alone.",neighborroute,kitchencabinet,55
+line:07f4219,"Novel: Hmm, at last, a room looks like someone lives here. More things to discover.",neighborroute,neighborbedroom,62
+line:09875ed,"Novel: Gu looks at the computer. A computer case with RGB light, sure. The monitor even longer than that desk can hold.",neighborroute,neighborpc,69
+line:011a2ef,Novel: A dozen of keyboards pile up one by one. All are classic types. This person puts a lot of money on his gear. ,neighborroute,keyboards,76
+line:0637b58,"Novel: But one of them loses a keycap. Such die-hard fan will allow this to happen? Or, something happened with this keyboard?",neighborroute,keyboards,77
+line:0457e65,"Novel: An employee ID card under the pillow. Zhe Zhang, Male, 28, Senior Software Engineer, DragonG Interactive Entertainment Studio. Why he left his job card at home? Is he not at work? ""Should I leave right now?"" Gu struggles.",neighborroute,pillow,84
+line:018b875,Novel: Or I should keep investigating.,neighborroute,pillow,85
+line:0315791,Novel: 一本男性杂志，封面上一个有古铜色皮肤的肌肉型男在灿烂阳光下微笑，露出洁白的牙齿，发际和胡须一丝不苟。再仔细看，其实是一本情色杂志，不得不说有些照片拍的还是很好的，从浪漫到大尺度，各种风格都照顾到了。其中有几页纸皱皱的，呃，恶心，放回去吧。,neighborroute,pillow,86
+line:008de02,Novel: A ShuangXi ping pong paddle. It has the same pattern as the one in Zhudi's apartment.,neighborroute,pingpongpaddle,93

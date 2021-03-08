@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Yarn.Unity;
 
 public class SceneLoader : MonoBehaviour
 {
@@ -35,4 +36,8 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("3d-sample-scene");
     }
+
+
+
+
 }
