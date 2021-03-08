@@ -48,7 +48,7 @@ public class ConversationHandler : MonoBehaviour
         //        Debug.Log(line);
         if (currentLine.speaker == "Novel")
         {
-            notebook.text = originalText + "\n" + line;
+            notebook.text = originalText + "\n\n" + line;
         }
         else
         {

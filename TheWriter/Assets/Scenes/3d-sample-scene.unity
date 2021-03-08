@@ -22149,7 +22149,7 @@ PrefabInstance:
     - target: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 20.21
+      value: 20.05
       objectReference: {fileID: 0}
     - target: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
@@ -22199,12 +22199,17 @@ PrefabInstance:
     - target: {fileID: 4425428723088313502, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
       propertyPath: jumpInput
-      value: 32
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4425428723088313502, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
       propertyPath: strafeInput
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4425428723088313503, guid: fc9b148a2950aaf4cba8422632222c5d,
+        type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 257
       objectReference: {fileID: 0}
     - target: {fileID: 4425428723138845694, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
