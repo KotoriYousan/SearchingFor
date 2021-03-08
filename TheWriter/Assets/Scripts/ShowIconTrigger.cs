@@ -69,6 +69,12 @@ public class ShowIconTrigger : MonoBehaviour
 
     private void OnMouseOver()
     {
+
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+        {
+            return;
+        }
+
         Debug.Log("mouse over obj");
         gameObject.GetComponent<Outline>().enabled = true;
 
