@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 6c3dee0fe57cb2742937f8a88f8e294d
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: zh-Hans
+  stringIDs:
+  - line:0bb03a7
+  - line:0caa598
+  - line:03c473a
+  - line:0e5eb33
+  - line:00d4929
+  - line:0fc43ea
+  - line:050bfbe
+  - line:02bbf49
+  - line:076e2f5
+  - line:05bad13
+  compilationStatus: 0
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 6c3dee0fe57cb2742937f8a88f8e294d,
+    type: 3}
+  localizations:
+  - languageName: en
+    text: {fileID: 4900000, guid: e4d386e29e1273e4da051633036be0fa, type: 3}

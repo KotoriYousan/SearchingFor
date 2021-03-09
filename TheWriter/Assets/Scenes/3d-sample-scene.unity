@@ -8108,12 +8108,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bec29c0a230741bdac901dba8da47ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  yarnScripts: []
+  yarnScripts:
+  - {fileID: 2480198943629176163, guid: 6c3dee0fe57cb2742937f8a88f8e294d, type: 3}
+  - {fileID: 2480198943629176163, guid: b24cc4b126ff9bd4791e438415a2ad51, type: 3}
   textLanguage: en
   variableStorage: {fileID: 1018462481}
   dialogueUI: {fileID: 1018462483}
-  startNode: 
-  startAutomatically: 0
+  startNode: beginning
+  startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:
       m_Calls:
@@ -22144,7 +22146,7 @@ PrefabInstance:
     - target: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.053
+      value: 26.861
       objectReference: {fileID: 0}
     - target: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
