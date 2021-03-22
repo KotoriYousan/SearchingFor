@@ -27,7 +27,7 @@ public class SceneLoader : MonoBehaviour
     {
         //Debug.Log(dreamnoveltext.text);
         GameManager.instance.SetCurrentText(dreamnoveltext.text);
-        SceneManager.LoadScene("2d-room-scene");
+        SceneManager.LoadScene("2d-room-scene", LoadSceneMode.Additive);
         Debug.Log(GameManager.instance.GetCurrentText());
         //realnoveltext.text = GameManager.instance.GetCurrentText();
     }
