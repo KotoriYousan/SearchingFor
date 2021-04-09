@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 08e397e58dabbff4db935dfdcd7edba8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - trialdream-trialstart-0
+  - trialdream-trialstart-1
+  - trialdream-trialstart-2
+  - trialdream-trialstart-3
+  - trialdream-trialstart-4
+  - trialdream-trialstart-5
+  - trialdream-trialstart-6
+  - trialdream-trialstart-7
+  - trialdream-trialwall-8
+  - trialdream-trialdice-9
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

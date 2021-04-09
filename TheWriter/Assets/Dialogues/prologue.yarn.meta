@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: ec223bd456199dd4ca6a6abf76dae380
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - prologue-gamestart-0
+  - prologue-gamestart-1
+  - prologue-gamestart-2
+  - prologue-gamestart-3
+  - prologue-gamestart-4
+  - prologue-gamestart-5
+  - prologue-gamestart-6
+  - prologue-gamestart-7
+  - prologue-gamestart-8
+  - prologue-gamestart-9
+  - prologue-gamestart-10
+  - prologue-gamestart-11
+  - prologue-gamestart-12
+  - prologue-gamestart-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []

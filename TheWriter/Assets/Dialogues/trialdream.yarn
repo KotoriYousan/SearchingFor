@@ -1,0 +1,31 @@
+title: trialstart
+tags: 
+colorID: 0
+position: 595,200
+---
+<<wait 1>>
+Narrator: Mian：嗯……
+Narrator: Mian：让我看看……
+Narrator: Mian：你是一个侦探，名字叫……顾，谷，谷。为什么起这个名字？
+Narrator: Gin：呃……
+Narrator: Mian：没事，这不重要。你在……调查一个女大学生的失踪问题。
+Narrator: Mian：从招待所醒来……嗯……一切正常（写字声音）。
+Narrator: Mian：基本操作你都知道吧？WASD走动，鼠标右键调整视角。看到可疑的物品可以灵活使用鼠标左键。
+Narrator: Mian：那我就不打扰你了。
+===
+
+title: trialwall
+tags: 
+colorID: 0
+position: 595,210
+---
+Novel: 顾谷谷的家干净整洁，打扫得一尘不染。不仅很整洁，还感觉很新。第一眼看过去，墙壁很白，地板也擦得发亮，站在上面仿佛可以看见自己的倒影。再仔细一看，墙壁白是白，却似乎有些凹凸不平，看得出来刷漆的人并不是很专业。
+===
+
+title: trialdice
+tags: 
+colorID: 0
+position: 595,220
+---
+Novel: 顾谷谷思考的时候会不自觉地玩骰子。把它转过来转过去，时不时还扔上一两下。为什么？还不是因为紧张，手里捏点东西可以缓解一点压力啊，案件给她的压力。到底谁才是凶手啊，说不定扔一扔骰子会有新的灵感。
+===

@@ -14,6 +14,9 @@ public class ShowIconTrigger : MonoBehaviour
     private DialogueRunner dialogueRunner;
     public bool triggered;
 
+
+    public Texture2D hovercursor;
+
     [Header("Optional")]
     public YarnProgram scriptToLoad;
 
@@ -78,6 +81,11 @@ public class ShowIconTrigger : MonoBehaviour
         Debug.Log("mouse over obj");
         gameObject.GetComponent<Outline>().enabled = true;
 
+        if (triggered == false)
+        {
+            Cursor.SetCursor(hovercursor, new Vector2(hovercursor.width / 2, hovercursor.height / 2), CursorMode.Auto);
+        }
+
         if (Input.GetMouseButtonDown(0))
         {
             InvestigateItem();
@@ -88,6 +96,7 @@ public class ShowIconTrigger : MonoBehaviour
     private void OnMouseExit()
     {
         Debug.Log("mouse no longer over obj");
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         gameObject.GetComponent<Outline>().enabled = false;
     }
 
