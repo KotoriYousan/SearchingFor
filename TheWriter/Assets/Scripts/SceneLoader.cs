@@ -37,7 +37,11 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("3d-sample-scene");
     }
 
-
+    [YarnCommand("Load")]
+    public void LoadSceneOnName(string scenename)
+    {
+        SceneManager.LoadScene(scenename);
+    }
 
 
 }

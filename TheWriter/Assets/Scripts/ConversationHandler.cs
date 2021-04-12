@@ -14,6 +14,7 @@ public class ConversationHandler : MonoBehaviour
     //public TMP_Text notebook;
     public TMP_Text speakBubble;
     public GameObject DialogueBubble;
+    public Text vnText;
 
     private string originalText;
 
@@ -50,6 +51,10 @@ public class ConversationHandler : MonoBehaviour
         {
             notebook.text = originalText + "\n\n" + line;
         }
+        else if (currentLine.speaker == "Narrator")
+        {
+            vnText.text = line;
+        }
         else
         {
             speakBubble.text = line;
@@ -69,6 +74,10 @@ public class ConversationHandler : MonoBehaviour
         {
             originalText = notebook.text;
         }
+        else if (currentLine.speaker == "Narrator")
+        {
+            vnText.gameObject.SetActive(true);
+        }
         else
         {
             DialogueBubble.SetActive(true);
@@ -86,6 +95,10 @@ public class ConversationHandler : MonoBehaviour
         if(currentLine.speaker == "Novel")
         {
             //do sth
+        }
+        else if (currentLine.speaker == "Narrator")
+        {
+            vnText.gameObject.SetActive(false);
         }
         else
         {
