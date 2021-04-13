@@ -10,23 +10,25 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: zh-CN
   stringIDs:
-  - prologue-gamestart-0
-  - prologue-gamestart-1
-  - prologue-gamestart-2
-  - prologue-gamestart-3
-  - prologue-gamestart-4
-  - prologue-gamestart-5
-  - prologue-gamestart-6
-  - prologue-gamestart-7
-  - prologue-gamestart-8
-  - prologue-gamestart-9
-  - prologue-gamestart-10
-  - prologue-gamestart-11
-  - prologue-gamestart-12
-  - prologue-gamestart-13
-  compilationStatus: 1
+  - line:0e66de0
+  - line:0b39c1c
+  - line:0bf6524
+  - line:05c0473
+  - line:0a3346d
+  - line:06e34db
+  - line:094253d
+  - line:034fe98
+  - line:05407e0
+  - line:09fc4cf
+  - line:0293914
+  - line:0bf44e4
+  - line:0d7fd32
+  - line:015e976
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: ec223bd456199dd4ca6a6abf76dae380,
     type: 3}
-  localizations: []
+  localizations:
+  - languageName: en
+    text: {fileID: 4900000, guid: 132ccf1f1c8bbf543ad02595beae85b3, type: 3}

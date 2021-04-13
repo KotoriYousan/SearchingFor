@@ -8,20 +8,23 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: zh-CN
   stringIDs:
-  - trialdream-trialstart-0
-  - trialdream-trialstart-1
-  - trialdream-trialstart-2
-  - trialdream-trialstart-3
-  - trialdream-trialstart-4
-  - trialdream-trialstart-5
-  - trialdream-trialstart-6
-  - trialdream-trialstart-7
-  - trialdream-trialwall-8
-  - trialdream-trialdice-9
-  compilationStatus: 1
+  - line:07ab39c
+  - line:034a86a
+  - line:06143fc
+  - line:0f40de5
+  - line:06dd014
+  - line:074ade7
+  - line:00c2c51
+  - line:0515642
+  - line:07168d1
+  - line:0bddd27
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
-  localizations: []
+  baseLanguage: {fileID: 7128917941130120860, guid: 08e397e58dabbff4db935dfdcd7edba8,
+    type: 3}
+  localizations:
+  - languageName: en
+    text: {fileID: 4900000, guid: aefa590f76f67e44c949a44f5c741964, type: 3}
