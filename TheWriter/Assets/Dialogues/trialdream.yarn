@@ -4,14 +4,18 @@ colorID: 0
 position: 595,200
 ---
 <<wait 1>>
+<<SetAvatar CharacterAvatar mian>>
 Narrator: Mian：嗯…… #line:07ab39c
 Narrator: Mian：让我看看…… #line:034a86a
 Narrator: Mian：你是一个侦探，名字叫……顾，谷，谷。为什么起这个名字？ #line:06143fc
+<<SetAvatar CharacterAvatar gin>>
 Narrator: Gin：呃…… #line:0f40de5
+<<SetAvatar CharacterAvatar mian>>
 Narrator: Mian：没事，这不重要。你在……调查一个女大学生的失踪问题。 #line:06dd014
 Narrator: Mian：从招待所醒来……嗯……一切正常（写字声音）。 #line:074ade7
 Narrator: Mian：基本操作你都知道吧？WASD走动，鼠标右键调整视角。看到可疑的物品可以灵活使用鼠标左键。 #line:00c2c51
 Narrator: Mian：那我就不打扰你了。 #line:0515642
+<<SetAvatar CharacterAvatar none>>
 ===
 
 title: trialwall
