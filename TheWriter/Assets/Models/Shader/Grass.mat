@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass
+  m_Shader: {fileID: 4800000, guid: 11e8141ff2147ae418c5880d27df8225, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _LOD: 0
+    - _ShadowRange: 128
+    - _Shininess: 0.1
+    - _WindScale: 0.08
+    - _WindScale1: 0.08
+    - _WindSpeed: 0.35
+    - _WindSpeed1: 0.44
+    - __dirty: 0
+    m_Colors:
+    - _BottomColor: {r: 0.2627451, g: 0.4392157, b: 0.2666667, a: 1}
+    - _Buttom: {r: 0.28627452, g: 0.4666667, b: 0.2627451, a: 1}
+    - _MainColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
+    - _SpecularColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}
+    - _Top: {r: 0.5568628, g: 0.6313726, b: 0.4196079, a: 1}
+    - _TopColor: {r: 0.1254902, g: 0.2901961, b: 0.2784314, a: 1}
+    - _WindDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _WindDirection1: {r: 1, g: 0, b: 0, a: 0}
