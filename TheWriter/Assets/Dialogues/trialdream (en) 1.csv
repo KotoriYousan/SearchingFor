@@ -1,0 +1,21 @@
+id,text,file,node,lineNumber
+line:07ab39c,Narrator: Mian: Um...,trialdream,trialstart,8
+line:034a86a,Narrator: Mian: Let me see...,trialdream,trialstart,9
+line:06143fc,Narrator: Mian: You are a detective named Gu Gugu... Why this name? ,trialdream,trialstart,10
+line:0f40de5,Narrator: Gin: Uh...,trialdream,trialstart,12
+line:06dd014,"Narrator: Mian: No, nothing. You are... investigating in the disappearance of a college girl.",trialdream,trialstart,14
+line:074ade7,Narrator: Mian: You wake up from your room... Um... fine.,trialdream,trialstart,15
+line:00c2c51,"Narrator: Mian: You know the basic controls right? WASD to move, right mouse button to adjust the view. Use your left mouse button when you see anything suspicious.",trialdream,trialstart,16
+line:0515642,Narrator: Mian: Then I'll leave you to it.,trialdream,trialstart,17
+line:07168d1,"Novel: Gu Gugu's home is tidy and spotlessly cleaned. Not only is it neat, but it also feels new. At first glance, the walls are very bright and the floor is well polished. Standing on it, One can see their reflection. On closer inspection though, the walls seem to be uneven. It can be seen that the painters are not very professional.",trialdream,trialwall,26
+line:0bddd27,"Novel: Gu Gugu will unconsciously play dice when thinking, tossing it from time to time. why? It's not because of nervousness. Pinching something in her hand can relieve a little pressure--the pressure on her from the case. Who is the murderer? Maybe tossing the dice will give her new inspiration.",trialdream,trialdice,34
+line:051a75d,"Novel: There is a coffee shop check in Gu Gugu's wallet. French fries, 30 yuan, double the market price, must be a scam. Gu Gugu seems very reluctant to recall this, and throw the receipt hurriedly.",trialdream,trialpurse,42
+line:0ea2feb,"Novel: There are two movie tickets on the table. Who's the second ticket for? A friend, or teacher, to be precise. She has taught me a lot of crime-solving skills. Without her inspiration, there would be no me today. Gu Gugu stares at the two movie tickets for a while, picks them up, and prepares to throw them away. Not having the habit of collecting movie tickets, she must have forgotten to throw them away before. If there does exist something that she likes to collect, it should be the stories told by other people through complaint.",trialdream,trialticket,50
+line:01de05a,"Novel: Gu Gugu is wearing a dark coat, but there is a white trace on the cuff. Gu Gugu sometimes stares at it, really eye-catching, the coat was nice but is now stained, such a pity. But speaking of getting another coat, Gu Gugu feels reluctant. In her words, she's emotionally connected with it. This is a piece of clothing that has lived through a lot.",trialdream,trialcoat,58
+line:014d641,Novel: It says on Gu gugu's notebook:,trialdream,trialnote,66
+line:0173dd4,Novel: Suspect 1 Neighbor Zhangzhe,trialdream,trialnote,67
+line:0574d40,Novel: Suspect 2 Friend Anyang,trialdream,trialnote,68
+line:016cc09,Novel: Suspect 3 Zhudi's parents and younger brother,trialdream,trialnote,69
+line:0782db1,Novel: Suspect 4 Counselor Susan,trialdream,trialnote,70
+line:07535ed,Novel: Suspect 5 Zhudi's roommate Niu Chunlan,trialdream,trialnote,71
+line:02c1499,Novel: Suspect 6 Try Again,trialdream,trialnote,72
