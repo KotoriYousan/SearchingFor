@@ -4,14 +4,22 @@ colorID: 0
 position: 695,200
 ---
 <<wait 1>>
+<<PlaySound VNAudioPlayer ad1>>
 Narrator: 梦，是人在睡眠时产生的想像中的影像、声音、思考或感觉。 #line:0e66de0
+<<PlaySound VNAudioPlayer ad2>>
 Narrator: 主要发生在快速动眼睡眠期间。 #line:0b39c1c
+<<PlaySound VNAudioPlayer ad3>>
 Narrator: 少数的梦会被记得。 #line:0bf6524
+<<PlaySound VNAudioPlayer ad4>>
 Narrator: 但梦不受人控制。 #line:05c0473
+<<PlaySound VNAudioPlayer ad5>>
 Narrator: 有时候，梦会让人产生创造力，或者给予人灵感。 #line:0a3346d
+<<PlaySound VNAudioPlayer ad6>>
 Narrator: 每个人都会做梦。 #line:06e34db
+<<PlaySound VNAudioPlayer ad7>>
 Narrator: 如果能掌控自己的梦境，你会想做什么样的梦？ #line:094253d
 <<Show OneirosLogo>>
+<<PlaySound VNAudioPlayer ad8>>
 Narrator: Oneiros，让梦境为我所用。 #line:034fe98
 <<Hide OneirosLogo>>
 <<Show OfficeBG>>
