@@ -27,6 +27,7 @@ public class Curve : MonoBehaviour
     public float minAngle = -70.0f;
 
     public float smoothTime = 0.3f;
+    public float rotateSpeed = 20f;
     private Vector3 currentPositionVelocity;
 
     private void Start()
@@ -45,8 +46,8 @@ public class Curve : MonoBehaviour
     {
         if (Input.GetMouseButton(1))
         {
-            currentX += Input.GetAxis("Mouse X");
-            currentY += Input.GetAxis("Mouse Y");
+            currentX += Input.GetAxis("Mouse X") * rotateSpeed;
+            currentY += Input.GetAxis("Mouse Y") * rotateSpeed;
             currentY = Mathf.Clamp(currentY, minAngle, maxAngle);
             //currentX = Mathf.Clamp(currentX, minAngle, maxAngle);
         }
