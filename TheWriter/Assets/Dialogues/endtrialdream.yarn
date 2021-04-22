@@ -1,0 +1,33 @@
+title: trialend
+tags: 
+colorID: 0
+position: 305,200
+---
+<<wait 1>>
+<<SetAvatar CharacterAvatar gin>>
+Narrator: Gin：感觉真好。 #line:06da243
+<<SetAvatar CharacterAvatar mian>>
+Narrator: Mian：很少有人试用之后会不喜欢。 #line:037ac66
+<<SetAvatar CharacterAvatar gin>>
+Narrator: Gin：所以每个人都会买正式版吗？ #line:02ce8d6
+<<SetAvatar CharacterAvatar mian>>
+Narrator: Mian：不一定，有些人不希望自己沉溺于此，害怕“自己”被其他的东西取代。 #line:0049a69
+<<SetAvatar CharacterAvatar gin>>
+Narrator: Gin：但Oneiros本就来自人的意识啊？ #line:0e06a23
+<<SetAvatar CharacterAvatar mian>>
+Narrator: Mian：也许他们清楚自己的能力吧。 #line:0995087
+<<SetAvatar CharacterAvatar gin>>
+Narrator: Gin：唔…… #line:02de8a6
+<<SetAvatar CharacterAvatar mian>>
+Narrator: Mian：先进的科技总是被视为洪水猛兽，但我相信你没问题的。 #line:0939fd9
+<<SetAvatar CharacterAvatar gin>>
+Narrator: Gin：嗯，我知道的。 #line:07c1a52
+Narrator: Gin：我要买正式版。 #line:025e78a
+<<SetAvatar CharacterAvatar mian>>
+Narrator: Mian：好的，已为您购入正式版，下次进入就可以开始了。老同学友情价八折哦。 #line:0bc6e19
+Narrator: Mian：今天还要再试试吗？不用的话可以先去宿舍休息了。 #line:038a8fb
+<<SetAvatar CharacterAvatar gin>>
+Narrator: Gin：再试试吧，正文才刚刚开始呢。 #line:077261f
+<<SetAvatar CharacterAvatar none>>
+Narrator: The prototype ends here #line:05a00d6
+===
