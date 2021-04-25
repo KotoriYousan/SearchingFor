@@ -29,13 +29,20 @@ public class SceneLoader : MonoBehaviour
         GameManager.instance.SetCurrentText(dreamnoveltext.text);
         SceneManager.LoadScene("2d-room-scene", LoadSceneMode.Additive);
         Debug.Log(GameManager.instance.GetCurrentText());
+        SceneManager.GetSceneByName("3d-sample-scene").GetRootGameObjects()[0].gameObject.SetActive(false);
+
         //realnoveltext.text = GameManager.instance.GetCurrentText();
     }
 
     public void LoadDreamScene()
     {
         //SceneManager.LoadScene("3d-sample-scene");
-        gameObject.SetActive(false);
+        //gameObject.SetActive(false);
+        
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("3d-sample-scene"));
+
+        SceneManager.GetSceneByName("3d-sample-scene").GetRootGameObjects()[0].gameObject.SetActive(true);
+        Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
     }
 
     [YarnCommand("Load")]
