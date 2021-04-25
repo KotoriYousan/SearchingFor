@@ -31,6 +31,9 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingRight", false);
             anim.SetBool("isWalkingLeft", false);
             anim.SetBool("isRunning", false);
+            anim.SetBool("isRunningBack", false);
+            anim.SetBool("isRunningRight", false);
+            anim.SetBool("isRunningLeft", false);
 
             Player.GetComponent<FirstPersonDrifter>().enabled = false;
         }
@@ -46,6 +49,9 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingRight", false);
             anim.SetBool("isWalkingLeft", false);
                 anim.SetBool("isRunning", false);
+                anim.SetBool("isRunningBack", false);
+                anim.SetBool("isRunningRight", false);
+                anim.SetBool("isRunningLeft", false);
 
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
@@ -56,6 +62,9 @@ public class PlayerAni : MonoBehaviour
                     anim.SetBool("isWalkingRight", false);
                     anim.SetBool("isWalkingLeft", false);
                     anim.SetBool("isRunning", true);
+                    anim.SetBool("isRunningBack", false);
+                    anim.SetBool("isRunningRight", false);
+                    anim.SetBool("isRunningLeft", false);
                 }
         }
         else if (Input.GetKey(KeyCode.D))
@@ -65,6 +74,24 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingBack", false);
             anim.SetBool("isWalkingLeft", false);
                 anim.SetBool("isRunning", false);
+                anim.SetBool("isRunningBack", false);
+                anim.SetBool("isRunningRight", false);
+                anim.SetBool("isRunningLeft", false);
+
+                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                {
+                    Debug.Log("running");
+
+                    anim.SetBool("isWalking", false);
+                    anim.SetBool("isWalkingBack", false);
+                    anim.SetBool("isWalkingRight", false);
+                    anim.SetBool("isWalkingLeft", false);
+                    anim.SetBool("isRunning", false);
+                    anim.SetBool("isRunningBack", false);
+                    anim.SetBool("isRunningRight", true);
+                    anim.SetBool("isRunningLeft", false);
+                }
+
             }
         else if (Input.GetKey(KeyCode.A))
         {
@@ -73,6 +100,24 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingRight", false);
             anim.SetBool("isWalkingBack", false);
                 anim.SetBool("isRunning", false);
+                anim.SetBool("isRunningBack", false);
+                anim.SetBool("isRunningRight", false);
+                anim.SetBool("isRunningLeft", false);
+
+                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                {
+                    Debug.Log("running");
+
+                    anim.SetBool("isWalking", false);
+                    anim.SetBool("isWalkingBack", false);
+                    anim.SetBool("isWalkingRight", false);
+                    anim.SetBool("isWalkingLeft", false);
+                    anim.SetBool("isRunning", false);
+                    anim.SetBool("isRunningBack", false);
+                    anim.SetBool("isRunningRight", false);
+                    anim.SetBool("isRunningLeft", true);
+                }
+
             }
         else if (Input.GetKey(KeyCode.S))
         {
@@ -81,6 +126,24 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingRight", false);
             anim.SetBool("isWalkingLeft", false);
                 anim.SetBool("isRunning", false);
+                anim.SetBool("isRunningBack", false);
+                anim.SetBool("isRunningRight", false);
+                anim.SetBool("isRunningLeft", false);
+
+                if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+                {
+                    Debug.Log("running");
+
+                    anim.SetBool("isWalking", false);
+                    anim.SetBool("isWalkingBack", false);
+                    anim.SetBool("isWalkingRight", false);
+                    anim.SetBool("isWalkingLeft", false);
+                    anim.SetBool("isRunning", false);
+                    anim.SetBool("isRunningBack", true);
+                    anim.SetBool("isRunningRight", false);
+                    anim.SetBool("isRunningLeft", false);
+                }
+
             }
         else
         {
@@ -89,6 +152,9 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingRight", false);
             anim.SetBool("isWalkingLeft", false);
                 anim.SetBool("isRunning", false);
+                anim.SetBool("isRunningBack", false);
+                anim.SetBool("isRunningRight", false);
+                anim.SetBool("isRunningLeft", false);
             }
 
 
