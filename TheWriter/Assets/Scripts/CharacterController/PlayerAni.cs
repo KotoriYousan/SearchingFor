@@ -19,6 +19,26 @@ public class PlayerAni : MonoBehaviour
         //Cursor.visible = false;
     }
 
+
+    public void LockPlayer()
+    {
+        anim.SetBool("isWalking", false);
+        anim.SetBool("isWalkingBack", false);
+        anim.SetBool("isWalkingRight", false);
+        anim.SetBool("isWalkingLeft", false);
+        anim.SetBool("isRunning", false);
+        anim.SetBool("isRunningBack", false);
+        anim.SetBool("isRunningRight", false);
+        anim.SetBool("isRunningLeft", false);
+
+        Player.GetComponent<FirstPersonDrifter>().enabled = false;
+    }
+
+    public void UnlockPlayer()
+    {
+        Player.GetComponent<FirstPersonDrifter>().enabled = true;
+    }
+
     private void Update()
     {
         //if (Input.GetKeyDown(KeyCode.Escape))
@@ -26,20 +46,11 @@ public class PlayerAni : MonoBehaviour
 
         if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
         {
-            anim.SetBool("isWalking", false);
-            anim.SetBool("isWalkingBack", false);
-            anim.SetBool("isWalkingRight", false);
-            anim.SetBool("isWalkingLeft", false);
-            anim.SetBool("isRunning", false);
-            anim.SetBool("isRunningBack", false);
-            anim.SetBool("isRunningRight", false);
-            anim.SetBool("isRunningLeft", false);
-
-            Player.GetComponent<FirstPersonDrifter>().enabled = false;
+            LockPlayer();
         }
         else {
 
-            Player.GetComponent<FirstPersonDrifter>().enabled = true;
+            UnlockPlayer();
 
             bool moving = false;
         if (Input.GetKey(KeyCode.W))
