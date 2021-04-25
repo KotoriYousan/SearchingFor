@@ -1,11 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yarn.Unity;
 
 public class PlayerAni : MonoBehaviour
 {
+
+    public GameObject Player;
+
+
     private Animator anim;
     //public Transform roadAxis;
+    
 
     private void Start()
     {
@@ -15,10 +21,23 @@ public class PlayerAni : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            Application.Quit();
+        //if (Input.GetKeyDown(KeyCode.Escape))
+        //    Application.Quit();
 
-        bool moving = false;
+        if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+        {
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isWalkingBack", false);
+            anim.SetBool("isWalkingRight", false);
+            anim.SetBool("isWalkingLeft", false);
+
+            Player.GetComponent<FirstPersonDrifter>().enabled = false;
+        }
+        else {
+
+            Player.GetComponent<FirstPersonDrifter>().enabled = true;
+
+            bool moving = false;
         if (Input.GetKey(KeyCode.W))
         {
             anim.SetBool("isWalking", true);
@@ -53,6 +72,9 @@ public class PlayerAni : MonoBehaviour
             anim.SetBool("isWalkingBack", false);
             anim.SetBool("isWalkingRight", false);
             anim.SetBool("isWalkingLeft", false);
+        }
+
+
         }
     }
 }
