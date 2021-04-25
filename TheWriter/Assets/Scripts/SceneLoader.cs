@@ -34,7 +34,8 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadDreamScene()
     {
-        SceneManager.LoadScene("3d-sample-scene");
+        //SceneManager.LoadScene("3d-sample-scene");
+        gameObject.SetActive(false);
     }
 
     [YarnCommand("Load")]
