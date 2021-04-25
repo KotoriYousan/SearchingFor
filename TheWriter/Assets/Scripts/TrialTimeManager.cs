@@ -30,7 +30,7 @@ public class TrialTimeManager : MonoBehaviour
         //timer += Time.deltaTime;
         
         countdownTime -= Time.deltaTime;
-        Debug.Log(countdownTime);
+        //Debug.Log(countdownTime);
         // turn seconds in float to int
         gameMinutes = (int)(countdownTime % 60);
         gameHours = (int)(countdownTime / 60);

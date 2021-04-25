@@ -78,7 +78,7 @@ public class ShowIconTrigger : MonoBehaviour
             return;
         }
 
-        Debug.Log("mouse over obj");
+        Debug.Log("mouse over obj" + gameObject.name);
         gameObject.GetComponent<Outline>().enabled = true;
 
         if (triggered == false)

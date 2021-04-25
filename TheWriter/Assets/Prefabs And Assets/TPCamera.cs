@@ -9,7 +9,7 @@ public class TPCamera : MonoBehaviour
     //public Camera cam;
     public Transform player;
     public LayerMask blockLayer;
-    public SkinnedMeshRenderer playerMesh;
+    public SkinnedMeshRenderer[] playerMesh;
     public float hiddenDistance;
 
     private Vector3 originPos;
@@ -33,7 +33,10 @@ public class TPCamera : MonoBehaviour
              //transform.position = targetPosition;
             if (hit.distance < hiddenDistance)
             {
-                playerMesh.enabled = false;
+                foreach (SkinnedMeshRenderer smr in playerMesh){
+                    smr.enabled = false;
+                }
+                //playerMesh.enabled = false;
             }
         }
         else
@@ -41,7 +44,13 @@ public class TPCamera : MonoBehaviour
 
             transform.position = Vector3.SmoothDamp(transform.position, originPos, ref currentPositionVelocity, curve.smoothTime);
             //transform.position = originPos;
-            playerMesh.enabled = true;
+
+            foreach (SkinnedMeshRenderer smr in playerMesh)
+            {
+                smr.enabled = true;
+            }
+
+            //playerMesh.enabled = true;
         }
         transform.LookAt(player.position);
         
