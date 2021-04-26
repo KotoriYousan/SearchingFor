@@ -1713,8 +1713,8 @@ Transform:
   m_LocalPosition: {x: 203.50002, y: 113.4825, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1477774150}
-  m_RootOrder: 18
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &157665365 stripped
 GameObject:
@@ -15191,7 +15191,6 @@ Transform:
   - {fileID: 88336135}
   - {fileID: 1157115097}
   - {fileID: 2100290738}
-  - {fileID: 156214564}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
