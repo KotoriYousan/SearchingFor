@@ -2698,6 +2698,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Building: 0
   LevelObject: []
+  Lights: {fileID: 3413546868097699049}
   SpecialObject:
   - {fileID: 0}
   Level: 1

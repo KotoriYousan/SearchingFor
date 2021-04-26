@@ -9,6 +9,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6757350607815799918}
+  - component: {fileID: 7516167753005484396}
+  - component: {fileID: 1206870291890465895}
   m_Layer: 0
   m_Name: Dorm_Unit_2017_Small
   m_TagString: Untagged
@@ -37,6 +39,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7516167753005484396
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6236709503359856340}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 32.44278, y: 24.730892, z: 11.697346}
+  m_Center: {x: 16.265583, y: 12.61603, z: 5.973217}
+--- !u!114 &1206870291890465895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6236709503359856340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e0a2f3f3e6b72641a63e86daf10240d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inside: 0
 --- !u!1001 &581374971665713515
 PrefabInstance:
   m_ObjectHideFlags: 0

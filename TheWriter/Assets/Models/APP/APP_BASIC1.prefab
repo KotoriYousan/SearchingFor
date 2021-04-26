@@ -4161,9 +4161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00073c0b61d84b74f8ad7bf0d7116ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Building: 0
-  LevelObject:
-  - {fileID: 6223404957277737135}
+  Building: 1
+  LevelObject: []
+  Lights: {fileID: 6223404957277737135}
   SpecialObject:
   - {fileID: 0}
   Level: 2

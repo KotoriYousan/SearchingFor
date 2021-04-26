@@ -19,17 +19,26 @@ public class Curve : MonoBehaviour
 
     public Transform player;
 
-    public float distance = 2.0f;
+    public float distanceOut = 2.0f;
     public float currentX = 0.0f;
     public float currentY = 0.0f;
 
-    public float maxAngle = 70.0f;
-    public float minAngle = -70.0f;
+    public float maxAngleOut = 70.0f;
+    public float minAngleOut = -70.0f;
 
-    public float smoothTime = 0.3f;
-    public float rotateSpeedX = 10f;
-    public float rotateSpeedY = 10f;
+    public float smoothTime = 0.15f;
+    public float rotateSpeedX = 2f;
+    public float rotateSpeedY = 2f;
     private Vector3 currentPositionVelocity;
+
+    [Header("Camera In Building Control")]
+    public bool inBuilding = false;
+    public float distanceIn = 0.8f;
+    public float maxAngleIn = 40.0f;
+    public float minAngleIn = -40.0f;
+
+    public float distance;
+    private float minAngle, maxAngle;
 
     private void Start()
     {
@@ -40,11 +49,27 @@ public class Curve : MonoBehaviour
         Nodes[2] = handleB.position;
         Nodes[4] = handleC.position;
         Nodes[5] = handleD.position;
-        //transform.position = player.position;     
+        //transform.position = player.position;  
+
+        minAngle = minAngleOut;
+        maxAngle = maxAngleOut;
+        distance = distanceOut;
     }
 
     private void FixedUpdate()
     {
+        if (inBuilding)
+        {
+            minAngle = minAngleIn;
+            maxAngle = maxAngleIn;
+            distance = distanceIn;
+        }
+        else
+        {
+            minAngle = minAngleOut;
+            maxAngle = maxAngleOut;
+            distance = distanceOut;
+        }
         if (Input.GetMouseButton(1))
         {
             currentX += Input.GetAxis("Mouse X") * rotateSpeedX;
@@ -69,6 +94,10 @@ public class Curve : MonoBehaviour
         transform.LookAt(player.position);
     }
 
+    public void SetInBuilding(bool inBool)
+    {
+        inBuilding = inBool;
+    }
 
     public Vector3 CurveLerp(Vector3 a, Vector3 b, Vector3 c, Vector3 d, float t)
     {
@@ -93,12 +122,12 @@ public class Curve : MonoBehaviour
         if (currentY < 0)
         {
             Vector3 tempC = CreateTempC();
-            tNode = (currentY / minAngle);
+            tNode = (currentY / minAngleOut);
             return CurveLerp(Nodes[3], tempC, Nodes[5], Nodes[6], tNode);
         }
         else
         {
-            tNode = currentY / maxAngle;
+            tNode = currentY / maxAngleOut;
             return CurveLerp(Nodes[3], Nodes[2], Nodes[1], Nodes[0], tNode);
         }
     }

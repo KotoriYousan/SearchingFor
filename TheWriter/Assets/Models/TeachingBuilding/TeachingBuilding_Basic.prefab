@@ -5013,10 +5013,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00073c0b61d84b74f8ad7bf0d7116ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Building: 0
+  Building: 2
   LevelObject:
   - {fileID: 1015558715487654995}
-  - {fileID: 6826010066846653647}
+  Lights: {fileID: 6826010066846653647}
   SpecialObject: []
   Level: 2
 --- !u!1 &6459057297173918233

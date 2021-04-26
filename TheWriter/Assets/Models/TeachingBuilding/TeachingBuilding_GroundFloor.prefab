@@ -7717,10 +7717,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00073c0b61d84b74f8ad7bf0d7116ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Building: 0
+  Building: 2
   LevelObject:
   - {fileID: 5961241421571570552}
-  - {fileID: 3207609933532382851}
+  Lights: {fileID: 3207609933532382851}
   SpecialObject: []
   Level: 0
 --- !u!1 &6967484323391253861

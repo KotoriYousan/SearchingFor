@@ -8,20 +8,27 @@ public class LevelCollider : MonoBehaviour
     [Range(1,4)]
     public int Building;
     public GameObject[] LevelObject;
+    public GameObject Lights;
     public GameObject[] SpecialObject;
     public int Level;
 
     private bool matchLevel = false;
+    private Curve curve;
 
     private void Start()
     {
-        if (LevelObject != null)
+        if (Level > 1)//第一层的场景物品初始时不隐藏
         {
-            foreach (var obj in LevelObject)
+            if (LevelObject != null)
             {
-                obj.SetActive(false);
+                foreach (var obj in LevelObject)
+                {
+                    obj.SetActive(false);
+                }
             }
         }
+        if (Lights != null)
+            Lights.SetActive(false);
         if (SpecialObject != null)
         {
             foreach (var obj in SpecialObject)
@@ -29,6 +36,7 @@ public class LevelCollider : MonoBehaviour
                 obj.SetActive(false);
             }
         }
+        curve = FindObjectOfType<Curve>().GetComponent<Curve>();
     }
     private void OnTriggerEnter(Collider other)
     {
@@ -41,6 +49,8 @@ public class LevelCollider : MonoBehaviour
                     obj.SetActive(true);
                 }
             }
+            if (Lights != null)
+                Lights.SetActive(true);
             //Debug.Log("Enter");
             if (matchLevel)
             {
@@ -55,13 +65,18 @@ public class LevelCollider : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            if (LevelObject != null)
+            if (curve.inBuilding)
             {
-                foreach (var obj in LevelObject)
+                if (LevelObject != null)
                 {
-                    obj.SetActive(false);
+                    foreach (var obj in LevelObject)
+                    {
+                        obj.SetActive(false);
+                    }
                 }
             }
+            if (Lights != null)
+                Lights.SetActive(false);
 
             if (matchLevel)
             {
