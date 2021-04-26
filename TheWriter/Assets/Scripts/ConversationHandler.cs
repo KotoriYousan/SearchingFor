@@ -11,6 +11,11 @@ public class ConversationHandler : MonoBehaviour
     public SearchingforDialogueUI ui;
 
     public Text notebook;
+
+    public GameObject notebookTexts;
+    public GameObject noteTextPrefab;
+    private GameObject latestNoteText;
+
     //public TMP_Text notebook;
     public TMP_Text speakBubble;
     public GameObject DialogueBubble;
@@ -49,7 +54,13 @@ public class ConversationHandler : MonoBehaviour
         //        Debug.Log(line);
         if (currentLine.speaker == "Novel")
         {
-            notebook.text = originalText + "\n\n" + line;
+            //notebook.text = originalText + "\n\n" + line;
+            
+            //GameObject text = new GameObject();
+            //text.AddComponent<Text>();
+            //text.transform.parent = notebookTexts.transform;
+            
+            latestNoteText.GetComponent<Text>().text = line;
         }
         else if (currentLine.speaker == "Narrator")
         {
@@ -72,6 +83,11 @@ public class ConversationHandler : MonoBehaviour
 
         if(currentLine.speaker == "Novel")
         {
+            latestNoteText = Instantiate(noteTextPrefab);
+            //latestNoteText.transform.parent = notebookTexts.transform;
+            latestNoteText.transform.SetParent(notebookTexts.transform);
+            latestNoteText.transform.localScale = new Vector3(1, 1, 1);
+
             originalText = notebook.text;
         }
         else if (currentLine.speaker == "Narrator")
