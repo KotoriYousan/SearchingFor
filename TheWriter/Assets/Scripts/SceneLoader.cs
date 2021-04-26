@@ -27,7 +27,17 @@ public class SceneLoader : MonoBehaviour
     {
         //Debug.Log(dreamnoveltext.text);
         GameManager.instance.SetCurrentText(dreamnoveltext.text);
-        SceneManager.LoadScene("2d-room-scene", LoadSceneMode.Additive);
+
+        if (SceneManager.GetSceneByName("2d-room-scene").isLoaded == true)
+        {
+            SceneManager.GetSceneByName("2d-room-scene").GetRootGameObjects()[0].gameObject.SetActive(true);
+        }
+        else
+        {
+            SceneManager.LoadScene("2d-room-scene", LoadSceneMode.Additive);
+        }
+
+        
         Debug.Log(GameManager.instance.GetCurrentText());
         SceneManager.GetSceneByName("3d-sample-scene").GetRootGameObjects()[0].gameObject.SetActive(false);
 
@@ -42,6 +52,7 @@ public class SceneLoader : MonoBehaviour
         SceneManager.SetActiveScene(SceneManager.GetSceneByName("3d-sample-scene"));
 
         SceneManager.GetSceneByName("3d-sample-scene").GetRootGameObjects()[0].gameObject.SetActive(true);
+        SceneManager.GetSceneByName("2d-room-scene").GetRootGameObjects()[0].gameObject.SetActive(false);
         Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
     }
 
