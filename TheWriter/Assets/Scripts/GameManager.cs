@@ -10,6 +10,11 @@ public class GameManager : MonoBehaviour
 
 
     public static string currentNovelText;
+
+    public List<string> currentNovelTexts;
+
+    public GameObject novelTexts;
+
     /*
     public static GameManager Instance
     {
@@ -53,6 +58,16 @@ public class GameManager : MonoBehaviour
     public string GetCurrentText()
     {
         return currentNovelText;
+    }
+
+    public void SetCurrentTexts(GameObject texts)
+    {
+        novelTexts = texts;
+    }
+
+    public GameObject GetCurrentTexts()
+    {
+        return novelTexts;
     }
 
 }

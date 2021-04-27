@@ -107,10 +107,12 @@ public class ConversationHandler : MonoBehaviour
     {
         //give con back to player
         //move cam out
-
-        if(currentLine.speaker == "Novel")
+        Debug.Log("line ends");
+        if (currentLine.speaker == "Novel")
         {
             //do sth
+            Debug.Log("line ends");
+            //GameManager.instance.currentNovelTexts.Add(latestNoteText.GetComponent<Text>().text);
         }
         else if (currentLine.speaker == "Narrator")
         {
