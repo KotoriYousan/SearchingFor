@@ -65,7 +65,7 @@ public class TimeManager : MonoBehaviour
     {
         if(gameHours > 17)
         {
-            SceneLoader.GetComponent<SceneLoader>().LoadRoomScene();
+            SceneLoader.GetComponent<SceneLoader>().LoadDesktop();
             //SceneManager.LoadScene("2d-room-scene");
         }
     }
