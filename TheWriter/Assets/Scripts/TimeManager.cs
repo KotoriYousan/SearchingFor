@@ -70,8 +70,17 @@ public class TimeManager : MonoBehaviour
         }
     }
 
+    public void ResetTimer()
+    {
+        timer = 0.0f;
+        gameHours = 0;
+        gameMinutes = 0;
+        startHours = 9;
+}
+
+    /*
     public void ManualEndInvestigate()
     {
         SceneManager.LoadScene("2d-room-scene");
-    }
+    }*/
 }

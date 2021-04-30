@@ -15,9 +15,12 @@ public class SceneLoader : MonoBehaviour
     public GameObject dreamNovelTexts;
     public GameObject realNovelTexts;
 
+
     public GameObject oneirosScene;
     public GameObject desktopScene;
     public GameObject submitText;
+
+    public GameObject timeManager;
 
 
     [YarnCommand("Load")]
@@ -54,6 +57,8 @@ public class SceneLoader : MonoBehaviour
         //do sth
         oneirosScene.SetActive(true);
         desktopScene.SetActive(false);
+
+        timeManager.GetComponent<TimeManager>().ResetTimer();
     }
 
     /*
