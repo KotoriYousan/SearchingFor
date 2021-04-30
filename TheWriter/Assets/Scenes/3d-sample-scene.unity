@@ -7335,57 +7335,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 590667282}
   m_Mesh: {fileID: 5885828940525804074, guid: 5fd71cce1accee44788d765ea6fe29ec, type: 3}
---- !u!1 &599120081
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 599120082}
-  - component: {fileID: 599120083}
-  m_Layer: 0
-  m_Name: SceneLoader
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &599120082
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599120081}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 330.65598, y: 196.00595, z: 13.461029}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &599120083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599120081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8a24ad88f94414469ff247af079ed9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dreamnoveltext: {fileID: 0}
-  realnoveltext: {fileID: 0}
-  dreamNovelTexts: {fileID: 0}
-  realNovelTexts: {fileID: 2040966333}
-  oneirosScene: {fileID: 0}
-  desktopScene: {fileID: 0}
-  submitText: {fileID: 0}
-  timeManager: {fileID: 1623214217}
 --- !u!1 &608933663
 GameObject:
   m_ObjectHideFlags: 0
@@ -10601,7 +10550,7 @@ Transform:
   - {fileID: 706254046}
   - {fileID: 1664495310}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &808143104
 GameObject:
@@ -33213,7 +33162,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 599120083}
+      - m_Target: {fileID: 0}
         m_MethodName: LoadDreamScene
         m_Mode: 1
         m_Arguments:
