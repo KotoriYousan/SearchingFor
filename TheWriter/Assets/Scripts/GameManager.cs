@@ -15,9 +15,19 @@ public class GameManager : MonoBehaviour
 
     public GameObject novelTexts;
 
+
+
     public int chapterCount = 1;
 
- 
+    public int[] neighborLevel; //储存每级别线索总数
+    public int[] neighborUnlocked; //储存每级别玩家已解锁线索总数
+    public int playerNeighborLevel; //玩家当前在该线已走到的级别
+
+    public int[] roommateLevel; //储存每级别线索总数
+    public int[] roommateUnlocked; //储存每级别玩家已解锁线索总数
+    public int playerRoommateLevel; //玩家当前在该线已走到的级别
+
+
     void Awake()
     {
         if (instance == null)

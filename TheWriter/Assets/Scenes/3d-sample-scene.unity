@@ -1831,6 +1831,12 @@ MonoBehaviour:
   currentNovelTexts: []
   novelTexts: {fileID: 0}
   chapterCount: 1
+  neighborLevel: 
+  neighborUnlocked: 
+  playerNeighborLevel: 0
+  roommateLevel: 
+  roommateUnlocked: 
+  playerRoommateLevel: 0
 --- !u!4 &156214564
 Transform:
   m_ObjectHideFlags: 0
