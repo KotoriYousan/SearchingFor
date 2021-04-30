@@ -15,21 +15,9 @@ public class GameManager : MonoBehaviour
 
     public GameObject novelTexts;
 
-    /*
-    public static GameManager Instance
-    {
-        get
-        {
-            if (GameManager.instance == null)
-            {
-                DontDestroyOnLoad(GameManager.instance);
-                GameManager.instance = new GameManager();
-            }
-            return GameManager.instance;
-        }
+    public int chapterCount = 1;
 
-    }
-    */
+ 
     void Awake()
     {
         if (instance == null)
@@ -48,6 +36,16 @@ public class GameManager : MonoBehaviour
     public void OnApplicationQuit()
     {
         GameManager.instance = null;
+    }
+
+
+    public void ChapterCountPlus1() {
+        chapterCount++;
+    }
+
+    public int GetChapterCount()
+    {
+        return chapterCount;
     }
     
     public void SetCurrentText(string text)

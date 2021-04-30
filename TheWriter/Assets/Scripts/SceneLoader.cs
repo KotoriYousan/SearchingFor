@@ -20,6 +20,12 @@ public class SceneLoader : MonoBehaviour
     public GameObject desktopScene;
     public GameObject submitText;
 
+    public GameObject NovelSitePage;
+    public Text ChapterTitleText;
+    public List<List<string>> chapterContent = new List<List<string>>();
+    private int curPos;
+    public Button NextCptButton,PrevCptButton;
+
     public GameObject timeManager;
 
 
@@ -32,8 +38,22 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadDesktop()
     {
+        curPos = GameManager.instance.GetChapterCount();
+        ChapterTitleText.text = "Chapter "+curPos;
+        CheckChapterTurnerButtons();
+        NovelSitePage.SetActive(true);
 
+
+        //clear previous chapter
+        int childn = realNovelTexts.transform.childCount;
+        for (int i = childn - 1; i > 0; i--)
+        {
+            Destroy(realNovelTexts.transform.GetChild(i).gameObject);
+        }
+
+        //load new chapter
         int childnums = dreamNovelTexts.transform.childCount;
+        List<string> curChapter = new List<string>();
 
         for(int i = 1; i< childnums; i++)
         {
@@ -41,7 +61,12 @@ public class SceneLoader : MonoBehaviour
             go.GetComponent<Text>().text = dreamNovelTexts.transform.GetChild(i).GetComponent<Text>().text;
             go.transform.SetParent(realNovelTexts.transform);
             go.transform.localScale = new Vector3(1, 1, 1);
+
+            curChapter.Add(go.GetComponent<Text>().text);
+
         }
+
+        chapterContent.Add(curChapter);
         
         for(int i=childnums-1; i > 0; i--)
         {
@@ -54,6 +79,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadOneiros()
     {
+        GameManager.instance.ChapterCountPlus1();
         //do sth
         oneirosScene.SetActive(true);
         desktopScene.SetActive(false);
@@ -61,90 +87,72 @@ public class SceneLoader : MonoBehaviour
         timeManager.GetComponent<TimeManager>().ResetTimer();
     }
 
-    /*
-    // Start is called before the first frame update
-    void Start()
+    public void NextChapter()
     {
-        //if ((SceneManager.GetSceneByName("2d-room-scene").isLoaded == true)  && (SceneManager.GetSceneByName("2d-room-scene").GetRootGameObjects()[0].activeSelf == true))
-        //{
-        //    InstantiateRoomScene();
-        //}
-    }
+        curPos++;
+        ChapterTitleText.text = "Chapter " + curPos;
+        CheckChapterTurnerButtons();
 
-    public void InstantiateRoomScene()
-    {
-        Debug.Log("2d scene instantiate");
-            //realNovelTexts.transform.GetChild(0).GetComponent<Text>().text = GameManager.instance.currentNovelTexts[0];
-            foreach(string txt in GameManager.instance.currentNovelTexts)
-            {
-                //GameObject txtObj = Instantiate(realNovelprefab);
-                GameObject textObj = new GameObject();
-                
-                textObj.AddComponent<Text>();
-                textObj.GetComponent<Text>().text = txt;
-                textObj.GetComponent<Text>().font = realNovelTexts.transform.GetChild(0).GetComponent<Text>().font;
-                textObj.AddComponent<ContentSizeFitter>();
-                textObj.GetComponent<ContentSizeFitter>().verticalFit = ContentSizeFitter.FitMode.PreferredSize;
-                //textObj.transform.localScale = new Vector3(1, 1, 1);
-                
-                textObj.transform.SetParent(realNovelTexts.transform);
-                textObj.transform.localScale = new Vector3(1, 1, 1);
-            }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void LoadRoomScene()
-    {
-        //Debug.Log(dreamnoveltext.text);
-        GameManager.instance.SetCurrentText(dreamNovelTexts.transform.GetChild(0).GetComponent<Text>().text);
-        //GameManager.instance.SetCurrentTexts(dreamNovelTexts);
-
-
-        foreach(Transform txtTrans in dreamNovelTexts.transform.GetComponentInChildren<Transform>())
+        int childnums = realNovelTexts.transform.childCount;
+        for(int i = childnums - 1; i > 0; i--)
         {
-            GameManager.instance.currentNovelTexts.Add(txtTrans.GetComponent<Text>().text);
+            Destroy(realNovelTexts.transform.GetChild(i).gameObject);
         }
 
-
-        Debug.Log(GameManager.instance.GetCurrentText());
-
-        if (SceneManager.GetSceneByName("2d-room-scene").isLoaded == true)
+        List<string> curCpt = chapterContent[curPos-1];
+        for(int i = 0; i < curCpt.Count;i++)
         {
-            SceneManager.GetSceneByName("2d-room-scene").GetRootGameObjects()[0].gameObject.SetActive(true);
-            
+            GameObject go = Instantiate(submitText);
+            go.GetComponent<Text>().text = curCpt[i];
+            go.transform.SetParent(realNovelTexts.transform);
+            go.transform.localScale = new Vector3(1, 1, 1);
+        }
+
+    }
+    
+    public void PrevChapter()
+    {
+        curPos--;
+        ChapterTitleText.text = "Chapter " + curPos;
+        CheckChapterTurnerButtons();
+
+        int childnums = realNovelTexts.transform.childCount;
+        for (int i = childnums - 1; i > 0; i--)
+        {
+            Destroy(realNovelTexts.transform.GetChild(i).gameObject);
+        }
+
+        List<string> curCpt = chapterContent[curPos - 1];
+        for (int i = 0; i < curCpt.Count; i++)
+        {
+            GameObject go = Instantiate(submitText);
+            go.GetComponent<Text>().text = curCpt[i];
+            go.transform.SetParent(realNovelTexts.transform);
+            go.transform.localScale = new Vector3(1, 1, 1);
+        }
+
+    }
+
+    private void CheckChapterTurnerButtons()
+    {
+        if(curPos == GameManager.instance.GetChapterCount())
+        {
+            NextCptButton.gameObject.SetActive(false);
         }
         else
         {
-            SceneManager.LoadScene("2d-room-scene", LoadSceneMode.Additive);
+            NextCptButton.gameObject.SetActive(true);
         }
-        SceneManager.GetSceneByName("3d-sample-scene").GetRootGameObjects()[0].gameObject.SetActive(false);
 
-        //Debug.Log(GameManager.instance.GetCurrentTexts().transform.GetChild(0).GetComponent<Text>().text);
-        Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
-        InstantiateRoomScene();
-        //realnoveltext.text = GameManager.instance.GetCurrentText();
-        //realNovelTexts.transform.GetChild(0).GetComponent<Text>().text = GameManager.instance.GetCurrentText();
-        
+        if(curPos == 1)
+        {
+            PrevCptButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            PrevCptButton.gameObject.SetActive(true);
+        }
+
     }
-
-    public void LoadDreamScene()
-    {
-        //SceneManager.LoadScene("3d-sample-scene");
-        //gameObject.SetActive(false);
-        
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("3d-sample-scene"));
-
-        SceneManager.GetSceneByName("3d-sample-scene").GetRootGameObjects()[0].gameObject.SetActive(true);
-        SceneManager.GetSceneByName("2d-room-scene").GetRootGameObjects()[0].gameObject.SetActive(false);
-        Debug.Log("Active Scene : " + SceneManager.GetActiveScene().name);
-    }
-    */
-    
-
 
 }
