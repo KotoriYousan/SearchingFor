@@ -407,7 +407,7 @@ RectTransform:
   m_LocalScale: {x: 9.380328, y: 5.6508, z: 5.6508}
   m_Children: []
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -748,7 +748,7 @@ RectTransform:
   m_Children:
   - {fileID: 453980711}
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 2
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2577,7 +2577,7 @@ RectTransform:
   m_Children:
   - {fileID: 1406837660}
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2642,7 +2642,7 @@ RectTransform:
   m_Children:
   - {fileID: 1950349331}
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3447,7 +3447,7 @@ RectTransform:
   m_LocalScale: {x: 0.5435717, y: 0.23774196, z: 0.5435717}
   m_Children: []
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -3643,7 +3643,7 @@ RectTransform:
   - {fileID: 1718009067}
   - {fileID: 928977587}
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5168,7 +5168,7 @@ RectTransform:
   m_LocalScale: {x: 0.33711967, y: 0.33711967, z: 0.33711967}
   m_Children: []
   m_Father: {fileID: 1676354634}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6036,13 +6036,13 @@ RectTransform:
   m_Children:
   - {fileID: 1704814596}
   - {fileID: 598655053}
-  - {fileID: 214768572}
   - {fileID: 760035726}
   - {fileID: 965046169}
   - {fileID: 767551726}
   - {fileID: 919978677}
   - {fileID: 1252915665}
   - {fileID: 85555156}
+  - {fileID: 214768572}
   - {fileID: 1817874527}
   - {fileID: 91113148}
   - {fileID: 1599118084}
