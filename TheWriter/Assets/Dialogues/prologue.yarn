@@ -4,6 +4,7 @@ colorID: 0
 position: 695,200
 ---
 <<wait 1>>
+<<PlayMusic VNMusicPlayer 1>>
 <<PlaySound VNAudioPlayer ad1>>
 Narrator: 梦，是人在睡眠时产生的想像中的影像、声音、思考或感觉。 #line:0e66de0
 <<PlaySound VNAudioPlayer ad2>>
@@ -25,6 +26,7 @@ Narrator: Oneiros，让梦境为我所用。 #line:034fe98
 <<Show OfficeBG>>
 <<SetAvatar CharacterAvatarR gin>>
 <<SetAvatar CharacterAvatarL none>>
+<<PlayMusic VNMusicPlayer 3>>
 Narrator: Gin：我填好了。 #line:05407e0
 <<SetAvatar CharacterAvatarL mian>>
 <<SetAvatar CharacterAvatarR none>>
