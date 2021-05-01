@@ -18,4 +18,21 @@ public class OpenDoor : MonoBehaviour
         //anim.Play("open door");
     }
 
+    [YarnCommand("SetActive")]
+    public void SetObjActive(string bl)
+    {
+        Debug.Log("yarn command run");
+
+        if(bl == "true")
+        {
+            gameObject.SetActive(true);
+        }
+        else if(bl == "false")
+        {
+            gameObject.SetActive(false);
+        }
+        
+
+    }
+
 }

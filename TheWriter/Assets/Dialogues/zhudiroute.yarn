@@ -82,3 +82,12 @@ position: 895,310
 ---
 Novel: 联华超市的小票，结账日期是三个月前了，为什么还保留着？票上似乎有些印记，找到铅笔或许可以摹出上面的文字，上面是一个电话1803211xxxx。 #line:034cf61
 ===
+title: zhudidoor
+tags: 
+colorID: 0
+position: 895,320
+---
+Novel: 顾谷谷装作自己就住在这里的样子，打开门，大摇大摆地走进祝娣的家。这种简单的表演对她来说不在话下，顾谷谷暗暗笑了笑。
+<<SetActive zhudiDoor false>>
+<<SetActive zhudiDoor-open true>>
+===

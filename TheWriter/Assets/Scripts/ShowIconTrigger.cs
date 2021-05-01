@@ -6,7 +6,7 @@ using Yarn.Unity;
 public class ShowIconTrigger : MonoBehaviour
 {
 
-    public GameObject IconCanvas;
+    //public GameObject IconCanvas;
     public string itemName = "";
 
     public string talkToNode = "";
@@ -28,7 +28,7 @@ public class ShowIconTrigger : MonoBehaviour
 
     void Start()
     {
-        IconCanvas = transform.GetChild(0).gameObject;
+        //IconCanvas = transform.GetChild(0).gameObject;
         if (scriptToLoad != null)
         {
             dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
@@ -42,6 +42,7 @@ public class ShowIconTrigger : MonoBehaviour
         
     }
 
+    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
@@ -58,7 +59,7 @@ public class ShowIconTrigger : MonoBehaviour
             Debug.Log("item exit triggered");
             IconCanvas.SetActive(false);
         }
-    }
+    }*/
 
     public void InvestigateItem()
     {
