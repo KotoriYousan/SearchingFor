@@ -23,14 +23,18 @@ Narrator: 如果能掌控自己的梦境，你会想做什么样的梦？ #line:
 Narrator: Oneiros，让梦境为我所用。 #line:034fe98
 <<Hide OneirosLogo>>
 <<Show OfficeBG>>
-<<SetAvatar CharacterAvatar gin>>
+<<SetAvatar CharacterAvatarR gin>>
+<<SetAvatar CharacterAvatarL none>>
 Narrator: Gin：我填好了。 #line:05407e0
-<<SetAvatar CharacterAvatar mian>>
+<<SetAvatar CharacterAvatarL mian>>
+<<SetAvatar CharacterAvatarR none>>
 Narrator: Mian：行， 给我吧。 #line:09fc4cf
 Narrator: Mian：你坐在这里，把这个戴在头上。 #line:0293914
-<<SetAvatar CharacterAvatar gin>>
+<<SetAvatar CharacterAvatarR gin>>
+<<SetAvatar CharacterAvatarL none>>
 Narrator: Gin：好了。 #line:0bf44e4
-<<SetAvatar CharacterAvatar mian>>
+<<SetAvatar CharacterAvatarL mian>>
+<<SetAvatar CharacterAvatarR none>>
 Narrator: Mian：一开始可能有点不习惯，不过不会太久。体验时间是2小时，祝你好运哦。 #line:0d7fd32
 Narrator: Mian：放松，正常呼吸。 #line:015e976
 <<Load SceneLoader TrialDream>>
