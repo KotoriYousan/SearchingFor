@@ -25,11 +25,11 @@ public class OpenDoor : MonoBehaviour
 
         if(bl == "true")
         {
-            gameObject.SetActive(true);
+            gameObject.transform.GetChild(0).gameObject.SetActive(true);
         }
         else if(bl == "false")
         {
-            gameObject.SetActive(false);
+            gameObject.transform.GetChild(0).gameObject.SetActive(false);
         }
         
 
