@@ -53,7 +53,7 @@ public class PlayerAni : MonoBehaviour
             UnlockPlayer();
 
             bool moving = false;
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
         {
             anim.SetBool("isWalking", true);
             anim.SetBool("isWalkingBack", false);
@@ -78,7 +78,7 @@ public class PlayerAni : MonoBehaviour
                     anim.SetBool("isRunningLeft", false);
                 }
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             anim.SetBool("isWalkingRight", true);
             anim.SetBool("isWalking", false);
@@ -104,7 +104,7 @@ public class PlayerAni : MonoBehaviour
                 }
 
             }
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             anim.SetBool("isWalkingLeft", true);
             anim.SetBool("isWalking", false);
@@ -130,7 +130,7 @@ public class PlayerAni : MonoBehaviour
                 }
 
             }
-        else if (Input.GetKey(KeyCode.S))
+        else if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
         {
             anim.SetBool("isWalkingBack", true);
             anim.SetBool("isWalking", false);

@@ -3,6 +3,7 @@ tags:
 colorID: 0
 position: 305,200
 ---
+<<PlayMusic VNMusicPlayer 3>>
 <<wait 1>>
 <<SetAvatar CharacterAvatar gin>>
 Narrator: Gin：感觉真好。 #line:06da243
@@ -27,7 +28,8 @@ Narrator: Gin：我要买正式版。 #line:025e78a
 Narrator: Mian：好的，已为您购入正式版，下次进入就可以开始了。老同学友情价八折哦。 #line:0bc6e19
 Narrator: Mian：今天还要再试试吗？不用的话可以先去宿舍休息了。 #line:038a8fb
 <<SetAvatar CharacterAvatar gin>>
-Narrator: Gin：再试试吧，正文才刚刚开始呢。 #line:077261f
+Narrator: Gin：再试试吧，我才刚写了开头呢。 #line:077261f
 <<SetAvatar CharacterAvatar none>>
-Narrator: The prototype ends here #line:05a00d6
+<<wait 2>>
+<<Load SceneLoader 3d-sample-scene>>
 ===

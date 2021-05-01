@@ -6,26 +6,45 @@ position: 695,200
 <<wait 1>>
 <<PlayMusic VNMusicPlayer 1>>
 <<PlaySound VNAudioPlayer ad1>>
+<<Show ad1>>
 Narrator: 梦，是人在睡眠时产生的想像中的影像、声音、思考或感觉。 #line:0e66de0
 <<PlaySound VNAudioPlayer ad2>>
+<<Hide ad1>>
+<<Show ad2.1>>
 Narrator: 主要发生在快速动眼睡眠期间。 #line:0b39c1c
 <<PlaySound VNAudioPlayer ad3>>
+<<Hide ad2.1>>
+<<Show ad2.2>>
 Narrator: 少数的梦会被记得。 #line:0bf6524
+<<Hide ad2.2>>
+<<Show ad3>>
 <<PlaySound VNAudioPlayer ad4>>
+<<wait 0.8>>
+<<Hide ad3>>
+<<Show ad4>>
 Narrator: 但梦不受人控制。 #line:05c0473
 <<PlaySound VNAudioPlayer ad5>>
+<<Hide ad4>>
+<<Show ad5>>
 Narrator: 有时候，梦会让人产生创造力，或者给予人灵感。 #line:0a3346d
 <<PlaySound VNAudioPlayer ad6>>
 Narrator: 每个人都会做梦。 #line:06e34db
 <<PlaySound VNAudioPlayer ad7>>
+<<Hide ad5>>
+<<Show ad6>>
 Narrator: 如果能掌控自己的梦境，你会想做什么样的梦？ #line:094253d
 <<Show OneirosLogo>>
 <<PlaySound VNAudioPlayer ad8>>
+<<Hide ad6>>
+<<Show ad7>>
 Narrator: Oneiros，让梦境为我所用。 #line:034fe98
 <<Hide OneirosLogo>>
+<<Hide ad7>>
 <<Show OfficeBG>>
 <<SetAvatar CharacterAvatarR gin>>
 <<SetAvatar CharacterAvatarL none>>
+<<Hide blackslice>>
+<<Hide blackslice2>>
 <<PlayMusic VNMusicPlayer 3>>
 Narrator: Gin：我填好了。 #line:05407e0
 <<SetAvatar CharacterAvatarL mian>>
