@@ -30,16 +30,16 @@ Narrator: Mian：今天还要再试试吗？不用的话可以先去宿舍整理
 <<SetAvatar CharacterAvatar gin>>
 Narrator: Gin：再试试吧，我才刚写了开头呢。 #line:077261f
 <<SetAvatar CharacterAvatar mian>>
-Narrator: Mian：好吧。左上角是时钟，研究所5点就下班了，所以到时间记得退出哦。
-Narrator: Mian：所里给你配的宿舍需要我带你参观吗？
+Narrator: Mian：好吧。左上角是时钟，研究所5点就下班了，所以到时间记得退出哦。 #line:0c39f8a
+Narrator: Mian：所里给你配的宿舍需要我带你参观吗？ #line:0c37aed
 <<SetAvatar CharacterAvatar gin>>
-Narrator: Gin：不用了，你忙吧，我结束之后自己过去就好。
+Narrator: Gin：不用了，你忙吧，我结束之后自己过去就好。 #line:07c2ef3
 <<SetAvatar CharacterAvatar mian>>
-Narrator: Mian：好吧。我还想给你展示宿舍的床有多软呢。
+Narrator: Mian：好吧。我还想给你展示宿舍的床有多软呢。 #line:0485fc4
 <<SetAvatar CharacterAvatar gin>>
-Narrator: Gin：你是在……骚扰我吗？
+Narrator: Gin：你是在……骚扰我吗？ #line:04d5454
 <<SetAvatar CharacterAvatar mian>>
-Narrator: Mian：好吧，不是，别生气。你写吧，我不打扰了。
+Narrator: Mian：好吧，不是，别生气。你写吧，我不打扰了。 #line:05dfb05
 <<SetAvatar CharacterAvatar none>>
 <<wait 2>>
 <<Load SceneLoader 3d-sample-scene>>

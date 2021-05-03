@@ -8,12 +8,22 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: zh-CN
   stringIDs:
   - Flashback-flashbackPC-0
-  - Flashback-flashback1-1
+  - Flashback-flashbackSleep-1
+  - Flashback-flashbackSleep-2
+  - Flashback-flashback1-3
+  - Flashback-flashback1-4
+  - Flashback-flashback1-5
+  - Flashback-flashback1-6
+  - Flashback-flashback1-7
+  - Flashback-flashback1-8
+  - Flashback-flashback1-9
+  - Flashback-flashback1-10
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: 7316d5dfe0c804b45b2bebd017f1ab61,
+    type: 3}
   localizations: []
