@@ -14,12 +14,12 @@ Narrator: Gin：呃…… #line:0f40de5
 Narrator: Mian：因为你喜欢鸽子吗？……没事，这不重要。你在……调查女大学生祝娣的失踪问题。 #line:06dd014
 Narrator: Mian：设定正常……你从招待所醒来……嗯……一切正常（写字声音）。 #line:074ade7
 Narrator: Mian：基本操作你都知道吧？WASD走动，Shift跑，鼠标右键调整视角。看到可疑的物品可以灵活使用鼠标左键。 #line:00c2c51
-Narrator: Mian：右边的面板会记录你大脑的思维活动。
-Narrator: Mian：在Oneiros里你可以从第三人称视角看到自己的思维，很神奇吧？
-Narrator: Mian：就好像你跟你的大脑是两个不同的人一样呢。
-Narrator: Mian：用我们的设备来写作的人，每次出机器都只要直接把思维上传到文学城就可以了。
-Narrator: Mian：也不用考虑版权问题，毕竟你大脑里的东西就是你自己的。很实用吧？
-Narrator: Mian：琴？……琴琴？……好吧，应该已经“分离”了。
+Narrator: Mian：右边的面板会记录你大脑的思维活动。 #line:0d49584
+Narrator: Mian：在Oneiros里你可以从第三人称视角看到自己的思维，很神奇吧？ #line:00bc5d1
+Narrator: Mian：就好像你跟你的大脑是两个不同的人一样呢。 #line:0e142d5
+Narrator: Mian：用我们的设备来写作的人，每次出机器都只要直接把思维上传到文学城就可以了。 #line:0297c3e
+Narrator: Mian：也不用考虑版权问题，毕竟你大脑里的东西就是你自己的。很实用吧？ #line:08f9715
+Narrator: Mian：琴？……琴琴？……好吧，应该已经“分离”了。 #line:0b968ef
 Narrator: Mian：那我就不打扰你啦。 #line:0515642
 <<SetAvatar CharacterAvatar none>>
 <<PlayMusic VNMusicPlayer 6>>

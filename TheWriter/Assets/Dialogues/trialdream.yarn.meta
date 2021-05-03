@@ -17,6 +17,12 @@ ScriptedImporter:
   - line:06dd014
   - line:074ade7
   - line:00c2c51
+  - line:0d49584
+  - line:00bc5d1
+  - line:0e142d5
+  - line:0297c3e
+  - line:08f9715
+  - line:0b968ef
   - line:0515642
   - line:07168d1
   - line:0bddd27
@@ -37,4 +43,4 @@ ScriptedImporter:
     type: 3}
   localizations:
   - languageName: en
-    text: {fileID: 4900000, guid: 087e0beaed8db4641a2dbbaa92399617, type: 3}
+    text: {fileID: 4900000, guid: 3f4c1918676947445af45c9589b0acf8, type: 3}
