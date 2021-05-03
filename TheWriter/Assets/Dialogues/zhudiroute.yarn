@@ -100,4 +100,6 @@ position: 895,340
 Novel: 门边挂着一串钥匙，顾谷谷摘下来一看，钥匙上贴着写有“2-304”的胶布。顾谷谷自己上大学的时候也用过几乎一模一样的破铜钥匙，因此一眼就看出上面的数字是祝娣在学校宿舍的门牌号。
 Novel: “暂时借用一下，”顾谷谷这样念叨着，把钥匙勾进自己的大衣口袋里。
 <<SetActive KeysHolder false>>
+<<SetActive dormDoor true>>
+<<SetActive dormDoor-locked false>>
 ===
