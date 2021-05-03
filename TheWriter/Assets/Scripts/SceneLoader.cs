@@ -29,6 +29,9 @@ public class SceneLoader : MonoBehaviour
     public GameObject timeManager;
 
 
+    public GameObject bedroomScene;
+
+
     [YarnCommand("Load")]
     public void LoadSceneOnName(string scenename)
     {
@@ -83,8 +86,16 @@ public class SceneLoader : MonoBehaviour
         //do sth
         oneirosScene.SetActive(true);
         desktopScene.SetActive(false);
+        bedroomScene.SetActive(false);
 
         timeManager.GetComponent<TimeManager>().ResetTimer();
+    }
+
+    public void LoadBedroom()
+    {
+        desktopScene.SetActive(false);
+        bedroomScene.SetActive(true);
+        LoadFlashback();
     }
 
     public void NextChapter()
@@ -153,6 +164,19 @@ public class SceneLoader : MonoBehaviour
             PrevCptButton.gameObject.SetActive(true);
         }
 
+    }
+
+
+    private void LoadFlashback()
+    {
+        DialogueRunner runner = FindObjectOfType<DialogueRunner>();
+        int cpt = GameManager.instance.GetChapterCount();
+        switch (cpt)
+        {
+            case 1:
+                runner.StartDialogue("flashback1");
+                break;
+        }
     }
 
 }

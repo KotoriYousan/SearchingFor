@@ -24,6 +24,24 @@ public class VNCommands : MonoBehaviour
         //gameObject.SetActive(false);
     }
 
+    [YarnCommand("ShowImg")]
+    public void ShowImg()
+    {
+        Debug.Log("yarn command run");
+
+        gameObject.GetComponent<Image>().enabled = true;
+        //gameObject.SetActive(false);
+    }
+
+    [YarnCommand("HideImg")]
+    public void HideImg()
+    {
+        Debug.Log("yarn command run");
+
+        gameObject.GetComponent<Image>().enabled = false;
+        //gameObject.SetActive(false);
+    }
+
 
     public Sprite gin, mian;
     [YarnCommand("SetAvatar")]

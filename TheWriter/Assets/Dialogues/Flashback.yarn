@@ -1,0 +1,31 @@
+title: flashbackPC
+tags: 
+colorID: 0
+position: 695,000
+---
+Narrator: 反正这种小说再怎么看也不会有人留言的，今天还是先休息吧。
+===
+title: flashbackSleep
+tags: 
+colorID: 0
+position: 695,005
+---
+<<ShowImg black>>
+Narrator: 反正这种小说再怎么看也不会有人留言的，今天还是先休息吧。
+<<HideImg black>>
+===
+title: flashback1
+tags: 
+colorID: 0
+position: 895,010
+---
+<<wait 1>>
+Narrator: 高中的时候，Gin也试图写过推理小说，但和“她”不一样，Gin的小说都以烂尾告终。
+Narrator: 如果是她，会怎么写这个故事？
+Narrator: 这个失踪的情节，是不是她以前也写过，结局是什么来着？
+Narrator: Gin还记得下课时间在阳台和她聊天，她把一本练习本交给自己，笔记本厚厚的，夹满了纸片。
+Narrator: 上课铃响了，她说着“要好好保管啊”，回到了自己的班级。
+Narrator: 虽然也曾打电话给老妈试图把那本练习本找回来，却只得到了“这种东西怎么可能还在”的回复。
+Narrator: 高中的资料都被老妈送给她朋友的女儿了。那个女儿也大学毕业了，但资料一直都没有踪影。
+Narrator: 真的好想再看一眼那个故事啊。
+===
