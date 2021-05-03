@@ -8,7 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
-  baseLanguageID: 
+  baseLanguageID: zh-CN
   stringIDs:
   - roommateroute-dormdoor-0
   - roommateroute-dormdoor-1
@@ -18,8 +18,15 @@ ScriptedImporter:
   - roommateroute-dormdoor-5
   - roommateroute-dormdoor-6
   - roommateroute-dormdoor-7
+  - roommateroute-niuchunlan-meet-8
+  - roommateroute-niuchunlan-meet-9
+  - roommateroute-niuchunlan-meet-10
+  - roommateroute-niuchunlan-meet-11
+  - roommateroute-niuchunlan-meet-12
+  - roommateroute-niuchunlan-meet-13
   compilationStatus: 1
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
-  baseLanguage: {instanceID: 0}
+  baseLanguage: {fileID: 7128917941130120860, guid: a99c5c40ce7dd6047b9c2418f311624e,
+    type: 3}
   localizations: []
