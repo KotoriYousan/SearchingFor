@@ -66,7 +66,7 @@ public class PlayerAni : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
-                    Debug.Log("running");
+                    //Debug.Log("running");
 
                     anim.SetBool("isWalking", false);
                     anim.SetBool("isWalkingBack", false);
@@ -91,7 +91,7 @@ public class PlayerAni : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
-                    Debug.Log("running");
+                    //Debug.Log("running");
 
                     anim.SetBool("isWalking", false);
                     anim.SetBool("isWalkingBack", false);
@@ -117,7 +117,7 @@ public class PlayerAni : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
-                    Debug.Log("running");
+                    //Debug.Log("running");
 
                     anim.SetBool("isWalking", false);
                     anim.SetBool("isWalkingBack", false);
@@ -143,7 +143,7 @@ public class PlayerAni : MonoBehaviour
 
                 if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
                 {
-                    Debug.Log("running");
+                    //Debug.Log("running");
 
                     anim.SetBool("isWalking", false);
                     anim.SetBool("isWalkingBack", false);

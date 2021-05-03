@@ -41,25 +41,7 @@ public class ShowIconTrigger : MonoBehaviour
     {
         
     }
-
-    /*
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("item triggered");
-            IconCanvas.SetActive(true);
-        }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-        {
-            Debug.Log("item exit triggered");
-            IconCanvas.SetActive(false);
-        }
-    }*/
+    
 
     public void InvestigateItem()
     {
@@ -79,7 +61,7 @@ public class ShowIconTrigger : MonoBehaviour
             return;
         }
 
-        Debug.Log("mouse over obj" + gameObject.name);
+        //Debug.Log("mouse over obj" + gameObject.name);
         gameObject.GetComponent<Outline>().enabled = true;
 
         if (triggered == false)
@@ -96,7 +78,7 @@ public class ShowIconTrigger : MonoBehaviour
 
     private void OnMouseExit()
     {
-        Debug.Log("mouse no longer over obj");
+        //Debug.Log("mouse no longer over obj");
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
         gameObject.GetComponent<Outline>().enabled = false;
     }
