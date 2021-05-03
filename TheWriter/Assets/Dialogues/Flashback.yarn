@@ -3,7 +3,7 @@ tags:
 colorID: 0
 position: 695,000
 ---
-Narrator: 反正这种小说再怎么看也不会有人留言的，今天还是先休息吧。
+Narrator: 反正这种小说再怎么看也不会有人留言的，今天还是先休息吧。 #line:0d5d8e1
 ===
 title: flashbackSleep
 tags: 
@@ -11,9 +11,12 @@ colorID: 0
 position: 695,005
 ---
 <<ShowImg black>>
-Narrator: 反正这种小说再怎么看也不会有人留言的，今天还是先休息吧。
+Narrator: 清空了思绪，Gin闭上眼睛，不一会儿就进入了睡眠。 #line:0caa918
+Narrator: ... #line:038a792
+Narrator: ... #line:0a31dac
 <<HideImg black>>
-Narrator: 去Oneiros了
+Narrator: 再睁开眼已经是早晨了。 #line:0633cda
+Narrator: Gin从床上翻身起来，整理过后，再次接入了Oneiros。 #line:00a4dae
 <<LoadOneiros SceneLoader>>
 ===
 title: flashback1
@@ -22,12 +25,54 @@ colorID: 0
 position: 895,010
 ---
 <<wait 1>>
-Narrator: 高中的时候，Gin也试图写过推理小说，但和“她”不一样，Gin的小说都以烂尾告终。
-Narrator: 如果是她，会怎么写这个故事？
-Narrator: 这个失踪的情节，是不是她以前也写过，结局是什么来着？
-Narrator: Gin还记得下课时间在阳台和她聊天，她把一本练习本交给自己，笔记本厚厚的，夹满了纸片。
-Narrator: 上课铃响了，她说着“要好好保管啊”，回到了自己的班级。
-Narrator: 虽然也曾打电话给老妈试图把那本练习本找回来，却只得到了“这种东西怎么可能还在”的回复。
-Narrator: 高中的资料都被老妈送给她朋友的女儿了。那个女儿也大学毕业了，但资料一直都没有踪影。
-Narrator: 真的好想再看一眼那个故事啊。
+Narrator: 高中的时候，Gin也试图写过推理小说，但和“她”不一样，Gin的小说都以烂尾告终。 #line:0e3ce72
+Narrator: 如果是她，会怎么写这个故事？ #line:09f6562
+Narrator: 这个失踪的情节，是不是她以前也写过，结局是什么来着？ #line:0032efc
+Narrator: Gin还记得下课时间在阳台和她聊天，她把一本练习本交给自己，笔记本厚厚的，夹满了纸片。 #line:02e4611
+Narrator: 上课铃响了，她说着“要好好保管啊”，回到了自己的班级。 #line:0968ce6
+Narrator: 虽然也曾打电话给老妈试图把那本练习本找回来，却只得到了“这种东西怎么可能还在”的回复。 #line:0ff5d58
+Narrator: 高中的资料都被老妈送给她朋友的女儿了。那个女儿也大学毕业了，但资料一直都没有踪影。 #line:08eb618
+Narrator: 真的好想再看一眼那个故事啊。 #line:0fd5c4e
+===
+title: flashback2
+tags: 
+colorID: 0
+position: 895,020
+---
+<<wait 1>>
+Narrator: 夕阳是Gin最热爱也是最感伤的时刻，她喜欢注视天空在被阳光照耀的最后时刻发出的颜色，从蓝色到黄色到橘色再到红色，这是太阳落下前，一天之中最精彩的部分。 #line:0170043
+Narrator: 阳祎经常放学后和Gin 一起徘徊在小巷里。 #line:0223bfc
+Narrator: “我以后想写侦探小说。” #line:00210c6
+Narrator: “得了吧，好好考大学吧，别这些想有的没的。” #line:016b871
+Narrator: 两个女孩咯吱笑了起来，推推搡搡。Gin从未深入思考过这段随机的谈话，但回想起来，阳祎的人生很早就有了规划和目标。她成功了，Gin也想这样。 #line:0d3171c
+===
+title: flashback3
+tags: 
+colorID: 0
+position: 895,030
+---
+<<wait 1>>
+Narrator: 梳着三七分发型的男人自顾自地掏出一根烟。 #line:0b83687
+Narrator: 在打火机亮起之前，Gin已经费力地撑开了办公室的窗户。 #line:0a61e59
+Narrator: “这段故事写得很好，但你还需要改一改。” #line:0c8031d
+Narrator: Gin拿回自己被删了一半的稿子，继续改。 #line:076e722
+Narrator: 终于，等到自己改了三次之后， 编辑已经不再回复她了。 #line:007a3c5
+Narrator: Gin又给编辑发去了一条短信，阳祎这时大吼大叫地出现了：“我拿了一等奖！” #line:0383e0f
+Narrator: 这才想起来，跟自己投稿差不多同时，阳祎参加了一个新锐文学比赛。 #line:0d570c7
+Narrator: 阳祎永远那么积极，对生活抱有浪漫，她没有把梦想看得太重，也没有轻易放弃。她似乎总能找到平衡。 #line:012604a
+Narrator: Gin每次失败的时候都想到阳祎。她为她感到高兴，不敢嫉妒，但总还是忍不住想，成功的为什么不能是自己。 #line:069e98f
+===
+title: flashback4
+tags: 
+colorID: 0
+position: 895,040
+---
+<<wait 1>>
+Narrator: 同样是青春期，阳祎从来不屑于分享自己的身体，她甚至是最早穿上文胸的人。不是棉布文胸，也不是少女胸罩，而是正儿八经带厚厚海绵垫和钢圈的款式。就连隔壁班的男生都想来搭讪她。 #line:036c8d3
+Narrator: Gin也小小沾了点光，那些男生总是会带着一杯奶茶托Gin转交。 #line:05ea56a
+Narrator: 因此，她总能喝到多余的奶茶。 #line:03a1db5
+Narrator: 终于有一天，阳祎和一个男生牵起了手。 #line:02542a3
+Narrator: Gin成了多余的那个人，因为阳祎已经不再需要她了。 #line:0edd3a7
+Narrator: 看到他们在一起的时候，她希望自己能够消失。 #line:00f11c8
+Narrator: 然而后来，消失的却是阳祎。 #line:0c6f0b2
 ===

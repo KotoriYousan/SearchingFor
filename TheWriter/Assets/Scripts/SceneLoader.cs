@@ -177,6 +177,15 @@ public class SceneLoader : MonoBehaviour
             case 1:
                 runner.StartDialogue("flashback1");
                 break;
+            case 2:
+                runner.StartDialogue("flashback2");
+                break;
+            case 3:
+                runner.StartDialogue("flashback3");
+                break;
+            case 4:
+                runner.StartDialogue("flashback4");
+                break;
         }
     }
 
