@@ -13,6 +13,8 @@ position: 695,005
 <<ShowImg black>>
 Narrator: 反正这种小说再怎么看也不会有人留言的，今天还是先休息吧。
 <<HideImg black>>
+Narrator: 去Oneiros了
+<<LoadOneiros SceneLoader>>
 ===
 title: flashback1
 tags: 

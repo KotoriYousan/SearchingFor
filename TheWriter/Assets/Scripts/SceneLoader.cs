@@ -80,20 +80,21 @@ public class SceneLoader : MonoBehaviour
         desktopScene.SetActive(true);
     }
 
+    [YarnCommand("LoadOneiros")]
     public void LoadOneiros()
     {
         GameManager.instance.ChapterCountPlus1();
         //do sth
+        bedroomScene.SetActive(false);
         oneirosScene.SetActive(true);
         desktopScene.SetActive(false);
-        bedroomScene.SetActive(false);
+        
 
         timeManager.GetComponent<TimeManager>().ResetTimer();
     }
 
     public void LoadBedroom()
     {
-        desktopScene.SetActive(false);
         bedroomScene.SetActive(true);
         LoadFlashback();
     }

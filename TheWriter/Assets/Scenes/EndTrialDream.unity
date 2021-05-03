@@ -1102,7 +1102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &649210026
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1509,6 +1509,7 @@ MonoBehaviour:
   NextCptButton: {fileID: 0}
   PrevCptButton: {fileID: 0}
   timeManager: {fileID: 0}
+  bedroomScene: {fileID: 0}
 --- !u!4 &937731145
 Transform:
   m_ObjectHideFlags: 0
@@ -1579,7 +1580,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 038257128647bdb4dae2db466a4315ad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1636516afd160b8458c64257d4f09728, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2089,7 +2090,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1003983887
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2415,12 +2416,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   yarnScripts:
-  - {fileID: 2480198943629176163, guid: 7316d5dfe0c804b45b2bebd017f1ab61, type: 3}
+  - {fileID: 2480198943629176163, guid: ff36beffafd37a94e83406463f0dd787, type: 3}
   textLanguage: en
   variableStorage: {fileID: 1155026780}
   dialogueUI: {fileID: 1155026781}
   startNode: trialend
-  startAutomatically: 0
+  startAutomatically: 1
   onNodeStart:
     m_PersistentCalls:
       m_Calls:
@@ -3248,7 +3249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1585735581
 RectTransform:
   m_ObjectHideFlags: 0
