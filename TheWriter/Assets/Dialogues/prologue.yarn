@@ -19,10 +19,10 @@ Narrator: 少数的梦会被记得。 #line:0bf6524
 <<Hide ad2.2>>
 <<Show ad3>>
 <<PlaySound VNAudioPlayer ad4>>
-<<wait 0.8>>
+<<wait 1>>
 <<Hide ad3>>
 <<Show ad4>>
-Narrator: 但梦不受人控制。 #line:05c0473
+Narrator: 但，梦不受人控制。 #line:05c0473
 <<PlaySound VNAudioPlayer ad5>>
 <<Hide ad4>>
 <<Show ad5>>
