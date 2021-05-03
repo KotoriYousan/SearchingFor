@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: a99c5c40ce7dd6047b9c2418f311624e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: 
+  stringIDs:
+  - roommateroute-dormdoor-0
+  - roommateroute-dormdoor-1
+  - roommateroute-dormdoor-2
+  - roommateroute-dormdoor-3
+  - roommateroute-dormdoor-4
+  - roommateroute-dormdoor-5
+  - roommateroute-dormdoor-6
+  - roommateroute-dormdoor-7
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {instanceID: 0}
+  localizations: []
