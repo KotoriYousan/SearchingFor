@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Yarn.Unity;
 
 public class TimeManager : MonoBehaviour
 {
@@ -63,8 +64,13 @@ public class TimeManager : MonoBehaviour
 
     void CheckIfEndtime()
     {
-        if(gameHours > 17)
+        if(gameHours >= 17)
         {
+            if (FindObjectOfType<DialogueRunner>().IsDialogueRunning == true)
+            {
+                return;
+            }
+
             SceneLoader.GetComponent<SceneLoader>().LoadDesktop();
             //SceneManager.LoadScene("2d-room-scene");
         }
