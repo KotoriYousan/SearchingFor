@@ -31,13 +31,24 @@ ScriptedImporter:
   - line:018b875
   - line:0315791
   - line:008de02
+  - line:0fa172d
+  - line:034b707
+  - line:0c17d14
+  - line:06308f2
+  - line:090630d
+  - line:0bf5a17
+  - line:0def998
+  - line:03d84ba
+  - line:00a6a44
+  - line:01cfbf7
+  - line:0ef743b
+  - line:05ff241
+  - line:0957359
   compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: b24cc4b126ff9bd4791e438415a2ad51,
     type: 3}
   localizations:
-  - languageName: zh-Hans
-    text: {fileID: 4900000, guid: d78c0ac2132d3e54ab1cab63417a48f1, type: 3}
   - languageName: en
-    text: {fileID: 4900000, guid: f064abd1152662d418b5f50698585d66, type: 3}
+    text: {fileID: 4900000, guid: a7e68dc1861ea1344a7fcde2d17cfff9, type: 3}

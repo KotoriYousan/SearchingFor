@@ -68,7 +68,8 @@ public class ConversationHandler : MonoBehaviour
         }
         else
         {
-            speakBubble.text = line;
+            //speakBubble.text = line;
+            latestNoteText.GetComponent<Text>().text = line;
         }
     }
 
@@ -79,9 +80,10 @@ public class ConversationHandler : MonoBehaviour
         originalText = notebook.text;
 
         currentLine = ui.GetLineInfo();
-        Debug.Log(currentLine.speaker);
+        //Debug.Log(currentLine.speaker);
+        Debug.Log(currentLine.text);
 
-        if(currentLine.speaker == "Novel")
+        if (currentLine.speaker == "Novel")
         {
             latestNoteText = Instantiate(noteTextPrefab);
             //latestNoteText.transform.parent = notebookTexts.transform;
@@ -96,9 +98,16 @@ public class ConversationHandler : MonoBehaviour
         }
         else
         {
+            /*
             DialogueBubble.SetActive(true);
             
-            SetDialoguePosition(GameObject.Find(currentLine.speaker));
+            SetDialoguePosition(GameObject.Find(currentLine.speaker));*/
+            latestNoteText = Instantiate(noteTextPrefab);
+            //latestNoteText.transform.parent = notebookTexts.transform;
+            latestNoteText.transform.SetParent(notebookTexts.transform);
+            latestNoteText.transform.localScale = new Vector3(1, 1, 1);
+
+            originalText = notebook.text;
         }
 
     }
@@ -120,7 +129,8 @@ public class ConversationHandler : MonoBehaviour
         }
         else
         {
-            DialogueBubble.SetActive(false);
+            //DialogueBubble.SetActive(false);
+
         }
 
     }

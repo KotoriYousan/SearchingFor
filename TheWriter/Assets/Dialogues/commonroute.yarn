@@ -4,6 +4,7 @@ colorID: 0
 position: 895,010
 ---
 <<PlayMusic VNMusicPlayer 6>>
+<<wait 1>>
 Novel: 今天该去第一现场调查了。 #line:0bb03a7
 Novel: 要从失踪女孩的家里找出线索。 #line:0caa598
 Novel: 安阳在电话里是怎么说的？ #line:03c473a

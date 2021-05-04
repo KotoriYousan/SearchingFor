@@ -38,7 +38,7 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene(scenename);
     }
 
-
+    [YarnCommand("LoadDesktop")]
     public void LoadDesktop()
     {
         curPos = GameManager.instance.GetChapterCount();
@@ -171,22 +171,32 @@ public class SceneLoader : MonoBehaviour
     private void LoadFlashback()
     {
         DialogueRunner runner = FindObjectOfType<DialogueRunner>();
-        int cpt = GameManager.instance.GetChapterCount();
-        switch (cpt)
+
+        if(GameManager.instance.GetPlayerNeighborLevel() == 3)
         {
-            case 1:
-                runner.StartDialogue("flashback1");
-                break;
-            case 2:
-                runner.StartDialogue("flashback2");
-                break;
-            case 3:
-                runner.StartDialogue("flashback3");
-                break;
-            case 4:
-                runner.StartDialogue("flashback4");
-                break;
+            runner.StartDialogue("flashbackEnd");
         }
+        else
+        {
+            int cpt = GameManager.instance.GetChapterCount();
+            switch (cpt)
+            {
+                case 1:
+                    runner.StartDialogue("flashback1");
+                    break;
+                case 2:
+                    runner.StartDialogue("flashback2");
+                    break;
+                case 3:
+                    runner.StartDialogue("flashback3");
+                    break;
+                case 4:
+                    runner.StartDialogue("flashback4");
+                    break;
+            }
+        }
+
+        
     }
 
 }

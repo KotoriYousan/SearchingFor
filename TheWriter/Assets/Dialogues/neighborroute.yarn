@@ -22,6 +22,7 @@ colorID: 0
 position: 895,220
 ---
 Novel: 洗衣机上是奥妙亮白去渍洗衣粉，五元钱可以买一大包，住在这里的人应该非常节省吧。洗衣粉没有封口，上面一层结了壳，可以看出没有得到很好的保护。 #line:041309c
+<<AddNeighborObjs GameManager>>
 ===
 title: parts
 tags: 
@@ -29,6 +30,7 @@ colorID: 0
 position: 895,230
 ---
 Novel: 阳台地上有许多用来组装电脑的零件，显卡、主板、CPU、风扇，一应俱全，还有几个未完成的主机，螺丝和螺丝刀就放在旁边，主人是刚刚才离开了吗？ #line:0e62867
+<<AddNeighborObjs GameManager>>
 ===
 title: hanger
 tags: 
@@ -36,6 +38,7 @@ colorID: 0
 position: 895,240
 ---
 Novel: 晾衣架上挂着内裤和袜子，从样式看应该是男式内裤，有好几只袜子的脚后跟和拇指处都破洞了。 #line:00c57c0
+<<AddNeighborObjs GameManager>>
 ===
 title: freezer
 tags: 
@@ -46,6 +49,7 @@ Novel: 客厅空荡荡的，墙面斑驳，还有被水浸过的痕迹，这很�
 Novel: 这个家说不上来的奇怪，客厅里甚至连一套桌椅都没有，倒是有一个巨大的冰柜。 #line:0970d82
 Novel: 冰柜嗡嗡的响着，这座城市的夏天出了名的又长又热，如果不想吃到坏掉的食物，的确需要一个功率强大的电器来制冷储存。 #line:0a92310
 Novel: 但是这么节省的主人为什么舍得用这种冰柜，耗电量很大，会用上不少电费。 #line:0abf5af
+<<AddNeighborObjs GameManager>>
 ===
 title: kitchencabinet
 tags: 
@@ -53,6 +57,7 @@ colorID: 0
 position: 895,260
 ---
 Novel: 厨房一样空空的，顾谷谷打开所有的柜子，都带着一股潮湿的气息，一共只有两三个碗和一双筷子。筷子一双都不多，看起来住在这的是一个非常独居的人。 #line:077f6a3
+<<AddNeighborObjs GameManager>>
 ===
 title: neighborbedroom
 tags: 
@@ -67,6 +72,7 @@ colorID: 0
 position: 895,280
 ---
 Novel: 台式机非常引人注意，主机带着炫亮的RGB灯光，曲面显示器甚至超过了桌子的长度，桌子本身也不大，而且看起来摇摇欲坠的样子。 #line:09875ed
+<<AddNeighborObjs GameManager>>
 ===
 title: keyboards
 tags: 
@@ -75,6 +81,7 @@ position: 895,290
 ---
 Novel: 在床边是一堆键盘，一个垒着一个，看起来是这个人最舍得花钱的地方了。有许多非常经典的型号，也有一些客制化款式，发烧友无疑。 #line:011a2ef
 Novel: 有一把键盘缺了一个按键，看来发烧友也有大意的时候，又或者，这把键盘上发生了什么？ #line:0637b58
+<<AddNeighborObjs GameManager>>
 ===
 title: pillow
 tags: 
@@ -84,6 +91,7 @@ position: 895,300
 Novel: 枕头下有一张工卡，姓名张哲，男性，年龄29，锦龙互娱工作室，为什么他的工卡在这，没有去上班吗？要不要现在就离开？ #line:0457e65
 Novel: 或者继续调查下去。 #line:018b875
 Novel: 一本男性杂志，封面上一个有古铜色皮肤的肌肉型男在灿烂阳光下微笑，露出洁白的牙齿，发际和胡须一丝不苟。再仔细看，其实是一本情色杂志，不得不说有些照片拍的还是很好的，从浪漫到大尺度，各种风格都照顾到了。其中有几页纸皱皱的，呃，恶心，放回去吧。 #line:0315791
+<<AddNeighborObjs GameManager>>
 ===
 title: pingpongpaddle
 tags: 
@@ -91,4 +99,40 @@ colorID: 0
 position: 895,310
 ---
 Novel: 一个乒乓球拍在床底，双喜牌，有点凹凸不平，这和祝娣家的球拍是一对？越来越不对劲了。 #line:008de02
+<<AddNeighborObjs GameManager>>
+===
+title: zhangzhe-meet
+tags: 
+colorID: 0
+position: 895,320
+---
+Novel: 天色渐暗，城中村逐渐热闹起来，上班族都回家了，一个瘦小又不起眼的男人在祝娣隔壁的房间门口停住了。 #line:0fa172d
+Novel: 看见男人开锁，顾谷谷突然想到，祝娣的门锁和他很不一样，祝娣家是一个花了很多钱的数字门锁，门把手还很新，数字键盘油油的，有使用过的痕迹。 #line:034b707
+Novel: 顾谷谷看清了这个人的样貌，不修边幅，瘦弱，两根火柴腿，上唇的胡须稀稀疏疏的，牛仔裤配格子衬衫的打扮，带黑色全框眼镜，像一个很容易被欺负的老实人。 #line:0c17d14
+Novel: 顾谷谷自我介绍是祝娣从老家来的发小。男人将信将疑的样子，又或许不是将信将疑，而是对所谓邻居的发小没多少兴趣。但是为免打草惊蛇，更不能说自己是侦探了。 #line:06308f2
+Novel: “祝娣三天前不见了。”顾谷谷说道。 #line:090630d
+Novel: “我今天还准备约她打球呢，她去哪了。” #line:0bf5a17
+Novel: “我也没辙，她是真不见了，不回消息也不回家，平常上班的地方也不去，真的急，好好的一个大姑娘，就丢在城里没影了。” #line:0def998
+Novel: “你想进来坐坐吗，大热天的，在我家等吧，我开空调，凉快。” #line:03d84ba
+<<AddNeighborLevel GameManager>>
+===
+title: neighbordoorlocked
+tags: 
+colorID: 0
+position: 895,330
+---
+Novel: 顾谷谷敲了敲祝娣邻居的门，这扇门和祝娣家的一样，白绿色的漆皮一块块翘起，露出深红色的铁锈。 #line:00a6a44
+Novel: 等了一会儿，门后依然沉默着。现在刚好是上班时间，也许祝娣的邻居跟这栋公寓的大部分居民一样是学生或上班族——工作时间蹲在家里会没钱吃饭的。如果下班时间再回来的话，也许能有机会跟这位邻居聊聊。 #line:01cfbf7
+Novel: 但是聊了又有什么用？说句实话，祝娣的失踪谁也不在乎，也许她的邻居对此根本就一无所知，聊了也白聊。 #line:0ef743b
+===
+title: neighborend
+tags: 
+colorID: 0
+position: 895,330
+---
+<<wait 1>>
+Novel: 张哲进屋，游戏打斗 #line:05ff241
+Novel: 张哲倒在地上，头部渗出一些些血迹，这些顾谷谷都能够处理。她一步步走向冰柜…… #line:0957359
+<<LoadDesktop SceneLoader>>
+<<AddNeighborLevel GameManager>>
 ===

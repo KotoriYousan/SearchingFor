@@ -76,3 +76,14 @@ Narrator: Gin成了多余的那个人，因为阳祎已经不再需要她了。 
 Narrator: 看到他们在一起的时候，她希望自己能够消失。 #line:00f11c8
 Narrator: 然而后来，消失的却是阳祎。 #line:0c6f0b2
 ===
+title: flashbackEnd
+tags: 
+colorID: 0
+position: 895,040
+---
+<<wait 1>>
+Narrator: Mian：ok，这位女士，你说的都对，我断电源了，你先回家躺着吧，我们明天再谈。 #line:0921177
+Narrator: Gin：（喃喃自语）明天？明天还来得及吗？ #line:06b0e8f
+<<wait 2>>
+<<Load SceneLoader Credits>>
+===
