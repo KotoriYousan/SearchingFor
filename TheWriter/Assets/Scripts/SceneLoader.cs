@@ -176,6 +176,10 @@ public class SceneLoader : MonoBehaviour
         {
             runner.StartDialogue("flashbackEnd");
         }
+        else if(GameManager.instance.GetPlayerRoommateLevel() == 3)
+        {
+            runner.StartDialogue("flashbackEnd");
+        }
         else
         {
             int cpt = GameManager.instance.GetChapterCount();

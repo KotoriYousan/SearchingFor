@@ -81,6 +81,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    [YarnCommand("AddRoommateLevel")]
     public void RoommateLevelPlus1()
     {
         playerRoommateLevel++;
