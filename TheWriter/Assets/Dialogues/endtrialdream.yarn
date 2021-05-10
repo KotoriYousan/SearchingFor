@@ -42,5 +42,6 @@ Narrator: Gin：你是在……骚扰我吗？ #line:04d5454
 Narrator: Mian：好吧，不是，别生气。你写吧，我不打扰了。 #line:05dfb05
 <<SetAvatar CharacterAvatar none>>
 <<wait 2>>
+<<PlayMusic VNMusicPlayer 6>>
 <<Load SceneLoader 3d-sample-scene>>
 ===

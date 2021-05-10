@@ -82,8 +82,17 @@ colorID: 0
 position: 895,040
 ---
 <<wait 1>>
-Narrator: Mian：ok，这位女士，你说的都对，我断电源了，你先回家躺着吧，我们明天再谈。 #line:0921177
-Narrator: Gin：（喃喃自语）明天？明天还来得及吗？ #line:06b0e8f
+Narrator: Gin：故事结束了。 #line:061d231
+Narrator: Mian：Oneiros显示你还有四分之三的空间可以探索，等机器更新吧。 #line:013cac0
+Narrator: Gin：我还想再回去。顾谷谷都能得到答案，我却不能。 #line:0a6b42a
+Narrator: Mian：你想要什么的答案？ #line:0bb2ea3
+Narrator: Gin：阳祎……我想知道阳祎去了哪里。你还记得的吧？我们的高中同学，我最好的朋友。 #line:091ff8b
+Narrator: Mian：我从来没有听过这个名字。 #line:0bb9dd2
+Narrator: Gin：我知道她失踪这件事给我们都带来了很大的伤害，所以你才选择主动清除关于她的记忆吗？  #line:006cfe9
+Narrator: Mian：金琴同志，首先，我不认识这个人，其次，Oneiros能做到的虽然很多，但不包括清除记忆，不然我们已经得诺贝尔奖了。最后，你可能已经分不清梦境和现实了，今天就先休息吧。 #line:0d77989
+Narrator: Gin：我很清楚这里是现实，逃避现实的人是你才对吧。 #line:0db82c3
+Narrator: Mian：Ok，这位女士，你说的都对，我断电源了，你先回家躺着吧，我们明天再谈。 #line:0921177
+Narrator: Gin：明天？可是明天还来得及吗…… #line:06b0e8f
 <<wait 2>>
 <<Load SceneLoader Credits>>
 ===
