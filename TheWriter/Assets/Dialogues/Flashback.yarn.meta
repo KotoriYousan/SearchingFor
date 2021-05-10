@@ -10,20 +10,57 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: zh-CN
   stringIDs:
-  - Flashback-flashbackPC-0
-  - Flashback-flashbackSleep-1
-  - Flashback-flashbackSleep-2
-  - Flashback-flashback1-3
-  - Flashback-flashback1-4
-  - Flashback-flashback1-5
-  - Flashback-flashback1-6
-  - Flashback-flashback1-7
-  - Flashback-flashback1-8
-  - Flashback-flashback1-9
-  - Flashback-flashback1-10
-  compilationStatus: 1
+  - line:0d5d8e1
+  - line:0caa918
+  - line:038a792
+  - line:0a31dac
+  - line:0633cda
+  - line:00a4dae
+  - line:0e3ce72
+  - line:09f6562
+  - line:0032efc
+  - line:02e4611
+  - line:0968ce6
+  - line:0ff5d58
+  - line:08eb618
+  - line:0fd5c4e
+  - line:0170043
+  - line:0223bfc
+  - line:00210c6
+  - line:016b871
+  - line:0d3171c
+  - line:0b83687
+  - line:0a61e59
+  - line:0c8031d
+  - line:076e722
+  - line:007a3c5
+  - line:0383e0f
+  - line:0d570c7
+  - line:012604a
+  - line:069e98f
+  - line:036c8d3
+  - line:05ea56a
+  - line:03a1db5
+  - line:02542a3
+  - line:0edd3a7
+  - line:00f11c8
+  - line:0c6f0b2
+  - line:061d231
+  - line:013cac0
+  - line:0a6b42a
+  - line:0bb2ea3
+  - line:091ff8b
+  - line:0bb9dd2
+  - line:006cfe9
+  - line:0d77989
+  - line:0db82c3
+  - line:0921177
+  - line:06b0e8f
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: 7316d5dfe0c804b45b2bebd017f1ab61,
     type: 3}
-  localizations: []
+  localizations:
+  - languageName: en
+    text: {fileID: 4900000, guid: 416f1dee7c653e1498dd1b4e6b3ea973, type: 3}
