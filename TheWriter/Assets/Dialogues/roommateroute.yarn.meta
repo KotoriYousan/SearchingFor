@@ -10,23 +10,74 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: zh-CN
   stringIDs:
-  - roommateroute-dormdoor-0
-  - roommateroute-dormdoor-1
-  - roommateroute-dormdoor-2
-  - roommateroute-dormdoor-3
-  - roommateroute-dormdoor-4
-  - roommateroute-dormdoor-5
-  - roommateroute-dormdoor-6
-  - roommateroute-dormdoor-7
-  - roommateroute-niuchunlan-meet-8
-  - roommateroute-niuchunlan-meet-9
-  - roommateroute-niuchunlan-meet-10
-  - roommateroute-niuchunlan-meet-11
-  - roommateroute-niuchunlan-meet-12
-  - roommateroute-niuchunlan-meet-13
-  compilationStatus: 1
+  - line:0eba448
+  - line:0f243aa
+  - line:06f88b7
+  - line:0c7ddee
+  - line:0086ba1
+  - line:000d31f
+  - line:0bab5a2
+  - line:012714e
+  - line:04f5069
+  - line:064c4a7
+  - line:002d5d8
+  - line:050d969
+  - line:0bcdbd9
+  - line:00caf23
+  - line:0599d40
+  - line:0dc61e9
+  - line:0d16b49
+  - line:0ded696
+  - line:0897a51
+  - line:0c275a0
+  - line:08f1e0f
+  - line:07f3fd3
+  - line:02a178b
+  - line:0fbbdb7
+  - line:06eb3b2
+  - line:0443012
+  - line:09bc7e6
+  - line:0074972
+  - line:09de4d7
+  - line:0bf4f6e
+  - line:0ec32f5
+  - line:048d899
+  - line:0219755
+  - line:050152c
+  - line:0757f5d
+  - line:0e3938c
+  - line:007aa2c
+  - line:0ec780b
+  - line:096b696
+  - line:0d48875
+  - line:028c486
+  - line:0bacc33
+  - line:0f0f574
+  - line:0753d79
+  - line:0cf5d31
+  - line:09bbde0
+  - line:0770616
+  - line:094677a
+  - line:0d85324
+  - line:0c5ffdb
+  - line:05ec109
+  - line:0364709
+  - line:021779e
+  - line:0e7140d
+  - line:081a6dc
+  - line:06a7639
+  - line:07ae383
+  - line:008527b
+  - line:0de1623
+  - line:0b3bd8b
+  - line:0458602
+  - line:0abcbae
+  - line:0a5ee21
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: a99c5c40ce7dd6047b9c2418f311624e,
     type: 3}
-  localizations: []
+  localizations:
+  - languageName: en
+    text: {fileID: 4900000, guid: dc6f94a4598440441b71543a0d2ee01b, type: 3}
