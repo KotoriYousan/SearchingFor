@@ -52,6 +52,7 @@ ScriptedImporter:
   - line:05ff241
   - line:02c6085
   - line:0957359
+  - line:01fc104
   compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
@@ -59,4 +60,4 @@ ScriptedImporter:
     type: 3}
   localizations:
   - languageName: en
-    text: {fileID: 4900000, guid: ca44905e9b9b3fc4fb1f6fa9273b9232, type: 3}
+    text: {fileID: 4900000, guid: a7e68dc1861ea1344a7fcde2d17cfff9, type: 3}

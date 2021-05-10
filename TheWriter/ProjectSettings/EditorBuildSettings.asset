@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: f86945b2efa1d724cbcd482dad5f8072
+  - enabled: 1
     path: Assets/Scenes/Prologue.unity
     guid: aaa7eca56f5b35949a27dd3495257f4c
   - enabled: 1
@@ -17,12 +20,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/3d-sample-scene.unity
     guid: feec427ef6608dc4b92e8e6f1005933f
-  - enabled: 1
-    path: Assets/Scenes/2d-room-scene.unity
-    guid: fbb6a711b323c1a4d9d5b1cd0209557f
-  - enabled: 1
-    path: Assets/Scenes/testscenedontdelete.unity
-    guid: b64d7c8f92dc620458650b20c5fe0948
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 96c7279ed4a733a48b84b29f924e2f88

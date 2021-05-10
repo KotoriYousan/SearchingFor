@@ -132,6 +132,7 @@ position: 895,330
 Novel: 就在顾谷谷调查的时候，门响了，是张哲。张哲并不强壮，顾谷谷没有多想，上前与之扭打在一起。 #line:05ff241
 Novel: …… #line:02c6085
 Novel: 张哲倒在地上，头部渗出一些些血迹，这些顾谷谷都能够处理。她一步步走向冰柜…… #line:0957359
+Novel: THE END. #line:01fc104
 <<LoadDesktop SceneLoader>>
 <<SetActive blackScreen false>>
 <<AddNeighborLevel GameManager>>

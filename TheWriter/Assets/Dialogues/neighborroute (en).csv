@@ -1,35 +1,44 @@
 id,text,file,node,lineNumber
-line:07b339a,"Novel: Gu knocks on the neighbor's door. Like Zhudi's, this door is discolored. Under the olive painting,  is the rusting of the iron.",neighborroute,neighbordoor,6
-line:0eeb18f,Novel: No one answered the door.,neighborroute,neighbordoor,7
-line:097d079,"Novel: Gu sweeps her eyes over the empty hallway to check the security camera. Good to go. She inserts her toolkits into the lock. The door is stuck, Gu has to put her weight on and slightly push it. ",neighborroute,neighbordoor,8
-line:0240dea,Novel: This apartment's layout looks exactly like Zhudi's. The security window grilles guard the whole balcony.,neighborroute,neighborroom,16
-line:0e2976c,"Novel: Empty and quiet, the locked windows don't allow any fresh air to sneak into the room.",neighborroute,neighborroom,17
-line:041309c,Novel: There's a bucket of cheap powder laundry detergent on the washing machine. The lid is missing. The powder clumps together without protection.,neighborroute,laundrypowder,24
-line:0e62867,"Novel: A lot of computer parts lay on the floor of the balcony. GPU, CPU, motherboard, fan, etc. There are few unfinished cases, alongside screwdrivers and screws. Did the one who lives here just left?",neighborroute,parts,32
-line:00c57c0,Novel: Hanging on the clothesline is men's underwear and sock. Some pairs of socks have holes in them.,neighborroute,hanger,40
-line:09d6bf6,"Novel: The living room is empty. There are cracks on the wall. It seems water is leaking inside it. But the weird thing is the buckling and ripping part is near the corner between wall and floor, not the ceiling.",neighborroute,freezer,48
-line:0970d82,Novel: Gu feeling strange but can't tell why. The living room is so empty that even a desk or chair exists. It makes the refrigerator stand out.,neighborroute,freezer,49
-line:0a92310,Novel: The fridge is buzzing. It's a city that is well known for its endless summer. Everyone needs a fridge in case food gets spoiled.,neighborroute,freezer,50
-line:0abf5af,Novel: It will increase an amazing electric bill.,neighborroute,freezer,51
-line:077f6a3,"Novel: The kitchen is empty as well. Gu opens the cupboard, smells wet. Three bowls and one pair of chopsticks are everything in it. Not even keep one more chopstick as a backup? The one who lives here must be alone.",neighborroute,kitchencabinet,59
-line:07f4219,"Novel: Hmm, at last, a room looks like someone lives here. More things to discover.",neighborroute,neighborbedroom,67
-line:09875ed,"Novel: Gu looks at the computer. A computer case with RGB light, sure. The monitor even longer than that desk can hold.",neighborroute,neighborpc,74
-line:011a2ef,"Novel: A dozen of keyboards pile up one by one. All are classic types. This person puts a lot of money on his gear. ",neighborroute,keyboards,82
-line:0637b58,"Novel: But one of them loses a keycap. Such die-hard fan will allow this to happen? Or, something happened with this keyboard?",neighborroute,keyboards,83
-line:0457e65,"Novel: An employee ID card under the pillow. Zhe Zhang, Male, 28, Senior Software Engineer, DragonG Interactive Entertainment Studio. Why he left his job card at home? Is he not at work? ""Should I leave right now?"" Gu struggles.",neighborroute,pillow,91
-line:018b875,Novel: Or I should keep investigating.,neighborroute,pillow,92
-line:0315791,"Novel: And a magazine, on whose cover a cute youthful man in his early twenties is smiling at Gu.",neighborroute,pillow,93
-line:008de02,Novel: A ShuangXi ping pong paddle. It has the same pattern as the one in Zhudi's apartment.,neighborroute,pingpongpaddle,101
-line:0fa172d,Novel: ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ğ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½å¶¼ï¿½Ø¼ï¿½ï¿½Ë£ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ğ¡ï¿½Ö²ï¿½ï¿½ï¿½ï¿½Ûµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×£æ·¸ï¿½ÚµÄ·ï¿½ï¿½ï¿½ï¿½Å¿ï¿½Í£×¡ï¿½Ë¡ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,109
-line:034b707,Novel: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹È¹ï¿½Í»È»ï¿½ëµ½ï¿½ï¿½×£æ·µï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü²ï¿½Ò»ï¿½ï¿½ï¿½ï¿½×£æ·¼ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ËºÜ¶ï¿½Ç®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å°ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½Ö¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÍµÄ£ï¿½ï¿½ï¿½Ê¹ï¿½Ã¹ï¿½ï¿½ÄºÛ¼ï¿½ï¿½ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,110
-line:0c17d14,Novel: ï¿½Ë¹È¹È¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½ï¿½Ş±ß·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È£ï¿½ï¿½Ï´ï¿½ï¿½Äºï¿½ï¿½ï¿½Ï¡Ï¡ï¿½ï¿½ï¿½ï¿½Ä£ï¿½Å£ï¿½Ğ¿ï¿½ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½Ä´ï¿½ç£¬ï¿½ï¿½ï¿½ï¿½É«È«ï¿½ï¿½ï¿½Û¾ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×±ï¿½ï¿½Û¸ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½Ë¡ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,111
-line:06308f2,Novel: ï¿½Ë¹È¹ï¿½ï¿½ï¿½ï¿½Ò½ï¿½ï¿½ï¿½ï¿½ï¿½×£æ·´ï¿½ï¿½Ï¼ï¿½ï¿½Ä·ï¿½Ğ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ë½ï¿½ï¿½Å½ï¿½ï¿½Éµï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½Å½ï¿½ï¿½É£ï¿½ï¿½ï¿½ï¿½Ç¶ï¿½ï¿½ï¿½Î½ï¿½Ú¾ÓµÄ·ï¿½Ğ¡Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½İ¾ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½Ì½ï¿½Ë¡ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,112
-line:090630d,Novel: ï¿½ï¿½×£ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½ï¿½Ë¹È¹ï¿½Ëµï¿½ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,113
-line:0bf5a17,Novel: ï¿½ï¿½ï¿½Ò½ï¿½ï¿½ì»¹×¼ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,114
-line:0def998,Novel: ï¿½ï¿½ï¿½ï¿½Ò²Ã»ï¿½Ş£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½æ²»ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢Ò²ï¿½ï¿½ï¿½Ø¼Ò£ï¿½Æ½ï¿½ï¿½ï¿½Ï°ï¿½ÄµØ·ï¿½Ò²ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ÃºÃµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï£¬ï¿½Í¶ï¿½ï¿½Ú³ï¿½ï¿½ï¿½Ã»Ó°ï¿½Ë¡ï¿½ï¿½ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,115
-line:03d84ba,Novel: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ğ£¬´ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½Ò¼ÒµÈ°É£ï¿½ï¿½Ò¿ï¿½ï¿½Õµï¿½ï¿½ì¡£ï¿½ï¿½ (((NEW LINE))),neighborroute,zhangzhe-meet,116
-line:00a6a44,Novel: ï¿½Ë¹È¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×£ï¿½ï¿½Ú¾Óµï¿½ï¿½Å£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åºï¿½×£æ·¼Òµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½Æ¤Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¶ï¿½ï¿½ï¿½ï¿½ï¿½É«ï¿½ï¿½ï¿½ï¿½ï¿½â¡£,neighborroute,neighbordoorlocked,124
-line:01cfbf7,Novel: ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Åºï¿½ï¿½ï¿½È»ï¿½ï¿½Ä¬ï¿½Å¡ï¿½ï¿½ï¿½ï¿½Ú¸Õºï¿½ï¿½ï¿½ï¿½Ï°ï¿½Ê±ï¿½ä£¬Ò²ï¿½ï¿½×£æ·µï¿½ï¿½Ú¾Ó¸ï¿½ï¿½â¶°ï¿½ï¿½Ô¢ï¿½Ä´ó²¿·Ö¾ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½å¡ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½ï¿½Ã»Ç®ï¿½Ô·ï¿½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ï¿½Â°ï¿½Ê±ï¿½ï¿½ï¿½Ù»ï¿½ï¿½Ä»ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½Ğ»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ú¾ï¿½ï¿½ï¿½ï¿½Ä¡ï¿½,neighborroute,neighbordoorlocked,125
-line:0ef743b,Novel: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´ï¿½Ã£ï¿½Ëµï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½×£æ·µï¿½Ê§ï¿½ï¿½Ë­Ò²ï¿½ï¿½ï¿½Úºï¿½Ò²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¾Ó¶Ô´Ë¸ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Öªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½ï¿½Ä¡ï¿½,neighborroute,neighbordoorlocked,126
-line:05ff241,Novel: å¼ å“²è¿›å±‹ï¼Œæ¸¸æˆæ‰“æ–— (((NEW LINE))),neighborroute,neighborend,133
-line:0957359,Novel: å¼ å“²å€’åœ¨åœ°ä¸Šï¼Œå¤´éƒ¨æ¸—å‡ºä¸€äº›äº›è¡€è¿¹ï¼Œè¿™äº›é¡¾è°·è°·éƒ½èƒ½å¤Ÿå¤„ç†ã€‚å¥¹ä¸€æ­¥æ­¥èµ°å‘å†°æŸœâ€¦â€¦ (((NEW LINE))),neighborroute,neighborend,134
+line:07b339a,"Novel: Gu Gugu knocks on the neighbor's door. Like Zhudi's, this door is discolored. Under the olive painting is the rusting of iron.",neighborroute,neighbordoor,6
+line:0eeb18f,Novel: Ã»ÓĞÈËÓ¦ÃÅ¡£,neighborroute,neighbordoor,7
+line:097d079,Novel: ¹Ë¹È¹È¿´ÁËÒ»ÑÛ×ßÀÈ£¬Ã»ÓĞ¼à¿ØÒ²Ã»ÓĞÈË¡£¹Ë¹È¹ÈÄÃ³ö¹¤¾ß°ü£¬²àÉíÌùÔÚÃÅÉÏ£¬²»ÎªÈË×¢ÒâµØ¿ªÁËËø¡£ÇáÇáÒ»×²£¬ÃÅ¿ªÁË£¬¼¸Æ¬ÆáÆ¤±»²äÏÂÀ´£¬¹Ë¹È¹ÈĞ¡ĞÄÒíÒíµØ°ÑËüÃÇÊÕ¼¯ÆğÀ´¡£,neighborroute,neighbordoor,8
+line:03fe4b2,Novel: ×÷³öÁËÕâÖÖºÍĞ¡ÍµÒ»ÑùµÄĞĞÎª£¬ÒÑ¾­ÎŞ·¨»ØÍ·ÁË¡£Ò»¶¨Òª×¥½ôÊ±¼ä°ÑÄÜµ÷²éµÄµØ·½¶¼µ÷²éÒ»±é£¬ÕÒ³öÕÅÕÜÊÇĞ×ÊÖµÄ¾ö¶¨ĞÔÖ¤¾İ¡£,neighborroute,neighbordoor,10
+line:0d1eed3,Novel: Õâ¸ö¼Ò²»½ö¿Õ£¬Ò²·Ç³£°²¾²¡£·¿ĞÍºÍ×£æ·¼ÒÒ»Ñù£¬Ò»½øÎİ¾ÍÊÇ¿ÍÌüºÍ³ø·¿£¬ÓÒÊÖ²àÊÇÎÔÊÒ£¬ÍâÃæÊÇÕ­Õ­µÄÑôÌ¨£¬¸Õ¹»·ÅÏÂÒ»¸öÏ´ÒÂ»ú¡£ÑôÌ¨ÍâµÄÌúÖÆÀ¸¸Ë½«ÑôÌ¨·âµÃËÀËÀµÄ¡£,neighborroute,neighbordoor,11
+line:041309c,Novel: Ï´ÒÂ»úÉÏÊÇ°ÂÃîÁÁ°×È¥×ÕÏ´ÒÂ·Û£¬ÎåÔªÇ®¿ÉÒÔÂòÒ»´ó°ü£¬×¡ÔÚÕâÀïµÄÈËÓ¦¸Ã·Ç³£½ÚÊ¡°É¡£Ï´ÒÂ·ÛÃ»ÓĞ·â¿Ú£¬ÉÏÃæÒ»²ã½áÁË¿Ç£¬¿ÉÒÔ¿´³öÃ»ÓĞµÃµ½ºÜºÃµÄ±£»¤¡£,neighborroute,laundrypowder,18
+line:0e62867,Novel: ÑôÌ¨µØÉÏÓĞĞí¶àÓÃÀ´×é×°µçÄÔµÄÁã¼ş£¬ÏÔ¿¨¡¢Ö÷°å¡¢CPU¡¢·çÉÈ£¬Ò»Ó¦¾ãÈ«£¬»¹ÓĞ¼¸¸öÎ´Íê³ÉµÄÖ÷»ú£¬ÂİË¿ºÍÂİË¿µ¶¾Í·ÅÔÚÅÔ±ß£¬¿´ÆğÀ´ÏñÊÇ»¹Ã»ÓĞÀ´µÃ¼°ÊÕÊ°ÆğÀ´¡£,neighborroute,parts,26
+line:00c57c0,Novel: ÁÀÒÂ¼ÜÉÏ¹Ò×ÅÄÚ¿ãºÍÍà×Ó£¬´ÓÑùÊ½¿´Ó¦¸ÃÊÇÄĞÊ½ÄÚ¿ã£¬ÓĞºÃ¼¸Ö»Íà×ÓµÄ½Åºó¸úºÍÄ´Ö¸´¦¶¼ÆÆ¶´ÁË¡£,neighborroute,hanger,34
+line:09d6bf6,Novel: ¿ÍÌü¿Õµ´µ´µÄ£¬Ç½Ãæ°ß²µ£¬»¹ÓĞ±»Ë®½ş¹ıµÄºÛ¼££¬ÕâºÜÆæ¹Ö£¬Ò»°ã¶¼ÊÇ´ÓÌì»¨°åÏòÏÂ½şË®£¬ÕâÒ»´¦È´ÊÇ¿¿½ü´É×©µØÃæµÄ½ÇÂä¡£,neighborroute,freezer,42
+line:0970d82,Novel: ¿ÍÌüÀïÉõÖÁÁ¬Ò»Ì××ÀÒÎ¶¼Ã»ÓĞ£¬µ¹ÊÇÓĞÒ»¸ö¾Ş´óµÄ±ù¹ñ¡£,neighborroute,freezer,43
+line:0a92310,Novel: ±ù¹ñÎËÎËµØÏì×Å¡£Õâ×ù³ÇÊĞµÄÏÄÌì³öÁËÃûµÄÓÖ³¤ÓÖÈÈ£¬Èç¹û²»Ïë³Ôµ½»µµôµÄÊ³Îï£¬µÄÈ·ĞèÒªÒ»¸ö¹¦ÂÊÇ¿´óµÄµçÆ÷À´ÖÆÀä´¢´æ¡£,neighborroute,freezer,44
+line:0abf5af,Novel: ÕâÖÖ±ù¹ñºÄµçÁ¿ºÜ´ó£¬Ã¿Ìì¿ª×Å»áÓÃµô²»ÉÙµç·Ñ¡£ÕÅÕÜÕâÃ´½ÚÊ¡£¬ÉáµÃÔÚ±ù¹ñÉÏ»¨ÕâÃ´¶àÇ®¸¶µç·ÑÒ²ÓĞĞ©Ææ¹Ö¡£,neighborroute,freezer,45
+line:077f6a3,Novel: ³ø·¿¿Õ¿ÕµÄ£¬¹Ë¹È¹È´ò¿ªËùÓĞµÄ¹ñ×Ó£¬¶¼´ø×ÅÒ»¹É³±ÊªµÄÆøÏ¢£¬Ò»¹²Ö»ÓĞÁ½Èı¸öÍëºÍÒ»Ë«¿ê×Ó¡£¿ê×ÓÒ»Ë«¶¼²»¶à£¬¿´ÆğÀ´×¡ÔÚÕâµÄÊÇÒ»¸ö·Ç³£¶À¾ÓµÄÈË¡£,neighborroute,kitchencabinet,53
+line:09875ed,Novel: ÎÔÊÒÀïµÄ¶«Î÷·á¸»¶àÁË£¬¿´À´ÕâÊÇÖ÷ÈËÎ¨Ò»ÓĞÉú»îºÛ¼£µÄµØ·½¡£Ì¨Ê½»ú·Ç³£ÒıÈË×¢Ä¿£¬Ö÷»ú´ø×ÅìÅÁÁµÄRGBµÆ¹â¡£×À×Ó±¾ÉíÒ²²»´ó£¬¶øÇÒ¿´ÆğÀ´Ò¡Ò¡Óû×¹µÄÑù×Ó¡£,neighborroute,neighborpc,61
+line:011a2ef,Novel: ´²±ß¶Ñ×ÅÒ»¶Ñ¼üÅÌ£¬Ò»¸öÀİ×ÅÒ»¸ö£¬ÓĞĞí¶à·Ç³£¾­µäµÄĞÍºÅ£¬Ò²ÓĞÒ»Ğ©¿ÍÖÆ»¯¿îÊ½¡£¿´ÆğÀ´¼üÅÌÊÇÕâ¸öÈË×îÉáµÃ»¨Ç®µÄµØ·½ÁË¡£,neighborroute,keyboards,69
+line:0637b58,Novel: ÓĞÒ»°Ñ¼üÅÌÈ±ÁËÒ»¸ö°´¼ü£¬»òĞí·¢ÉÕÓÑÒ²ÓĞ´óÒâµÄÊ±ºò¡£,neighborroute,keyboards,70
+line:0315791,Novel: ¹Ë¹È¹È´ÓÕíÍ·ÏÂÃş³öÒ»±¾ÄĞĞÔÔÓÖ¾£¬·âÃæÉÏÒ»¸ö¹ÅÍ­É«Æ¤·ôµÄ¼¡ÈâĞÍÄĞÔÚ²ÓÀÃÑô¹âÏÂÎ¢Ğ¦£¬ÑÀ³İ½à°×£¬·¢¼ÊºÍºúĞëÒ»Ë¿²»¹¶¡£ÓĞĞ©ÕÕÆ¬ÅÄµÃÍ¦²»´í£¬´ÓÀËÂşµ½´ó³ß¶È£¬¸÷ÖÖ·ç¸ñ¶¼ÕÕ¹Ëµ½ÁË¡£ÆäÖĞÓĞ¼¸Ò³Ö½ÖåÖåğ¤ğ¤µÄ¡£,neighborroute,pillow,78
+line:01834d3,Novel: »á°Ñ»ÆÉ«ÔÓÖ¾·ÅÔÚÕâÖÖµØ·½µÄÈË£¬Ó¦¸ÃÃ»Ê²Ã´¾­³£´®ÃÅµÄÅóÓÑ°É¡£,neighborroute,pillow,79
+line:008de02,Novel: ´²µ×Â¶³öÊ²Ã´ºìÑÕÉ«µÄ¶«Î÷£¬¹Ë¹È¹ÈÍäÑüÏÂÈ¥ÁÃÆğ±»½Ç£¬¹Û²ìµ½ÊÇÒ»Ö»Ë«Ï²ÅÆÆ¹ÅÒÇòÅÄ£¬±íÃæÓĞµã°¼Í¹²»Æ½¡£ÕâÖÖÇòÅÄÒ»°ãÊÇ°´¶Ô³öÊÛ£¬È»¶ø²»ÂÛÔÚÄÄÀï¶¼ÕÒ²»µ½µÚ¶şÖ»¡£,neighborroute,pingpongpaddle,87
+line:0fa172d,Novel: ÌìÉ«½¥°µ£¬³ÇÖĞ´åÖğ½¥ÈÈÄÖÆğÀ´£¬ÉÏ°à×å¶¼»Ø¼ÒÁË£¬Ò»¸öÊİĞ¡ÓÖ²»ÆğÑÛµÄÄĞÈËÔÚ×£æ·¸ô±ÚµÄ·¿¼äÃÅ¿ÚÍ£×¡ÁË¡£,neighborroute,zhangzhe-meet,95
+line:034b707,Novel: ¿´¼ûÄĞÈË¿ªËø£¬¹Ë¹È¹ÈÍ»È»Ïëµ½£¬×£æ·µÄÃÅËøºÍËûºÜ²»Ò»Ñù£¬×£æ·¼ÒÊÇÒ»¸ö»¨ÁËºÜ¶àÇ®µÄÊı×ÖÃÅËø£¬ÃÅ°ÑÊÖ»¹ºÜĞÂ£¬Êı×Ö¼üÅÌÓÍÓÍµÄ£¬ÓĞÊ¹ÓÃ¹ıµÄºÛ¼£¡£,neighborroute,zhangzhe-meet,96
+line:0c17d14,Novel: ¹Ë¹È¹È¿´ÇåÁËÕâ¸öÈËµÄÑùÃ²£¬²»ĞŞ±ß·ù£¬ÊİÈõ£¬Á½¸ù»ğ²ñÍÈ£¬ÉÏ´½µÄºúĞëÏ¡Ï¡ÊèÊèµÄ£¬Å£×Ğ¿ãÅä¸ñ×Ó³ÄÉÀµÄ´ò°ç£¬´øºÚÉ«È«¿òÑÛ¾µ£¬ÏñÒ»¸öºÜÈİÒ×±»ÆÛ¸ºµÄÀÏÊµÈË¡£,neighborroute,zhangzhe-meet,97
+line:06308f2,Novel: ¹Ë¹È¹È×ÔÎÒ½éÉÜÊÇ×£æ·´ÓÀÏ¼ÒÀ´µÄ·¢Ğ¡¡£ÄĞÈË½«ĞÅ½«ÒÉµÄÑù×Ó£¬ÓÖ»òĞí²»ÊÇ½«ĞÅ½«ÒÉ£¬¶øÊÇ¶ÔËùÎ½ÁÚ¾ÓµÄ·¢Ğ¡Ã»¶àÉÙĞËÈ¤¡£µ«ÊÇÎªÃâ´ò²İ¾ªÉß£¬¸ü²»ÄÜËµ×Ô¼ºÊÇÕìÌ½ÁË¡£,neighborroute,zhangzhe-meet,98
+line:090630d,Novel: ¡°×£æ·ÈıÌìÇ°²»¼ûÁË¡£¡±¹Ë¹È¹ÈËµµÀ¡£,neighborroute,zhangzhe-meet,99
+line:0bf5a17,Novel: ¡°ÎÒ½ñÌì»¹×¼±¸Ô¼Ëı´òÇòÄØ£¬ËıÈ¥ÄÄÁË¡£¡±,neighborroute,zhangzhe-meet,100
+line:0def998,Novel: ¡°ÎÒÒ²Ã»ÕŞ£¬ËıÊÇÕæ²»¼ûÁË£¬²»»ØÏûÏ¢Ò²²»»Ø¼Ò£¬Æ½³£ÉÏ°àµÄµØ·½Ò²²»È¥£¬ÕæµÄ¼±£¬ºÃºÃµÄÒ»¸ö´ó¹ÃÄï£¬¾Í¶ªÔÚ³ÇÀïÃ»Ó°ÁË¡£¡±,neighborroute,zhangzhe-meet,101
+line:03d84ba,Novel: ¡°ÄãÏë½øÀ´×ø×øÂğ£¬´óÈÈÌìµÄ£¬ÔÚÎÒ¼ÒµÈ°É£¬ÎÒ¿ª¿Õµ÷£¬Á¹¿ì¡£¡±,neighborroute,zhangzhe-meet,102
+line:06bbcdd,Novel: ÕÅÕÜ×öÁË¸öÇë½øµÄÊÖÊÆ£¬¹Ë¹È¹È×ß½øÁË·¿¼ä¡£,neighborroute,zhangzhe-meet,104
+line:05d1a7a,Novel: ¡°×£æ·ÕæµÄ²»¼ûÁËÂğ£¿¡±ÕÅÕÜ±ßÏò¿Õµ÷×ßÈ¥±ßËµ¡£,neighborroute,zhangzhe-meet,105
+line:0165dcd,Novel: ¡°ËıÃ¿¸öÔÂÕâ¸öÊ±ºò¶¼¸ø¼ÒÀï´òÇ®£¬´ÓÀ´Ã»ÓĞ¶Ï¹ı£¬ÏÖÔÚÏûÏ¢²»»Ø£¬ÈËÒ²ÕÒ²»µ½£¬ÄãËµÆæ²»Ææ¹Ö¡£¡±,neighborroute,zhangzhe-meet,106
+line:0482000,Novel: ÕÅÕÜ´ò¿ª¿Õµ÷£¬È°¹Ë¹È¹È·Å¿íĞÄ£¬Ò»Á³ÇáËÉ¡£¹Ë¹È¹È×ĞÏ¸¹Û²ìËûµÄ±íÇé£¬Ô½ÊÇÕÒ²»³öÆÆÕÀ£¬Ô½¾õµÃÎ£ÏÕ¡£¡°ÎÒÖªµÀÄêÇáÈËÓĞÊÂ²»Ô¸¸ú¼ÒÀïÈË½²£¬ÄãÊÇËıÅóÓÑ£¬ËıÓĞÃ»ÓĞ¸úÄãËµ¹ıÊ²Ã´£¿¡±ËıÎÊ¡£,neighborroute,zhangzhe-meet,107
+line:0b4f1dc,Novel: ¡°ÆäÊµÎÒºÍ×£æ·Ã»ÄãÏëµÄÄÇÃ´Êì¡£¡± ÕÅÕÜ°Ú°ÚÊÖ£¬¼ÌĞøËµµÀ¡°Ã¿ÌìÏÂ°à¶¼ºÜÍíÁË£¬ÀÛµÄ¶¼²»Ïë½²»°£¬¾ÍÊÇÅ¼¶ûÔ¼×Å´òÆ¹ÅÒÇò¡£¡±,neighborroute,zhangzhe-meet,108
+line:099b119,Novel: ¹Ë¹È¹È¿´ÁË¿´±í£¬¿ì8µãÁË£¬¡°ÄãÃÇÏÂ°à»¹ÕæÍ¦³ÙµÄ¡£¡±,neighborroute,zhangzhe-meet,109
+line:0d451dc,Novel: ¡°½ñÌìÏÂ°à»¹ËãÔçµÄÄØ¡£¡±ÕÅÕÜ»ØµÀ¡£,neighborroute,zhangzhe-meet,110
+line:08e4a5e,Novel: ¹Ë¹È¹ÈÑÊÁËÑÊ¿ÚË®£¬ËıÖÕÓÚ·¢ÏÖÁËÆÆÕÀ£¬ÕÅÕÜµÄ¹¤¿¨´ÓËıÒ»½øÀ´µÄÊ±ºò¾ÍÔÚ×À×ÓÉÏ£º¡°ÕÅÕÜ£¬ÄĞ£¬29£¬½õÁú»¥Óé¹¤×÷ÊÒ¡±¡£Ëû½ñÌì¸ù±¾Ã»ÓĞÈ¥ÉÏ°à¡£¹Ë¹È¹È±³ºó·ºÆğÒ»ÕóÁ¹Òâ¡£ËûÔÚÈö»Ñ£¡,neighborroute,zhangzhe-meet,111
+line:0b4da12,Novel: ¹Ë¹È¹ÈÏëºÃÁËÏÂÒ»²½£¬Ëı½Ó¹ı»°²ç£¬ÒÔ²»Ô¸´òÈÅĞİÏ¢ÎªÓÉ£¬Ìá³öÀë¿ª£¬ÕÅÕÜÒ²²»»Ø¾ø£¬ËÍ¹Ë¹È¹È³öÈ¥¡£,neighborroute,zhangzhe-meet,112
+line:00a6a44,Novel: ¹Ë¹È¹ÈÇÃÁËÇÃ×£æ·ÁÚ¾ÓµÄÃÅ£¬ÕâÉÈÃÅºÍ×£æ·¼ÒµÄÒ»Ñù£¬°×ÂÌÉ«µÄÆáÆ¤Ò»¿é¿éÇÌÆğ£¬Â¶³öÉîºìÉ«µÄÌúĞâ¡£,neighborroute,neighbordoorlocked,121
+line:01cfbf7,Novel: µÈÁËÒ»»á¶ù£¬ÃÅºóÒÀÈ»³ÁÄ¬×Å¡£ÏÖÔÚ¸ÕºÃÊÇÉÏ°àÊ±¼ä£¬Ò²Ğí×£æ·µÄÁÚ¾Ó¸úÕâ¶°¹«Ô¢µÄ´ó²¿·Ö¾ÓÃñÒ»ÑùÊÇÑ§Éú»òÉÏ°à×å¡ª¡ª¹¤×÷Ê±¼ä¶×ÔÚ¼ÒÀï»áÃ»Ç®³Ô·¹µÄ¡£Èç¹ûÏÂ°àÊ±¼äÔÙ»ØÀ´µÄ»°£¬Ò²ĞíÄÜÓĞ»ú»á¸úÕâÎ»ÁÚ¾ÓÁÄÁÄ¡£,neighborroute,neighbordoorlocked,122
+line:0ef743b,Novel: µ«ÊÇÁÄÁËÓÖÓĞÊ²Ã´ÓÃ£¿Ëµ¾äÊµ»°£¬×£æ·µÄÊ§×ÙË­Ò²²»ÔÚºõ£¬Ò²ĞíËıµÄÁÚ¾Ó¶Ô´Ë¸ù±¾¾ÍÒ»ÎŞËùÖª£¬ÁÄÁËÒ²°×ÁÄ¡£,neighborroute,neighbordoorlocked,123
+line:05ff241,"Novel: While Gu Gugu is investigating, the door opens, and it is Zhangzhe. He's not strong, Gu Gugu doesn't spend too much time thinking before she rushes forward and fight with him.",neighborroute,neighborend,132
+line:02c6085,Novel: ...,neighborroute,neighborend,133
+line:0957359,"Novel: Zhangzhe falls to the ground, blood oozing from his head. Gu Gugu is able to handle all these. She walks to the freezer step by step...",neighborroute,neighborend,134
+line:01fc104,Novel: THE END.,neighborroute,neighborend,135

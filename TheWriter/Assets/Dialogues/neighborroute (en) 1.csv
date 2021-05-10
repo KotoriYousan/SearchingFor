@@ -1,43 +1,44 @@
 id,text,file,node,lineNumber
-line:07b339a,"Novel: Gu knocks on the neighbor's door. Like Zhudi's, this door is discolored. Under the olive painting,  is the rusting of the iron.",neighborroute,neighbordoor,6
-line:0eeb18f,Novel: No one answered the door.,neighborroute,neighbordoor,7
+line:07b339a,"Novel: Gu Gugu knocks on the neighbor's door. Like Zhudi's, this door is discolored. Under the olive painting is the rusting of iron.",neighborroute,neighbordoor,6
+line:0eeb18f,Novel: No one answers the door.,neighborroute,neighbordoor,7
 line:097d079,"Novel: Gu sweeps her eyes over the empty hallway to check the security camera. Good to go. She inserts her toolkits into the lock. The door is stuck, Gu has to put her weight on and slightly push it. ",neighborroute,neighbordoor,8
-line:03fe4b2,Novel: 作出了这种和小偷一样的行为，已经无法回头了。一定要抓紧时间把能调查的地方都调查一遍，找出张哲是凶手的决定性证据。 (((NEW LINE))),neighborroute,neighbordoor,10
-line:0d1eed3,Novel: 这个家不仅空，也非常安静。房型和祝娣家一样，一进屋就是客厅和厨房，右手侧是卧室，外面是窄窄的阳台，刚够放下一个洗衣机。阳台外的铁制栏杆将阳台封得死死的。 (((NEW LINE))),neighborroute,neighbordoor,11
+line:03fe4b2,"Novel: Having done this theft-like behavior, there is no return. She must seize the time to investigate all the places and find out the decisive evidence that Zhangzhe is the murderer.",neighborroute,neighbordoor,10
+line:0d1eed3,"Novel: This home is not only empty but also very quiet. The living room and kitchen is right behind the front door. To the right is the bedroom. Outside is a narrow balcony, sealed tightly by the iron railing outside.",neighborroute,neighbordoor,11
 line:041309c,Novel: There's a bucket of cheap powder laundry detergent on the washing machine. The lid is missing. The powder clumps together without protection.,neighborroute,laundrypowder,18
-line:0e62867,"Novel: A lot of computer parts lay on the floor of the balcony. GPU, CPU, motherboard, fan, etc. There are few unfinished cases, alongside screwdrivers and screws. Did the one who lives here just left?",neighborroute,parts,26
+line:0e62867,"Novel: A lot of computer parts lay on the floor of the balcony. GPU, CPU, motherboard, fan, etc. There are few unfinished cases, alongside screwdrivers and screws. Seems like the owner hasn't had time to pack it up.",neighborroute,parts,26
 line:00c57c0,Novel: Hanging on the clothesline is men's underwear and sock. Some pairs of socks have holes in them.,neighborroute,hanger,34
 line:09d6bf6,"Novel: The living room is empty. There are cracks on the wall. It seems water is leaking inside it. But the weird thing is the buckling and ripping part is near the corner between wall and floor, not the ceiling.",neighborroute,freezer,42
-line:0970d82,Novel: Gu feeling strange but can't tell why. The living room is so empty that even a desk or chair exists. It makes the refrigerator stand out.,neighborroute,freezer,43
+line:0970d82,Novel: The living room is so empty that even a desk or chair exists. It makes the refrigerator stand out.,neighborroute,freezer,43
 line:0a92310,Novel: The fridge is buzzing. It's a city that is well known for its endless summer. Everyone needs a fridge in case food gets spoiled.,neighborroute,freezer,44
-line:0abf5af,Novel: It will increase an amazing electric bill.,neighborroute,freezer,45
-line:077f6a3,"Novel: The kitchen is empty as well. Gu opens the cupboard, smells wet. Three bowls and one pair of chopsticks are everything in it. Not even keep one more chopstick as a backup? The one who lives here must be alone.",neighborroute,kitchencabinet,53
-line:09875ed,"Novel: Gu looks at the computer. A computer case with RGB light, sure. The monitor even longer than that desk can hold.",neighborroute,neighborpc,61
-line:011a2ef,"Novel: A dozen of keyboards pile up one by one. All are classic types. This person puts a lot of money on his gear. ",neighborroute,keyboards,69
-line:0637b58,"Novel: But one of them loses a keycap. Such die-hard fan will allow this to happen? Or, something happened with this keyboard?",neighborroute,keyboards,70
-line:0315791,"Novel: And a magazine, on whose cover a cute youthful man in his early twenties is smiling at Gu.",neighborroute,pillow,78
-line:01834d3,Novel: 会把黄色杂志放在这种地方的人，应该没什么经常串门的朋友吧。 (((NEW LINE))),neighborroute,pillow,79
-line:008de02,Novel: A ShuangXi ping pong paddle. It has the same pattern as the one in Zhudi's apartment.,neighborroute,pingpongpaddle,87
-line:0fa172d,Novel: ��ɫ���������д�����������ϰ��嶼�ؼ��ˣ�һ����С�ֲ����۵�������ף淸�ڵķ����ſ�ͣס�ˡ� (((NEW LINE))),neighborroute,zhangzhe-meet,95
-line:034b707,Novel: �������˿������˹ȹ�ͻȻ�뵽��ף淵����������ܲ�һ����ף淼���һ���˺ܶ�Ǯ�������������Ű��ֻ����£����ּ������͵ģ���ʹ�ù��ĺۼ��� (((NEW LINE))),neighborroute,zhangzhe-meet,96
-line:0c17d14,Novel: �˹ȹȿ���������˵���ò�����ޱ߷�������������ȣ��ϴ��ĺ���ϡϡ����ģ�ţ�п�����ӳ���Ĵ�磬����ɫȫ���۾�����һ������ױ��۸�����ʵ�ˡ� (((NEW LINE))),neighborroute,zhangzhe-meet,97
-line:06308f2,Novel: �˹ȹ����ҽ�����ף淴��ϼ��ķ�С�����˽��Ž��ɵ����ӣ��ֻ����ǽ��Ž��ɣ����Ƕ���ν�ھӵķ�Сû������Ȥ������Ϊ���ݾ��ߣ�������˵�Լ�����̽�ˡ� (((NEW LINE))),neighborroute,zhangzhe-meet,98
-line:090630d,Novel: ��ף�����ǰ�����ˡ����˹ȹ�˵�� (((NEW LINE))),neighborroute,zhangzhe-meet,99
-line:0bf5a17,Novel: ���ҽ��컹׼��Լ�������أ���ȥ���ˡ��� (((NEW LINE))),neighborroute,zhangzhe-meet,100
-line:0def998,Novel: ����Ҳû�ޣ������治���ˣ�������ϢҲ���ؼң�ƽ���ϰ�ĵط�Ҳ��ȥ����ļ����úõ�һ������Ͷ��ڳ���ûӰ�ˡ��� (((NEW LINE))),neighborroute,zhangzhe-meet,101
-line:03d84ba,Novel: �������������𣬴�����ģ����ҼҵȰɣ��ҿ��յ��졣�� (((NEW LINE))),neighborroute,zhangzhe-meet,102
-line:06bbcdd,Novel: 张哲做了个请进的手势，顾谷谷走进了房间。 (((NEW LINE))),neighborroute,zhangzhe-meet,104
-line:05d1a7a,Novel: “祝娣真的不见了吗？”张哲边向空调走去边说。 (((NEW LINE))),neighborroute,zhangzhe-meet,105
-line:0165dcd,Novel: “她每个月这个时候都给家里打钱，从来没有断过，现在消息不回，人也找不到，你说奇不奇怪。” (((NEW LINE))),neighborroute,zhangzhe-meet,106
-line:0482000,Novel: 张哲打开空调，劝顾谷谷放宽心，一脸轻松。顾谷谷仔细观察他的表情，越是找不出破绽，越觉得危险。“我知道年轻人有事不愿跟家里人讲，你是她朋友，她有没有跟你说过什么？”她问。 (((NEW LINE))),neighborroute,zhangzhe-meet,107
-line:0b4f1dc,Novel: “其实我和祝娣没你想的那么熟。” 张哲摆摆手，继续说道“每天下班都很晚了，累的都不想讲话，就是偶尔约着打乒乓球。” (((NEW LINE))),neighborroute,zhangzhe-meet,108
-line:099b119,Novel: 顾谷谷看了看表，快8点了，“你们下班还真挺迟的。” (((NEW LINE))),neighborroute,zhangzhe-meet,109
-line:0d451dc,Novel: “今天下班还算早的呢。”张哲回道。 (((NEW LINE))),neighborroute,zhangzhe-meet,110
-line:08e4a5e,Novel: 顾谷谷咽了咽口水，她终于发现了破绽，张哲的工卡从她一进来的时候就在桌子上：“张哲，男，29，锦龙互娱工作室”。他今天根本没有去上班。顾谷谷背后泛起一阵凉意。他在撒谎！ (((NEW LINE))),neighborroute,zhangzhe-meet,111
-line:0b4da12,Novel: 顾谷谷想好了下一步，她接过话茬，以不愿打扰休息为由，提出离开，张哲也不回绝，送顾谷谷出去。 (((NEW LINE))),neighborroute,zhangzhe-meet,112
-line:00a6a44,Novel: �˹ȹ�������ף��ھӵ��ţ������ź�ף淼ҵ�һ��������ɫ����Ƥһ�������¶�����ɫ�����⡣,neighborroute,neighbordoorlocked,121
-line:01cfbf7,Novel: ����һ������ź���Ȼ��Ĭ�š����ڸպ����ϰ�ʱ�䣬Ҳ��ף淵��ھӸ��ⶰ��Ԣ�Ĵ󲿷־���һ����ѧ�����ϰ��塪������ʱ����ڼ����ûǮ�Է��ġ�����°�ʱ���ٻ��Ļ���Ҳ�����л������λ�ھ����ġ�,neighborroute,neighbordoorlocked,122
-line:0ef743b,Novel: ������������ʲô�ã�˵��ʵ����ף淵�ʧ��˭Ҳ���ں�Ҳ�������ھӶԴ˸�����һ����֪������Ҳ���ġ�,neighborroute,neighbordoorlocked,123
-line:05ff241,Novel: 张哲进屋，游戏打斗 (((NEW LINE))),neighborroute,neighborend,132
-line:02c6085,Novel: …… (((NEW LINE))),neighborroute,neighborend,133
-line:0957359,Novel: 张哲倒在地上，头部渗出一些些血迹，这些顾谷谷都能够处理。她一步步走向冰柜…… (((NEW LINE))),neighborroute,neighborend,134
+line:0abf5af,"Novel: It will increase an amazing electricity bill. This kind of freezer consumes a lot of electricity every day. It is strange that Zhangzhe, being so frugal, is willing to spend so much on the freezer.",neighborroute,freezer,45
+line:077f6a3,"Novel: The kitchen is empty as well. Gu opens the cupboard, smells wet. Three bowls and one pair of chopsticks are everything in it. Not even one more pair of chopsticks as a backup. The person who lives here must be quite lonely.",neighborroute,kitchencabinet,53
+line:09875ed,"Novel: It seems that the bedroom is the only place with traces of living. Gu Gugu looks at the computer. A computer case with RGB light attracts a lot of attention. The table itself is not big, and it looks shaky.",neighborroute,neighborpc,61
+line:011a2ef,"Novel: Besides the bed, a dozen of keyboards pile up one by one. All are classic types. This person puts a lot of money on his gear. ",neighborroute,keyboards,69
+line:0637b58,Novel: But one of them loses a keycap. Strange that such hardcore fan will allow this to happen.,neighborroute,keyboards,70
+line:0315791,"Novel: Gu Gugu took out a men's magazine from underneath the pillow. On its cover, a muscular man with bronze skin is smiling under the bright sunlight, his teeth so shiny, hair and beard neat and tidy. Some of the photos inside the magazine were taken very well, from romantic to erotic, all styles are contained. Several pages are crumpled and sticky.",neighborroute,pillow,78
+line:01834d3,Novel: A person that puts a pornographic magazine in such a place must have no friends visiting him.,neighborroute,pillow,79
+line:008de02,"Novel: There's something red under the bed. Gu Gugu bends down, lifts the quilt corner, and observes a Shuangxi Pingpong racket, surface uneven. This kind of racket is usually sold in pairs, but the second one is nowhere to be found.",neighborroute,pingpongpaddle,87
+line:0fa172d,"Novel: It's getting dark, the apartment gradually becomes lively as all the office workers coming home. A small and unremarkable man stops at the door of the room next to Zhudi's.",neighborroute,zhangzhe-meet,95
+line:034b707,"Novel: Seeing the man opening the lock, Gu Gugu suddenly realizes that Zhudi's door lock is very different. Zhudi's is a digital lock that costs a lot of money. The door handle is still new, but the digital keyboard is oily.",neighborroute,zhangzhe-meet,96
+line:0c17d14,"Novel: Gu Gugu observes this person carefully. He is rough, thin, with two match legs, sparse beard on the upper lip, dressed in jeans and a plaid shirt, wearing a pair of full-frame glasses. He looks just like a person who might be easily bullied.",neighborroute,zhangzhe-meet,97
+line:06308f2,"Novel: Gu Gugu introduces herself as Zhudi's old friend from her hometown. The man seems to be both believing and questioning, perhaps because he has little interest in the so-called neighbour's old friend. However, in order not to scare the suspect away, Gu Gugu cannot say that she is a detective.",neighborroute,zhangzhe-meet,98
+line:090630d,Novel: "Zhudi disappeared three days ago." Gu Gugu says.,neighborroute,zhangzhe-meet,99
+line:0bf5a17,"Novel: ""That's so bad, I was about to to ask her to play Pingpong later today. Any idea where did she go?""",neighborroute,zhangzhe-meet,100
+line:0def998,"Novel: ""I have nothing to do. She is really gone. She didn't go home or workplace, and she didn't reply to the messages. I'm really worried now. Such a girl, lost in the big city.""",neighborroute,zhangzhe-meet,101
+line:03d84ba,Novel: "Do you want to come in and chat? It's a hot day today. I'll turn on the air conditioner to cool off.",neighborroute,zhangzhe-meet,102
+line:06bbcdd,"Novel: Zhangzhe made an inviting gesture, and Gu Gugu enters the room.",neighborroute,zhangzhe-meet,104
+line:05d1a7a,"Novel: ""Is Zhudi really missing?"" Zhangzhe says, as he walks to the air conditioner.",neighborroute,zhangzhe-meet,105
+line:0165dcd,"Novel: ""She will send money home at this time every month. But this month, nothing. No messages, no phone calls, no money. Is it not strange to you?""",neighborroute,zhangzhe-meet,106
+line:0482000,"Novel: Zhangzhe turns on the air conditioner, persuades Gu Gugu to relax. Gu Gugu carefully observes his expression, the fewer flaws, the more dangerous he feels. ""I know that young people don't want to tell their family about bad things. You are her friend. Has she ever told you anything?"" she asks.",neighborroute,zhangzhe-meet,107
+line:0b4f1dc,"Novel: ""Actually, Zhu Di and I are not as close."" Zhangzhe waves his hand and continues, ""I get off work very late every day, and I don't want to talk when I'm tired. We only play Pingpong occasionally.""",neighborroute,zhangzhe-meet,108
+line:099b119,"Novel: Gu Gugu looks at her watch, It's almost 8 o'clock. ""It's really late for you to get off work.""",neighborroute,zhangzhe-meet,109
+line:0d451dc,Novel: "It's even earlier today." Zhang Zhe replies.,neighborroute,zhangzhe-meet,110
+line:08e4a5e,"Novel: Gu Gugu swallows, as she finally finds out the flaw. Zhang Zhe's work card is on the table ever since she came in: ""Zhangzhe, male, 29, Jinlong Interactive Entertainment Studio"". He didn't go to work at all today. There's a chill in Gu Gugu's back. He is lying!",neighborroute,zhangzhe-meet,111
+line:0b4da12,"Novel: Gu Gugu makes up her mind about the next move. She thanks Zhangzhe and askes to leave, saying she does not want to bother him. Zhangzhe does not refuse, and sends Gu Gugu out.",neighborroute,zhangzhe-meet,112
+line:00a6a44,"Novel: Gu Gugu knocks on Zhudi's neighbor's door. This door is the same as that of Zhudi's. The white-green patent leather was lifted up, revealing crimson rust.",neighborroute,neighbordoorlocked,121
+line:01cfbf7,"Novel: After waiting for a while, there is still nothing but silence behind the door. It's working time right now. Maybe Zhudi's neighbor is a student or office worker, just like most residents in this apartment--they won't have enough money to eat if they stay at home during working hours. If she comes back later, she might have a chance to talk to this neighbor.",neighborroute,neighbordoorlocked,122
+line:0ef743b,"Novel: But after all, will talking to the neighbor be of any use? To be honest, no one cares about Zhudi's disappearance. Maybe her neighbor doesn't know anything about it, and everything will be in vain.",neighborroute,neighbordoorlocked,123
+line:05ff241,"Novel: While Gu Gugu is investigating, the door opens, and it is Zhangzhe. He's not strong, Gu Gugu doesn't spend too much time thinking before she rushes forward and fight with him.",neighborroute,neighborend,132
+line:02c6085,Novel: ......,neighborroute,neighborend,133
+line:0957359,"Novel: Zhangzhe falls to the ground, blood oozing from his head. Gu Gugu is able to handle all these. She walks to the freezer step by step...",neighborroute,neighborend,134
+line:01fc104,Novel: THE END.,neighborroute,neighborend,135
