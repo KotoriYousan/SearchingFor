@@ -8,6 +8,9 @@ TextureImporter:
   - first:
       213: 5355548333371934436
     second: buildingsign_1
+  - first:
+      213: 8588883291844494968
+    second: buildingsign_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,7 +128,7 @@ TextureImporter:
         width: 115
         height: 115
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -146,7 +149,7 @@ TextureImporter:
         width: 117
         height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,6 +157,27 @@ TextureImporter:
       bones: []
       spriteID: 4e6c11495dab25a40800000000000000
       internalID: 5355548333371934436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingsign_2
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 335
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876cdab19d7d13770800000000000000
+      internalID: 8588883291844494968
       vertices: []
       indices: 
       edges: []

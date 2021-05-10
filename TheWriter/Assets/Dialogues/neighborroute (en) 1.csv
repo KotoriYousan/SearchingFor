@@ -1,0 +1,43 @@
+id,text,file,node,lineNumber
+line:07b339a,"Novel: Gu knocks on the neighbor's door. Like Zhudi's, this door is discolored. Under the olive painting,  is the rusting of the iron.",neighborroute,neighbordoor,6
+line:0eeb18f,Novel: No one answered the door.,neighborroute,neighbordoor,7
+line:097d079,"Novel: Gu sweeps her eyes over the empty hallway to check the security camera. Good to go. She inserts her toolkits into the lock. The door is stuck, Gu has to put her weight on and slightly push it. ",neighborroute,neighbordoor,8
+line:03fe4b2,Novel: 作出了这种和小偷一样的行为，已经无法回头了。一定要抓紧时间把能调查的地方都调查一遍，找出张哲是凶手的决定性证据。 (((NEW LINE))),neighborroute,neighbordoor,10
+line:0d1eed3,Novel: 这个家不仅空，也非常安静。房型和祝娣家一样，一进屋就是客厅和厨房，右手侧是卧室，外面是窄窄的阳台，刚够放下一个洗衣机。阳台外的铁制栏杆将阳台封得死死的。 (((NEW LINE))),neighborroute,neighbordoor,11
+line:041309c,Novel: There's a bucket of cheap powder laundry detergent on the washing machine. The lid is missing. The powder clumps together without protection.,neighborroute,laundrypowder,18
+line:0e62867,"Novel: A lot of computer parts lay on the floor of the balcony. GPU, CPU, motherboard, fan, etc. There are few unfinished cases, alongside screwdrivers and screws. Did the one who lives here just left?",neighborroute,parts,26
+line:00c57c0,Novel: Hanging on the clothesline is men's underwear and sock. Some pairs of socks have holes in them.,neighborroute,hanger,34
+line:09d6bf6,"Novel: The living room is empty. There are cracks on the wall. It seems water is leaking inside it. But the weird thing is the buckling and ripping part is near the corner between wall and floor, not the ceiling.",neighborroute,freezer,42
+line:0970d82,Novel: Gu feeling strange but can't tell why. The living room is so empty that even a desk or chair exists. It makes the refrigerator stand out.,neighborroute,freezer,43
+line:0a92310,Novel: The fridge is buzzing. It's a city that is well known for its endless summer. Everyone needs a fridge in case food gets spoiled.,neighborroute,freezer,44
+line:0abf5af,Novel: It will increase an amazing electric bill.,neighborroute,freezer,45
+line:077f6a3,"Novel: The kitchen is empty as well. Gu opens the cupboard, smells wet. Three bowls and one pair of chopsticks are everything in it. Not even keep one more chopstick as a backup? The one who lives here must be alone.",neighborroute,kitchencabinet,53
+line:09875ed,"Novel: Gu looks at the computer. A computer case with RGB light, sure. The monitor even longer than that desk can hold.",neighborroute,neighborpc,61
+line:011a2ef,"Novel: A dozen of keyboards pile up one by one. All are classic types. This person puts a lot of money on his gear. ",neighborroute,keyboards,69
+line:0637b58,"Novel: But one of them loses a keycap. Such die-hard fan will allow this to happen? Or, something happened with this keyboard?",neighborroute,keyboards,70
+line:0315791,"Novel: And a magazine, on whose cover a cute youthful man in his early twenties is smiling at Gu.",neighborroute,pillow,78
+line:01834d3,Novel: 会把黄色杂志放在这种地方的人，应该没什么经常串门的朋友吧。 (((NEW LINE))),neighborroute,pillow,79
+line:008de02,Novel: A ShuangXi ping pong paddle. It has the same pattern as the one in Zhudi's apartment.,neighborroute,pingpongpaddle,87
+line:0fa172d,Novel: ��ɫ���������д�����������ϰ��嶼�ؼ��ˣ�һ����С�ֲ����۵�������ף淸�ڵķ����ſ�ͣס�ˡ� (((NEW LINE))),neighborroute,zhangzhe-meet,95
+line:034b707,Novel: �������˿������˹ȹ�ͻȻ�뵽��ף淵����������ܲ�һ����ף淼���һ���˺ܶ�Ǯ�������������Ű��ֻ����£����ּ������͵ģ���ʹ�ù��ĺۼ��� (((NEW LINE))),neighborroute,zhangzhe-meet,96
+line:0c17d14,Novel: �˹ȹȿ���������˵���ò�����ޱ߷�������������ȣ��ϴ��ĺ���ϡϡ����ģ�ţ�п�����ӳ���Ĵ�磬����ɫȫ���۾�����һ������ױ��۸�����ʵ�ˡ� (((NEW LINE))),neighborroute,zhangzhe-meet,97
+line:06308f2,Novel: �˹ȹ����ҽ�����ף淴��ϼ��ķ�С�����˽��Ž��ɵ����ӣ��ֻ����ǽ��Ž��ɣ����Ƕ���ν�ھӵķ�Сû������Ȥ������Ϊ���ݾ��ߣ�������˵�Լ�����̽�ˡ� (((NEW LINE))),neighborroute,zhangzhe-meet,98
+line:090630d,Novel: ��ף�����ǰ�����ˡ����˹ȹ�˵�� (((NEW LINE))),neighborroute,zhangzhe-meet,99
+line:0bf5a17,Novel: ���ҽ��컹׼��Լ�������أ���ȥ���ˡ��� (((NEW LINE))),neighborroute,zhangzhe-meet,100
+line:0def998,Novel: ����Ҳû�ޣ������治���ˣ�������ϢҲ���ؼң�ƽ���ϰ�ĵط�Ҳ��ȥ����ļ����úõ�һ������Ͷ��ڳ���ûӰ�ˡ��� (((NEW LINE))),neighborroute,zhangzhe-meet,101
+line:03d84ba,Novel: �������������𣬴�����ģ����ҼҵȰɣ��ҿ��յ��졣�� (((NEW LINE))),neighborroute,zhangzhe-meet,102
+line:06bbcdd,Novel: 张哲做了个请进的手势，顾谷谷走进了房间。 (((NEW LINE))),neighborroute,zhangzhe-meet,104
+line:05d1a7a,Novel: “祝娣真的不见了吗？”张哲边向空调走去边说。 (((NEW LINE))),neighborroute,zhangzhe-meet,105
+line:0165dcd,Novel: “她每个月这个时候都给家里打钱，从来没有断过，现在消息不回，人也找不到，你说奇不奇怪。” (((NEW LINE))),neighborroute,zhangzhe-meet,106
+line:0482000,Novel: 张哲打开空调，劝顾谷谷放宽心，一脸轻松。顾谷谷仔细观察他的表情，越是找不出破绽，越觉得危险。“我知道年轻人有事不愿跟家里人讲，你是她朋友，她有没有跟你说过什么？”她问。 (((NEW LINE))),neighborroute,zhangzhe-meet,107
+line:0b4f1dc,Novel: “其实我和祝娣没你想的那么熟。” 张哲摆摆手，继续说道“每天下班都很晚了，累的都不想讲话，就是偶尔约着打乒乓球。” (((NEW LINE))),neighborroute,zhangzhe-meet,108
+line:099b119,Novel: 顾谷谷看了看表，快8点了，“你们下班还真挺迟的。” (((NEW LINE))),neighborroute,zhangzhe-meet,109
+line:0d451dc,Novel: “今天下班还算早的呢。”张哲回道。 (((NEW LINE))),neighborroute,zhangzhe-meet,110
+line:08e4a5e,Novel: 顾谷谷咽了咽口水，她终于发现了破绽，张哲的工卡从她一进来的时候就在桌子上：“张哲，男，29，锦龙互娱工作室”。他今天根本没有去上班。顾谷谷背后泛起一阵凉意。他在撒谎！ (((NEW LINE))),neighborroute,zhangzhe-meet,111
+line:0b4da12,Novel: 顾谷谷想好了下一步，她接过话茬，以不愿打扰休息为由，提出离开，张哲也不回绝，送顾谷谷出去。 (((NEW LINE))),neighborroute,zhangzhe-meet,112
+line:00a6a44,Novel: �˹ȹ�������ף��ھӵ��ţ������ź�ף淼ҵ�һ��������ɫ����Ƥһ�������¶�����ɫ�����⡣,neighborroute,neighbordoorlocked,121
+line:01cfbf7,Novel: ����һ������ź���Ȼ��Ĭ�š����ڸպ����ϰ�ʱ�䣬Ҳ��ף淵��ھӸ��ⶰ��Ԣ�Ĵ󲿷־���һ����ѧ�����ϰ��塪������ʱ����ڼ����ûǮ�Է��ġ�����°�ʱ���ٻ��Ļ���Ҳ�����л������λ�ھ����ġ�,neighborroute,neighbordoorlocked,122
+line:0ef743b,Novel: ������������ʲô�ã�˵��ʵ����ף淵�ʧ��˭Ҳ���ں�Ҳ�������ھӶԴ˸�����һ����֪������Ҳ���ġ�,neighborroute,neighbordoorlocked,123
+line:05ff241,Novel: 张哲进屋，游戏打斗 (((NEW LINE))),neighborroute,neighborend,132
+line:02c6085,Novel: …… (((NEW LINE))),neighborroute,neighborend,133
+line:0957359,Novel: 张哲倒在地上，头部渗出一些些血迹，这些顾谷谷都能够处理。她一步步走向冰柜…… (((NEW LINE))),neighborroute,neighborend,134
