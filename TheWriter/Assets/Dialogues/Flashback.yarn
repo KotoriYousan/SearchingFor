@@ -81,6 +81,7 @@ tags:
 colorID: 0
 position: 895,040
 ---
+<<PlayMusic VNMusicPlayer 3>>
 <<wait 1>>
 Narrator: Gin：故事结束了。 #line:061d231
 Narrator: Mian：Oneiros显示你还有四分之三的空间可以探索，等机器更新吧。 #line:013cac0

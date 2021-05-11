@@ -276,8 +276,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 92.36383}
-  m_SizeDelta: {x: 1700.4218, y: 348.0036}
+  m_AnchoredPosition: {x: 11.166, y: -2}
+  m_SizeDelta: {x: 3518.1538, y: 4204.3535}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &36488800
 MonoBehaviour:
@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -300,18 +300,30 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: f5c0ed19533801c4f89424158a5b6613, type: 3}
-    m_FontSize: 72
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 234
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: rollin credits..
+  m_Text: "A Game By\n\n(Alphabetical Order) Mengqi Gao, Yunci Guo, Yamiao Liu, Lu
+    Yang\n\nMusic\n\nAtaraxia by Onyx, Creative Commons License.\nhttps://soundcloud.com/onyx-beatz\u200B,
+    Support by RFM - NCM: https://youtu.be/Y71RUKQFm24\n\nModels\n\ndice by dez_z\r\ndouble-purse
+    by eeelabvisual\r\nnotebook by tinderboxh\r\ndoor by zian\r\ntide by xplorazzi\r\nping-pong-racket
+    by RED2000\r\nshort-hung by RubaQewar\r\nsock-hung by RubaQewar\r\nclothes-rack
+    by thuymai\r\niphone-5s by Eternal Realm\r\nvans-shoes-box by GraceGao\r\nsucculent
+    by Crew Froebel\r\nfaux-succulent-scan by dyarosla\r\nllama-pot by katrin.701\r\nwood-table
+    by toAflame\r\nframe-collection by Alex Pearson\r\nflowers-with-the-vase by Gajk.Mv\r\nkey-ring
+    by brendan wood\r\nkeysholder by Andro69\r\nsuper-small-pile-of-cloth by Ujjval
+    Singhal\r\nblue-garbage-bag-2 by vicente betoret ferrero\r\n6-photogrammetry-sacks-of-white-cloth
+    by vicente betoret ferrero\r\nplush-bunny by Reductio\r\npringles by Qlone\r\nbarnums-animal-crackers-scanned-w-metashape
+    by Andrew Sink\r\npica-pica-book-pile by SEED.EA\r\nmakeup-props by SAHM3D\r\nmessy-tack-board
+    by M.Reslan"
 --- !u!222 &36488801
 CanvasRenderer:
   m_ObjectHideFlags: 0
