@@ -10,21 +10,27 @@ ScriptedImporter:
   script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
   baseLanguageID: zh-CN
   stringIDs:
-  - zhudiroute-phone-0
-  - zhudiroute-shoebox-1
-  - zhudiroute-passbook-2
-  - zhudiroute-hospitalregistration-3
-  - zhudiroute-photo1-4
-  - zhudiroute-photo2-5
-  - zhudiroute-personalcare-6
-  - zhudiroute-diningtable-7
-  - zhudiroute-succulent-8
-  - zhudiroute-diary-9
-  - zhudiroute-ticket-10
-  - zhudiroute-receipt-11
-  compilationStatus: 1
+  - line:0375a09
+  - line:0d80b97
+  - line:0db0bb1
+  - line:04e5042
+  - line:04dee10
+  - line:0934138
+  - line:0e602da
+  - line:045a3dd
+  - line:01b1276
+  - line:05a44e7
+  - line:0a6eca9
+  - line:034cf61
+  - line:08fe9ad
+  - line:0fddfc1
+  - line:01ae15d
+  - line:083ee95
+  compilationStatus: 0
   isSuccesfullyCompiled: 1
   compilationErrorMessage: 
   baseLanguage: {fileID: 7128917941130120860, guid: ac0673ab2a2def54ca3914c8f6ecea3f,
     type: 3}
-  localizations: []
+  localizations:
+  - languageName: en
+    text: {fileID: 4900000, guid: 5d356d4191efce549a1aee440fe95c44, type: 3}
