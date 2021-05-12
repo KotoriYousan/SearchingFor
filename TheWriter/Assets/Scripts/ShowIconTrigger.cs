@@ -17,8 +17,8 @@ public class ShowIconTrigger : MonoBehaviour
 
     public Texture2D hovercursor;
 
-    [Header("Optional")]
-    public YarnProgram scriptToLoad;
+    //[Header("Optional")]
+    //public YarnProgram scriptToLoad;
 
     private void Awake()
     {
@@ -27,13 +27,13 @@ public class ShowIconTrigger : MonoBehaviour
     }
 
     void Start()
-    {
+    {/*
         //IconCanvas = transform.GetChild(0).gameObject;
         if (scriptToLoad != null)
         {
             dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
             dialogueRunner.Add(scriptToLoad);
-        }
+        }*/
     }
 
     // Update is called once per frame
@@ -49,6 +49,7 @@ public class ShowIconTrigger : MonoBehaviour
         {
             triggered = true;
             //DialogueRunner dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
+            dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
             dialogueRunner.StartDialogue(talkToNode);
         }
     }
