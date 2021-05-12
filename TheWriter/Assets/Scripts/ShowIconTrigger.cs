@@ -22,8 +22,8 @@ public class ShowIconTrigger : MonoBehaviour
 
     private void Awake()
     {
-        gameObject.AddComponent<Outline>();
-        gameObject.GetComponent<Outline>().enabled = false;
+        //gameObject.AddComponent<Outline>();
+        //gameObject.GetComponent<Outline>().enabled = false;
     }
 
     void Start()
@@ -63,7 +63,8 @@ public class ShowIconTrigger : MonoBehaviour
         }
 
         //Debug.Log("mouse over obj" + gameObject.name);
-        gameObject.GetComponent<Outline>().enabled = true;
+        if(gameObject.GetComponent<Outline>() != null)
+            gameObject.GetComponent<Outline>().enabled = true;
 
         if (triggered == false)
         {
@@ -81,7 +82,8 @@ public class ShowIconTrigger : MonoBehaviour
     {
         //Debug.Log("mouse no longer over obj");
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-        gameObject.GetComponent<Outline>().enabled = false;
+        if (gameObject.GetComponent<Outline>() != null)
+            gameObject.GetComponent<Outline>().enabled = false;
     }
 
 }
