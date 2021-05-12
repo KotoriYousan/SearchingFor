@@ -485,7 +485,7 @@ GameObject:
   - component: {fileID: 3712181092331779185}
   - component: {fileID: 5382827852008750999}
   - component: {fileID: 9153900135833479326}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Cold Storage Swing Door 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1472,7 +1472,7 @@ GameObject:
   - component: {fileID: 1683670207960010371}
   - component: {fileID: 2993625411257532637}
   - component: {fileID: 7164854286250731850}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Group 713
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5211,7 +5211,7 @@ GameObject:
   - component: {fileID: 5926714393048053497}
   - component: {fileID: 713876634382726650}
   - component: {fileID: 2892973713102860613}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group 548
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7294,7 +7294,7 @@ GameObject:
   - component: {fileID: 6990958112233766392}
   - component: {fileID: 6390447379547817512}
   - component: {fileID: 2122147058084226765}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Group 715
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7989,7 +7989,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2977453810450754873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stair_App 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9261,7 +9261,7 @@ GameObject:
   - component: {fileID: 5029592380509111070}
   - component: {fileID: 4196410140017156083}
   - component: {fileID: 540410352020818142}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Component#23 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10510,7 +10510,7 @@ GameObject:
   - component: {fileID: 2432845699098168653}
   - component: {fileID: 6420401464031583120}
   - component: {fileID: 3451780524274251939}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Group 719
   m_TagString: Untagged
   m_Icon: {fileID: 0}

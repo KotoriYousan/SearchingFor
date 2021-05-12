@@ -71,7 +71,7 @@ public class Curve : MonoBehaviour
             distance = distanceOut;
         }
         if (Input.GetMouseButton(1))
-        {
+        { 
             currentX += Input.GetAxis("Mouse X") * rotateSpeedX;
             currentY += Input.GetAxis("Mouse Y") * rotateSpeedY;
             currentY = Mathf.Clamp(currentY, minAngle, maxAngle);
