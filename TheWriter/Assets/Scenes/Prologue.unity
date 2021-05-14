@@ -3065,7 +3065,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005856910}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -214.23602, y: -112.67, z: -24.03}
+  m_LocalPosition: {x: -214.23602, y: -113.01, z: -24.03}
   m_LocalScale: {x: 0.4002, y: 0.4002, z: 0.4002}
   m_Children: []
   m_Father: {fileID: 158139749}
@@ -3950,6 +3950,7 @@ MonoBehaviour:
   NextCptButton: {fileID: 0}
   PrevCptButton: {fileID: 0}
   timeManager: {fileID: 0}
+  bedroomScene: {fileID: 0}
 --- !u!4 &1498265976
 Transform:
   m_ObjectHideFlags: 0
