@@ -4099,7 +4099,7 @@ PrefabInstance:
     - target: {fileID: 2327170056604139808, guid: e9ab1e2113a14a34794f05973d71fdce,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 105.522064
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2327170056604139808, guid: e9ab1e2113a14a34794f05973d71fdce,
         type: 3}
@@ -4109,7 +4109,7 @@ PrefabInstance:
     - target: {fileID: 2327170056604139808, guid: e9ab1e2113a14a34794f05973d71fdce,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 171.04413
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2327170056604139808, guid: e9ab1e2113a14a34794f05973d71fdce,
         type: 3}
@@ -11095,6 +11095,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2116335781088592805, guid: 9a06ec4dbbfc987478997d608972b62c,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7772278
+      objectReference: {fileID: 0}
     - target: {fileID: 2116335781134480852, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_FollowOffset.y
@@ -11118,12 +11123,12 @@ PrefabInstance:
     - target: {fileID: 2116335781768685088, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000004223899
+      value: -0.00000004223899
       objectReference: {fileID: 0}
     - target: {fileID: 2116335781768685088, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000016978932
+      value: 0.000000016978932
       objectReference: {fileID: 0}
     - target: {fileID: 2116335781768685088, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
@@ -11163,7 +11168,7 @@ PrefabInstance:
     - target: {fileID: 2116335782380638013, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.777193
+      value: 1.7781886
       objectReference: {fileID: 0}
     - target: {fileID: 2116335782380638013, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
@@ -11185,15 +11190,20 @@ PrefabInstance:
       propertyPath: inBuilding
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2116335782528029624, guid: 9a06ec4dbbfc987478997d608972b62c,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7772278
+      objectReference: {fileID: 0}
     - target: {fileID: 2116335782528029627, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1.3106503e-15
+      value: -0.00000002784901
       objectReference: {fileID: 0}
     - target: {fileID: 2116335782528029627, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.6418825e-15
+      value: 0.000000010611845
       objectReference: {fileID: 0}
     - target: {fileID: 2116335782528029627, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
@@ -11268,12 +11278,12 @@ PrefabInstance:
     - target: {fileID: 2116335782553137294, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.00000001596484
+      value: -0.00000001596484
       objectReference: {fileID: 0}
     - target: {fileID: 2116335782553137294, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000064174333
+      value: 0.0000000064174333
       objectReference: {fileID: 0}
     - target: {fileID: 2116335782553137294, guid: 9a06ec4dbbfc987478997d608972b62c,
         type: 3}
@@ -11284,6 +11294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.92784417
+      objectReference: {fileID: 0}
+    - target: {fileID: 2116335782553137295, guid: 9a06ec4dbbfc987478997d608972b62c,
+        type: 3}
+      propertyPath: m_Lens.m_SensorSize.x
+      value: 1.7772278
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a06ec4dbbfc987478997d608972b62c, type: 3}

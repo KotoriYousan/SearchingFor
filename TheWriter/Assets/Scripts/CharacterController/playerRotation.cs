@@ -20,7 +20,7 @@ public class playerRotation : MonoBehaviour
         cameraT = camera.transform;
     }
  
-    private void Update()
+    private void FixedUpdate()
     {
         cameraDirection = new Vector3(cameraT.forward.x, 0f, cameraT.forward.z);
         playerDirection = new Vector3(transform.forward.x, 0f, transform.forward.z);

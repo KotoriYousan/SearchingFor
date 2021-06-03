@@ -21,7 +21,7 @@ public class CameraNew : MonoBehaviour
     }
     
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         oriMouseY = Input.GetAxis("Mouse Y");
         oriMouseX = Input.GetAxis("Mouse X");
