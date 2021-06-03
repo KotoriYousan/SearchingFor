@@ -5,17 +5,20 @@ using UnityEngine;
 public class BuildingCollider : MonoBehaviour
 {
     private Curve curve;
+    private CameraNew camNew;
     public bool inside;
     private void Start()
     {
-        curve = FindObjectOfType<Curve>().GetComponent<Curve>();
+        //curve = FindObjectOfType<Curve>().GetComponent<Curve>();
+        camNew = FindObjectOfType<CameraNew>().GetComponent<CameraNew>();
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
             inside = true;
-            curve.SetInBuilding(true);
+            //curve.SetInBuilding(true);
+            camNew.SetinBuilding(true);
         }
     }
     private void OnTriggerExit(Collider other)
@@ -24,6 +27,7 @@ public class BuildingCollider : MonoBehaviour
         {
             inside = false;
             curve.SetInBuilding(false);
+            camNew.SetinBuilding(false);
         }
     }
 

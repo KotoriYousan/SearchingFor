@@ -28,7 +28,8 @@ public class playerRotation : MonoBehaviour
         if(Vector3.Angle(cameraDirection, playerDirection) > deadZoneDegrees)
         {
             targetRotation = Quaternion.LookRotation(cameraDirection, transform.up);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            //transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
     }
 }
