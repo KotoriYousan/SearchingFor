@@ -67,7 +67,7 @@ public class CameraNew : MonoBehaviour
         else
         {
             freeCamera.m_Orbits[0] = new CinemachineFreeLook.Orbit(4f, 1f);
-            freeCamera.m_Orbits[1] = new CinemachineFreeLook.Orbit(2f, 2.75f);
+            freeCamera.m_Orbits[1] = new CinemachineFreeLook.Orbit(2f, 3f);
             freeCamera.m_Orbits[2] = new CinemachineFreeLook.Orbit(0f, 1f);
         }
     }
